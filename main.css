@@ -1,22 +1,35 @@
 
 body {
-    background-image: url('assets/css/images/test.jpeg');
+    background-image: url('assets/css/images/background4.jpeg');
     background-repeat: repeat; /* Ensures the pattern repeats */
     background-size: auto; /* Keeps the pattern at its original size */
     background-position: top left; /* Starts tiling from the top-left corner */
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
 }
 
 #dog-gallery {
-    background-image: url('assets/css/images/background4.jpeg');
-    background-repeat: repeat; /* Ensures the pattern repeats */
-    background-size: auto; /* Keeps the pattern at its original size */
-    background-position: top left; /* Starts tiling from the top-left corner */
+    background-image: url('assets/css/images/hojas.jpg');
+    width: auto; /* Set a fixed width */
+    height: auto; /* Set a fixed height */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    /* Cool Border */
+    border: 5px solid transparent; /* Transparent base border */
+    border-image: linear-gradient(45deg, #ff6b6b, #f7d794, #17c0eb, #ff6b6b); /* Gradient border */
+    border-image-slice: 1; /* Ensures the gradient fills the border */
+    border-radius: 15px; /* Smooth, rounded corners */
+    /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);*/ /* Soft shadow for a 3D effect */
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.7), /* Horizontal and vertical offsets, with a strong blur */
+    0 12px 24px rgba(0, 0, 0, 0.5); /* Secondary shadow for extra depth */
+    overflow: hidden; /* Prevents overflow if elements are larger */
 }
 
 .dog-card {
@@ -25,6 +38,17 @@ body {
     padding: 10px;
     width: 150px;
     text-align: center;
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for movement and fade-out */
+    transition-delay: 0.1s; /* Adjust delay for staggered effect */
+}
+
+/* Hidden state */
+.dog-card.hidden {
+    transform: scale(0.01); /* Shrinks to nothing */
+    opacity: 0; /* Fades out */
+    pointer-events: none; /* Makes sure it's unclickable */
+    transition-delay: 0s; /* Adjust delay for staggered effect */
+   /* position: absolute; *//* Remove from document flow to let other cards move up */
 }
 
 .dog-card img {

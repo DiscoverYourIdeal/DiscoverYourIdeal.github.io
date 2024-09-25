@@ -319,7 +319,15 @@ function filterDogs() {
         }
 
         // Muestra u oculta la tarjeta del perro según el filtro
-        card.style.display = matches ? 'block' : 'none';
+        if (matches == true)
+        {
+            card.classList.remove('hidden'); // Show matching dogs
+        }
+        else
+        {
+            card.classList.add('hidden'); // Hide non-matching dogs
+        }
+        /*card.style.display = matches ? 'block' : 'none';*/
     });
 }
 
