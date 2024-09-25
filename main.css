@@ -1,6 +1,6 @@
 
 body {
-    background-image: url('assets/css/images/background4.jpeg');
+    background-image: url('assets/css/images/pattern.png');
     background-repeat: repeat; /* Ensures the pattern repeats */
     background-size: auto; /* Keeps the pattern at its original size */
     background-position: top left; /* Starts tiling from the top-left corner */
@@ -11,6 +11,7 @@ body {
 }
 
 #dog-gallery {
+    margin-top: 20px;
     background-image: url('assets/css/images/hojas.jpg');
     width: auto; /* Set a fixed width */
     height: auto; /* Set a fixed height */
@@ -32,6 +33,15 @@ body {
     overflow: hidden; /* Prevents overflow if elements are larger */
 }
 
+.Title {
+    margin-bottom: 20px; /* Add space below the first div */
+}
+
+.Questions {
+    /* Optionally add margin to the top of the second div */
+    margin-bottom: 20px; /* Add space above the second div */
+}
+
 .dog-card {
     margin: 10px;
     border: 1px solid #ccc;
@@ -44,10 +54,11 @@ body {
 
 /* Hidden state */
 .dog-card.hidden {
-    transform: scale(0.01); /* Shrinks to nothing */
+    /*transform: scale(0.01);*/ /* Shrinks to nothing */
+    visibility: hidden; /* Hides element from the layout flow */
     opacity: 0; /* Fades out */
     pointer-events: none; /* Makes sure it's unclickable */
-    transition-delay: 0s; /* Adjust delay for staggered effect */
+    transition-delay: 0.3s; /* Adjust delay for staggered effect */
    /* position: absolute; *//* Remove from document flow to let other cards move up */
 }
 

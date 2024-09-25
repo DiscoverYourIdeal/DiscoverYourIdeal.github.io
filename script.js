@@ -319,13 +319,20 @@ function filterDogs() {
         }
 
         // Muestra u oculta la tarjeta del perro según el filtro
-        if (matches == true)
+        if (matches)
         {
             card.classList.remove('hidden'); // Show matching dogs
+            card.style.display = 'block'; // Ensure it is displayed
         }
         else
         {
             card.classList.add('hidden'); // Hide non-matching dogs
+            /* 
+            // Set a timeout to remove it from display after the transition
+             setTimeout(() => {
+                card.style.display = 'none'; // Remove it from the layout flow
+            }, 300); // Match this duration with your CSS transition duration
+            */        
         }
         /*card.style.display = matches ? 'block' : 'none';*/
     });
