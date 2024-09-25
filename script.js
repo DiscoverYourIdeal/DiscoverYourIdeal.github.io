@@ -258,7 +258,6 @@ const dogBreeds = [
 ];
 
 // Cargar la primera pregunta
-loadQuestion();
 
 function loadQuestion() {
     const currentQuestion = questions[currentQuestionIndex];
@@ -297,6 +296,12 @@ function answerQuestion(value) {
         document.getElementById('restart-button').style.display = 'inline'; // Muestra el botón de reinicio
         document.getElementById('questions-panel').innerHTML = "<p>¡Hemos encontrado los perros ideales para ti!</p>";
     }
+}
+function startQuizz()
+{
+    document.getElementById('quizz-question').style.display = 'inline';
+    document.getElementById('start-button').style.display = 'none'; // Muestra el botón de reinicio
+    loadQuestion()
 }
 
 function filterDogs() {

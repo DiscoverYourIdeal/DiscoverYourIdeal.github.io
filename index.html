@@ -12,11 +12,12 @@
 	</div>
     <!-- Panel de preguntas -->
 	<div class="Questions" id="questions-panel">
-		<p id="question">¿Cuánto espacio tienes disponible para tu perro?</p>
-		<button class="custom-btn" onclick="answerQuestion('pequeño')">Pequeño</button>
-		<button class="custom-btn" onclick="answerQuestion('mediano')">Mediano</button>
-		<button class="custom-btn" onclick="answerQuestion('grande')">Grande</button>
+		<p id="question">Empieza el quizz y encuentra tu perro ideal!</p>
+		<button class="custom-btn" id="quizz-question" style="display:none" onclick="answerQuestion('pequeño')">Pequeño</button>
+		<button class="custom-btn" id="quizz-question" style="display:none" onclick="answerQuestion('mediano')">Mediano</button>
+		<button class="custom-btn" id="quizz-question" style="display:none" onclick="answerQuestion('grande')">Grande</button>
 	</div>
+	<button class="custom-btn" id="start-button" style="display:inline;" onclick="startQuizz()">Empezar Quizz</button>
 	<button class="custom-btn" id="restart-button" style="display:none;" onclick="restartQuiz()">Volver a empezar</button>	
     <!-- Galería de razas de perros -->
     <div id="dog-gallery">
