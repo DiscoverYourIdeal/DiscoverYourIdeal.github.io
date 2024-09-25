@@ -1,10 +1,19 @@
+
 body {
+    background-image: url('assets/css/images/test.jpeg');
+    background-repeat: repeat; /* Ensures the pattern repeats */
+    background-size: auto; /* Keeps the pattern at its original size */
+    background-position: top left; /* Starts tiling from the top-left corner */
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
 }
 
 #dog-gallery {
+    background-image: url('assets/css/images/background4.jpeg');
+    background-repeat: repeat; /* Ensures the pattern repeats */
+    background-size: auto; /* Keeps the pattern at its original size */
+    background-position: top left; /* Starts tiling from the top-left corner */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -21,4 +30,31 @@ body {
 .dog-card img {
     width: 100%;
     height: auto;
+}
+
+/* Button Style */
+button.custom-btn {
+    background-color: rgba(82, 80, 80, 0.2); /* Semi-transparent white */
+    border: 2px solid black; /* Light border */
+    border-radius: 15px; /* Smooth edges */
+    padding: 10px 20px;
+    color: black; /* Black text */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    outline: none;
+}
+
+/* Hover effect */
+button.custom-btn:hover {
+    background-color: rgba(82, 80, 80, 0.4); /* Slightly more opaque on hover */
+    border-color: 2px solid black;  /* Highlight border */
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+/* Optional active click effect */
+button.custom-btn:active {
+    transform: scale(0.98); /* Slight shrink on click */
+    background-color: rgba(255, 255, 255, 0.6);
 }
