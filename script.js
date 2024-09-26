@@ -1,31 +1,62 @@
 let currentQuestionIndex = 0;
-const filters = {}; // Objeto para almacenar los filtros seleccionados
+let selectedLang = "";
 
-//
+// Objeto para almacenar los filtros seleccionados
+const filters = {}; 
+
 const questions = [
     {
-        question_es: "¿Como de grande es tu casa?",
-        answers_es: ["Pequeña", "Mediana", "Granda"],
-        question_en: "How big is your house?",
-        answers_en: ["Small", "Medium", "Large"],
+        es: {
+            question: "¿Como de grande es tu casa?",
+            answers: ["Pequeña", "Mediana", "Grande"],
+          },
+        en: {
+            question: "How big is your house?",
+            answers: ["Small", "Medium", "Large"],
+          },
         value: ["small", "medium", "large"]
     },
     {
-        question_es: "¿Cuánto tiempo puedes dedicar a paseos diarios?",
-        answers_es: ["Menos de 30'", "Entre 30' y 1h", "Más de 1h"],
-        question_en: "How much time can you dedicate to taking out the dog?",
-        answers_en: ["Less than 30'", "Between 30' and 1h", "More than 1h"],
+        es: {
+            question: "¿Cuánto tiempo puedes dedicar a paseos diarios?",
+            answers: ["Menos de 30'", "Entre 30' y 1h", "Más de 1h"],
+          },
+        en: {
+            question: "How much time can you dedicate to taking out the dog?",
+            answers: ["Less than 30'", "Between 30' and 1h", "More than 1h"],
+          },
         value: ["low","medium","high"]
     },
     {
-        question_es: "¿Eres o hay niños en casa?",
-        answers_es: ["Sí", "No"],
-        question_en: ["Are you or are there kids in the house?"],
-        answers_en: ["Yes", "No"],
+        es: {
+            question: "¿Eres o hay niños en casa?",
+            answers: ["Sí", "No"],
+          },
+        en: {
+            question: "Are you or are there kids in the house?",
+            answers: ["Yes", "No"],
+          },
         value: ["yes", "no"]
     }
 ];
 
+// Define the content for different languages
+const content = {
+    es: {
+      title: 'Encuentra tu perro ideal',
+      start_button: 'Empieza el Quizz',
+      restart_button: 'Volver',
+      start_message: "Empieza el quizz y encuentra tu perro ideal!",
+      end_message: "¡Hemos encontrado los perros ideales para ti!"
+    },
+    en: {
+      title: 'Find your perfect dog',
+      start_button: 'Start the Quizz',
+      restart_button: 'Return',
+      start_message: "Start the Quizz and find your ideal dog!",
+      end_message: "These are your ideal dogs!"
+    }
+  };
 
 // Array de razas de perros con sus características
 const dogBreeds = [
@@ -46,23 +77,37 @@ const dogBreeds = [
     { name: "Pug", size: "small", energy: "low", goodWithKids: "yes" }
 ];
 
-// Cargar la primera pregunta
+setInitState()
 
+
+// Cargar la primera pregunta
 function loadQuestion() {
 
     const currentQuestion = questions[currentQuestionIndex];
-    document.getElementById('quizz-question').innerText = currentQuestion.question_es;
+    document.getElementById('quizz-question').innerText = currentQuestion[selectedLang].question;
 
     const buttons = document.querySelectorAll('#questions-panel button');
 
     buttons.forEach((button, index) => {
-        if (currentQuestion.answers_es[index]) {
-            button.innerText = currentQuestion.answers_es[index];
+        if (currentQuestion[selectedLang].answers[index]) {
+            button.innerText = currentQuestion[selectedLang].answers[index];
             button.style.display = 'inline';
             button.onclick = () => answerQuestion(currentQuestion.value[index]);
         } else {
             button.style.display = 'none';
         }
+    });
+}
+
+function changeQuestionsPanelLanguage() {
+
+    const currentQuestion = questions[currentQuestionIndex];
+    document.getElementById('quizz-question').innerText = currentQuestion[selectedLang].question;
+
+    const buttons = document.querySelectorAll('#questions-panel button');
+
+    buttons.forEach((button, index) => {
+            button.innerText = currentQuestion[selectedLang].answers[index];
     });
 }
 
@@ -90,6 +135,38 @@ function answerQuestion(value) {
         document.getElementById('end-message').style.display = 'inline'; // Muestra el botón de reinicio
         }
 }
+
+function setInitState()
+{
+    const userLang = navigator.language || navigator.userLanguage;
+    currentQuestionIndex = 0
+
+    // set initial Language
+    if (userLang.startsWith('es') && selectedLang == "") 
+        {
+            setLanguage('es');
+        } 
+    if (userLang.startsWith('en') && selectedLang == "") 
+        {
+        setLanguage('en');
+        }
+
+    // Elements to be shown at the start
+    document.getElementById('start-message').style.display = 'inline';
+    document.getElementById('start-button').style.display = 'inline';
+    document.getElementById('questions-panel').style.display = 'inline';
+
+    // Elements to be hidden at the start
+    document.getElementById('quizz-question').style.display = 'none';
+    document.getElementById('restart-button').style.display = 'none';
+    document.getElementById('end-message').style.display = 'none';
+
+    let quizzAnswers = document.querySelectorAll('#questions-panel button');
+    quizzAnswers.forEach(answer => {answer.style.display = 'none';});
+
+
+}
+
 function startQuizz()
 {
     document.getElementById('quizz-question').style.display = 'inline';
@@ -127,6 +204,7 @@ function filterDogs() {
         else
         {
             card.classList.add('hidden'); // Hide non-matching dogs
+            card.style.display = 'none'; // Remove it from the layout flow
             /* 
             // Set a timeout to remove it from display after the transition
              setTimeout(() => {
@@ -138,30 +216,32 @@ function filterDogs() {
     });
 }
 
-function restartQuiz() {
-    location.reload();
+function resetFilters() {
+    // Clear all the filters
+    filters.size = null;
+    filters.energy = null;
+    filters.goodWithKids = null;
+
+    // Make sure all dog cards are visible
+    const dogCards = document.querySelectorAll('.dog-card');
+    dogCards.forEach(card => {
+        card.classList.remove('hidden'); // Remove the hidden class
+        card.style.display = 'block'; // Make sure it's visible
+    });
 }
 
-// Define the content for different languages
-const content = {
-    es: {
-      title: 'Encuentra tu perro ideal',
-      start_button: 'Empieza el Quizz',
-      restart_button: 'Volver',
-      start_message: "Empieza el quizz y encuentra tu perro ideal!",
-      end_message: "¡Hemos encontrado los perros ideales para ti!"
-    },
-    en: {
-      title: 'Find your perfect dog',
-      start_button: 'Start the Quizz',
-      restart_button: 'Return',
-      start_message: "Start the Quizz and find your ideal dog!",
-      end_message: "These are your ideal dogs!"
-    }
-  };
+function restartQuiz() {
+    // location.reload();
+    setInitState();
+    resetFilters();
+}
 
 function setLanguage(lang) 
     {
+        // Optionally, update the lang attribute of the document
+        document.documentElement.lang = lang;
+        selectedLang = lang;
+
         const titleElement = document.getElementById('title');
         const startButtonElement = document.getElementById('start-button');
         const restartButtonElement = document.getElementById('restart-button');
@@ -169,22 +249,13 @@ function setLanguage(lang)
         const endmessageElement = document.getElementById('end-message');
         
         // Update the title and description based on the selected language
-        titleElement.textContent = content[lang].title;
-        startButtonElement.textContent = content[lang].start_button;
-        restartButtonElement.textContent = content[lang].restart_button;
-        startmessageElement.textContent = content[lang].start_message;
-        endmessageElement.textContent = content[lang].end_message;
+        titleElement.textContent = content[selectedLang].title;
+        startButtonElement.textContent = content[selectedLang].start_button;
+        restartButtonElement.textContent = content[selectedLang].restart_button;
+        startmessageElement.textContent = content[selectedLang].start_message;
+        endmessageElement.textContent = content[selectedLang].end_message;
 
-        // Optionally, update the lang attribute of the document
-        document.documentElement.lang = lang;
-    }
-
-// Optional: Automatically set language based on browser settings
-const userLang = navigator.language || navigator.userLanguage;
-if (userLang.startsWith('es')) {
-setLanguage('es');
-} else {
-setLanguage('en');
+        changeQuestionsPanelLanguage()
 }
 
 
