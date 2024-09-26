@@ -5,20 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encuentra tu perro ideal</title>
     <link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
 </head>
 <body>
-	<div class="Title">
-    <h1>Encuentra tu perro ideal</h1>
+
+	<div class="language-switch">
+		<button onclick="setLanguage('es')">Español</button>
+		<button onclick="setLanguage('en')">English</button>
 	</div>
-    <!-- Panel de preguntas -->
-	<div class="Questions" id="questions-panel">
-		<p id="question">Empieza el quizz y encuentra tu perro ideal!</p>
-		<button class="custom-btn" id="quizz-question" style="display:none" onclick="answerQuestion('pequeño')">Pequeño</button>
-		<button class="custom-btn" id="quizz-question" style="display:none" onclick="answerQuestion('mediano')">Mediano</button>
-		<button class="custom-btn" id="quizz-question" style="display:none" onclick="answerQuestion('grande')">Grande</button>
+
+	<div class="content">
+		<!-- Title -->
+		<h1 id="title" class="title"></h1>
+
+		<!-- Messages Panel -->
+		<p id="start-message"></p>
+		<p id="end-message" style="display:none"></p>
+		<p></p>
+		
+		<!-- Questions Panel -->
+		<div class="Questions" id="questions-panel">
+			<p id="quizz-question" style="display:none"></p>
+			<p></p>
+			<button class="custom-btn" id="quizz-answer" style="display:none" onclick="answerQuestion('pequeño')">Pequeño</button>
+			<button class="custom-btn" id="quizz-answer" style="display:none" onclick="answerQuestion('mediano')">Mediano</button>
+			<button class="custom-btn" id="quizz-answer" style="display:none" onclick="answerQuestion('grande')">Grande</button>
+		</div>
+
+		<!-- Start/Restart Panel -->
+		<button class="custom-btn" id="start-button" style="display:inline;" onclick="startQuizz()"></button>
+		<button class="custom-btn" id="restart-button" style="display:none;" onclick="restartQuiz()"></button>	
 	</div>
-	<button class="custom-btn" id="start-button" style="display:inline;" onclick="startQuizz()">Empezar Quizz</button>
-	<button class="custom-btn" id="restart-button" style="display:none;" onclick="restartQuiz()">Volver a empezar</button>	
+
     <!-- Galería de razas de perros -->
     <div id="dog-gallery">
 		<div class="dog-card" data-name="Chihuahua">
@@ -35,7 +53,7 @@
 		</div>
 		<div class="dog-card" data-name="Labrador Retriever">
 			<img src="assets/css/images/Labrador Retriever.png" alt="Raza de perro grande">
-			<p>Labrador Retriever</p>
+			Labrador Retriever<p>rtvewr g er er fd fadf</p>
 		</div>
 		<div class="dog-card" data-name="Bulldog">
 			<img src="assets/css/images/Bulldog.png" alt="Raza de perro mediano">

@@ -4,21 +4,195 @@ const filters = {}; // Objeto para almacenar los filtros seleccionados
 //
 const questions = [
     {
-        question: "¿Cuánto espacio tienes disponible para tu perro?",
-        answers: ["Pequeño", "Mediano", "Grande"],
-        value: ["pequeño", "mediano", "grande"]
+        question_es: "¿Como de grande es tu casa?",
+        answers_es: ["Pequeña", "Mediana", "Granda"],
+        question_en: "How big is your house?",
+        answers_en: ["Small", "Medium", "Large"],
+        value: ["small", "medium", "large"]
     },
     {
-        question: "¿Cuánto tiempo puedes dedicar a paseos diarios?",
-        answers: ["Menos de 30 minutos", "30 minutos a 1 hora", "Más de 1 hora"],
+        question_es: "¿Cuánto tiempo puedes dedicar a paseos diarios?",
+        answers_es: ["Menos de 30'", "Entre 30' y 1h", "Más de 1h"],
+        question_en: "How much time can you dedicate to taking out the dog?",
+        answers_en: ["Less than 30'", "Between 30' and 1h", "More than 1h"],
         value: ["low","medium","high"]
     },
     {
-        question: "¿Tienes niños en casa?",
-        answers: ["Yes", "No"],
+        question_es: "¿Eres o hay niños en casa?",
+        answers_es: ["Sí", "No"],
+        question_en: ["Are you or are there kids in the house?"],
+        answers_en: ["Yes", "No"],
         value: ["yes", "no"]
     }
 ];
+
+
+// Array de razas de perros con sus características
+const dogBreeds = [
+    { name: "Chihuahua", size: "small", energy: "low", goodWithKids: "no" },
+    { name: "Golden Retriever", size: "large", energy: "high", goodWithKids: "yes" },
+    { name: "Beagle", size: "medium", energy: "medium", goodWithKids: "yes" },
+    { name: "Labrador Retriever", size: "large", energy: "high", goodWithKids: "yes" },
+    { name: "Bulldog", size: "medium", energy: "low", goodWithKids: "yes" },
+    { name: "Poodle", size: "medium", energy: "high", goodWithKids: "yes" },
+    { name: "Dachshund", size: "small", energy: "medium", goodWithKids: "no" },
+    { name: "Boxer", size: "large", energy: "high", goodWithKids: "yes" },
+    { name: "Siberian Husky", size: "large", energy: "high", goodWithKids: "yes" },
+    { name: "Yorkshire Terrier", size: "small", energy: "medium", goodWithKids: "no" },
+    { name: "French Bulldog", size: "medium", energy: "low", goodWithKids: "yes" },
+    { name: "Cocker Spaniel", size: "medium", energy: "medium", goodWithKids: "yes" },
+    { name: "Shih Tzu", size: "small", energy: "low", goodWithKids: "yes" },
+    { name: "Rottweiler", size: "large", energy: "high", goodWithKids: "yes" },
+    { name: "Pug", size: "small", energy: "low", goodWithKids: "yes" }
+];
+
+// Cargar la primera pregunta
+
+function loadQuestion() {
+
+    const currentQuestion = questions[currentQuestionIndex];
+    document.getElementById('quizz-question').innerText = currentQuestion.question_es;
+
+    const buttons = document.querySelectorAll('#questions-panel button');
+
+    buttons.forEach((button, index) => {
+        if (currentQuestion.answers_es[index]) {
+            button.innerText = currentQuestion.answers_es[index];
+            button.style.display = 'inline';
+            button.onclick = () => answerQuestion(currentQuestion.value[index]);
+        } else {
+            button.style.display = 'none';
+        }
+    });
+}
+
+function answerQuestion(value) {
+    // Almacena la respuesta seleccionada
+    if (currentQuestionIndex === 0) {
+        filters.size = value.toLowerCase();
+    } else if (currentQuestionIndex === 1) {
+        filters.energy = value.toLowerCase();
+    } else if (currentQuestionIndex === 2) {
+        filters.goodWithKids = value.toLowerCase() ;
+    }
+
+    // Filtra los perros según las respuestas acumuladas
+    filterDogs();
+
+    currentQuestionIndex++;
+    if (currentQuestionIndex < questions.length) 
+        {
+        loadQuestion(); // Carga la siguiente pregunta
+        } 
+    else {
+        document.getElementById('questions-panel').style.display = 'none'; // Oculta el panel de preguntas
+        document.getElementById('restart-button').style.display = 'inline'; // Muestra el botón de reinicio
+        document.getElementById('end-message').style.display = 'inline'; // Muestra el botón de reinicio
+        }
+}
+function startQuizz()
+{
+    document.getElementById('quizz-question').style.display = 'inline';
+    document.getElementById('quizz-answer').style.display = 'inline';
+    document.getElementById('start-button').style.display = 'none';
+    document.getElementById('start-message').style.display = 'none';
+    loadQuestion()
+}
+
+function filterDogs() {
+    const dogCards = document.querySelectorAll('.dog-card');
+    dogCards.forEach(card => {
+        const dogName = card.getAttribute('data-name');
+        const dog = dogBreeds.find(dog => dog.name === dogName);
+
+        let matches = true;
+
+        // Verifica los filtros acumulados
+        if (filters.size && dog.size.toLowerCase() !== filters.size.toLowerCase()) {
+            matches = false;
+        }
+        if (filters.energy && dog.energy.toLowerCase() !== filters.energy.toLowerCase()) {
+            matches = false;
+        }
+        if (filters.goodWithKids && dog.goodWithKids.toLowerCase() !== filters.goodWithKids.toLowerCase()) {
+            matches = false;
+        }
+
+        // Muestra u oculta la tarjeta del perro según el filtro
+        if (matches)
+        {
+            card.classList.remove('hidden'); // Show matching dogs
+            card.style.display = 'block'; // Ensure it is displayed
+        }
+        else
+        {
+            card.classList.add('hidden'); // Hide non-matching dogs
+            /* 
+            // Set a timeout to remove it from display after the transition
+             setTimeout(() => {
+                card.style.display = 'none'; // Remove it from the layout flow
+            }, 300); // Match this duration with your CSS transition duration
+            */        
+        }
+        /*card.style.display = matches ? 'block' : 'none';*/
+    });
+}
+
+function restartQuiz() {
+    location.reload();
+}
+
+// Define the content for different languages
+const content = {
+    es: {
+      title: 'Encuentra tu perro ideal',
+      start_button: 'Empieza el Quizz',
+      restart_button: 'Volver',
+      start_message: "Empieza el quizz y encuentra tu perro ideal!",
+      end_message: "¡Hemos encontrado los perros ideales para ti!"
+    },
+    en: {
+      title: 'Find your perfect dog',
+      start_button: 'Start the Quizz',
+      restart_button: 'Return',
+      start_message: "Start the Quizz and find your ideal dog!",
+      end_message: "These are your ideal dogs!"
+    }
+  };
+
+function setLanguage(lang) 
+    {
+        const titleElement = document.getElementById('title');
+        const startButtonElement = document.getElementById('start-button');
+        const restartButtonElement = document.getElementById('restart-button');
+        const startmessageElement = document.getElementById('start-message');
+        const endmessageElement = document.getElementById('end-message');
+        
+        // Update the title and description based on the selected language
+        titleElement.textContent = content[lang].title;
+        startButtonElement.textContent = content[lang].start_button;
+        restartButtonElement.textContent = content[lang].restart_button;
+        startmessageElement.textContent = content[lang].start_message;
+        endmessageElement.textContent = content[lang].end_message;
+
+        // Optionally, update the lang attribute of the document
+        document.documentElement.lang = lang;
+    }
+
+// Optional: Automatically set language based on browser settings
+const userLang = navigator.language || navigator.userLanguage;
+if (userLang.startsWith('es')) {
+setLanguage('es');
+} else {
+setLanguage('en');
+}
+
+
+
+
+
+
+
 
 /*const questions = [
     {
@@ -237,112 +411,3 @@ const traits = [
     }
 ];
 */
-
-// Array de razas de perros con sus características
-const dogBreeds = [
-    { name: "Chihuahua", size: "pequeño", energy: "low", goodWithKids: "no" },
-    { name: "Golden Retriever", size: "grande", energy: "high", goodWithKids: "yes" },
-    { name: "Beagle", size: "mediano", energy: "medium", goodWithKids: "yes" },
-    { name: "Labrador Retriever", size: "grande", energy: "high", goodWithKids: "yes" },
-    { name: "Bulldog", size: "mediano", energy: "low", goodWithKids: "yes" },
-    { name: "Poodle", size: "mediano", energy: "high", goodWithKids: "yes" },
-    { name: "Dachshund", size: "pequeño", energy: "medium", goodWithKids: "no" },
-    { name: "Boxer", size: "grande", energy: "high", goodWithKids: "yes" },
-    { name: "Siberian Husky", size: "grande", energy: "high", goodWithKids: "yes" },
-    { name: "Yorkshire Terrier", size: "pequeño", energy: "medium", goodWithKids: "no" },
-    { name: "French Bulldog", size: "mediano", energy: "low", goodWithKids: "yes" },
-    { name: "Cocker Spaniel", size: "mediano", energy: "medium", goodWithKids: "yes" },
-    { name: "Shih Tzu", size: "pequeño", energy: "low", goodWithKids: "yes" },
-    { name: "Rottweiler", size: "grande", energy: "high", goodWithKids: "yes" },
-    { name: "Pug", size: "pequeño", energy: "low", goodWithKids: "yes" }
-];
-
-// Cargar la primera pregunta
-
-function loadQuestion() {
-    const currentQuestion = questions[currentQuestionIndex];
-    document.getElementById('question').innerText = currentQuestion.question;
-
-    const buttons = document.querySelectorAll('#questions-panel button');
-    buttons.forEach((button, index) => {
-        if (currentQuestion.answers[index]) {
-            button.innerText = currentQuestion.answers[index];
-            button.style.display = 'inline';
-            button.onclick = () => answerQuestion(currentQuestion.value[index]);
-        } else {
-            button.style.display = 'none';
-        }
-    });
-}
-
-function answerQuestion(value) {
-    // Almacena la respuesta seleccionada
-    if (currentQuestionIndex === 0) {
-        filters.size = value.toLowerCase();
-    } else if (currentQuestionIndex === 1) {
-        filters.energy = value.toLowerCase();
-    } else if (currentQuestionIndex === 2) {
-        filters.goodWithKids = value.toLowerCase() ;
-    }
-
-    // Filtra los perros según las respuestas acumuladas
-    filterDogs();
-
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-        loadQuestion(); // Carga la siguiente pregunta
-    } else {
-        //document.getElementById('questions-panel').style.display = 'none'; // Oculta el panel de preguntas
-        document.getElementById('restart-button').style.display = 'inline'; // Muestra el botón de reinicio
-        document.getElementById('questions-panel').innerHTML = "<p>¡Hemos encontrado los perros ideales para ti!</p>";
-    }
-}
-function startQuizz()
-{
-    document.getElementById('quizz-question').style.display = 'inline';
-    document.getElementById('start-button').style.display = 'none'; // Muestra el botón de reinicio
-    loadQuestion()
-}
-
-function filterDogs() {
-    const dogCards = document.querySelectorAll('.dog-card');
-    dogCards.forEach(card => {
-        const dogName = card.getAttribute('data-name');
-        const dog = dogBreeds.find(dog => dog.name === dogName);
-
-        let matches = true;
-
-        // Verifica los filtros acumulados
-        if (filters.size && dog.size.toLowerCase() !== filters.size.toLowerCase()) {
-            matches = false;
-        }
-        if (filters.energy && dog.energy.toLowerCase() !== filters.energy.toLowerCase()) {
-            matches = false;
-        }
-        if (filters.goodWithKids && dog.goodWithKids.toLowerCase() !== filters.goodWithKids.toLowerCase()) {
-            matches = false;
-        }
-
-        // Muestra u oculta la tarjeta del perro según el filtro
-        if (matches)
-        {
-            card.classList.remove('hidden'); // Show matching dogs
-            card.style.display = 'block'; // Ensure it is displayed
-        }
-        else
-        {
-            card.classList.add('hidden'); // Hide non-matching dogs
-            /* 
-            // Set a timeout to remove it from display after the transition
-             setTimeout(() => {
-                card.style.display = 'none'; // Remove it from the layout flow
-            }, 300); // Match this duration with your CSS transition duration
-            */        
-        }
-        /*card.style.display = matches ? 'block' : 'none';*/
-    });
-}
-
-function restartQuiz() {
-    location.reload();
-}

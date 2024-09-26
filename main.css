@@ -33,6 +33,35 @@ body {
     overflow: hidden; /* Prevents overflow if elements are larger */
 }
 
+  h1.title {
+    font-family: 'Chewy', cursive; /* Fun, playful font */
+    color: #FF6B6B; /* Bright and playful color */
+    text-align: center; /* Center the text */
+    text-transform: uppercase; /* Make the text uppercase for emphasis */
+    letter-spacing: 2px; /* Add some spacing between letters */
+    font-size: 3rem; /* Make it large and bold */
+    background: linear-gradient(45deg, #ff6b6b, #ffcc5c, #17c0eb); /* Gradient background */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; /* Make text color transparent */
+    text-shadow: 2px 2px 0 #fff, 4px 4px 0 #000; /* Fun shadow effect */
+    /* padding: 20px; */ /* Add some padding around the text */
+    margin-top: 20px; /* Add margin to push it down */
+    /*animation: bounce 1.5s infinite;*/ /* Optional: Add bounce animation */
+  }
+
+  /* Add a bounce animation for extra fun */
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
 .Title {
     margin-bottom: 20px; /* Add space below the first div */
 }
