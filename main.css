@@ -72,6 +72,7 @@ body {
 }
 
 .dog-card {
+    background-color: rgba(82, 80, 80, 0.4); /* Semi-transparent white */
     margin: 10px;
     border: 1px solid #ccc;
     padding: 10px;

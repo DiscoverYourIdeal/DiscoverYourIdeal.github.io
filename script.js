@@ -60,21 +60,141 @@ const content = {
 
 // Array de razas de perros con sus características
 const dogBreeds = [
-    { name: "Chihuahua", size: "small", energy: "low", goodWithKids: "no", image: "assets/css/images/Chihuahua.png", es: {text: "texto"}, en: {text: "text"}},
-    { name: "Golden Retriever", size: "large", energy: "high", goodWithKids: "yes", image: "assets/css/images/Golden Retriever.png", es: {text: "texto"}, en: {text: "text"}},
-    { name: "Beagle", size: "medium", energy: "medium", goodWithKids: "yes", image: "assets/css/images/Beagle.png", es: {text: "texto"}, en: {text: "text"}},
-    { name: "Labrador Retriever", size: "large", energy: "high", goodWithKids: "yes", image: "assets/css/images/Labrador Retriever.png", es: {text: "texto"}, en: {text: "text"}},
-    { name: "Bulldog", size: "medium", energy: "low", goodWithKids: "yes", image: "assets/css/images/Bulldog.png", es: {text: "texto"}, en: {text: "text"}},
-    { name: "Poodle", size: "medium", energy: "high", goodWithKids: "yes", image: "assets/css/images/Poodle.png", es: {text: "texto"}, en: {text: "text"}},
-    { name: "Dachshund", size: "small", energy: "medium", goodWithKids: "no", image: "assets/css/images/Dachshund.png", es: {text: "texto"}, en: {text: "text"}},
-    { name: "Boxer", size: "large", energy: "high", goodWithKids: "yes", image: "assets/css/images/Boxer.png", es: {text: "texto"}, en: {text: "text"}},
-    { name: "Siberian Husky", size: "large", energy: "high", goodWithKids: "yes", image: "assets/css/images/Siberian Husky.png", es: {text: "texto"}, en: {text: "text"}},
-    { name: "Yorkshire Terrier", size: "small", energy: "medium", goodWithKids: "no", image: "assets/css/images/Yorkshire Terrier.png", es: {text: "texto"}, en: {text: "text"}},
-    { name: "French Bulldog", size: "medium", energy: "low", goodWithKids: "yes", image: "assets/css/images/French Bulldog.png", es: {text: "texto"}, en: {text: "text"}},
-    { name: "Cocker Spaniel", size: "medium", energy: "medium", goodWithKids: "yes", image: "assets/css/images/Cocker Spaniel.png", es: {text: "texto"}, en: {text: "text"}},
-    { name: "Shih Tzu", size: "small", energy: "low", goodWithKids: "yes", image: "assets/css/images/Shih Tzu.png", es: {text: "texto"}, en: {text: "text"}},
-    { name: "Rottweiler", size: "large", energy: "high", goodWithKids: "yes", image: "assets/css/images/Rottweiler.png", es: {text: "texto"}, en: {text: "text"}},
-    { name: "Pug", size: "small", energy: "low", goodWithKids: "yes", image: "assets/css/images/Pug.png", es: {text: "texto"}, en: {text: "text"}}
+    { 
+        name: "Chihuahua", 
+        size: "small", 
+        energy: "low", 
+        goodWithKids: "no", 
+        image: "assets/css/images/Chihuahua.png", 
+        es: {text: "Es un perro pequeño con mucha actitud, pero no es el mejor con niños."}, 
+        en: {text: "A small dog with a big attitude, not the best with kids."}
+    },
+    { 
+        name: "Golden Retriever", 
+        size: "large", 
+        energy: "high", 
+        goodWithKids: "yes", 
+        image: "assets/css/images/Golden Retriever.png", 
+        es: {text: "Un perro grande y activo, ideal para familias con niños."}, 
+        en: {text: "A large, active dog, perfect for families with kids."}
+    },
+    { 
+        name: "Beagle", 
+        size: "medium", 
+        energy: "medium", 
+        goodWithKids: "yes", 
+        image: "assets/css/images/Beagle.png", 
+        es: {text: "Un perro mediano con energía moderada, perfecto para familias."}, 
+        en: {text: "A medium-sized dog with moderate energy, great for families."}
+    },
+    { 
+        name: "Labrador Retriever", 
+        size: "large", 
+        energy: "high", 
+        goodWithKids: "yes", 
+        image: "assets/css/images/Labrador Retriever.png", 
+        es: {text: "Un perro grande y enérgico, le encanta jugar y es bueno con niños."}, 
+        en: {text: "A large and energetic dog, loves to play and is good with kids."}
+    },
+    { 
+        name: "Bulldog", 
+        size: "medium", 
+        energy: "low", 
+        goodWithKids: "yes", 
+        image: "assets/css/images/Bulldog.png", 
+        es: {text: "Un perro tranquilo y de baja energía, excelente para la vida en apartamento."}, 
+        en: {text: "A calm, low-energy dog, great for apartment living."}
+    },
+    { 
+        name: "Poodle", 
+        size: "medium", 
+        energy: "high", 
+        goodWithKids: "yes", 
+        image: "assets/css/images/Poodle.png", 
+        es: {text: "Un perro inteligente y activo, necesita ejercicio regular."}, 
+        en: {text: "An intelligent and active dog, needs regular exercise."}
+    },
+    { 
+        name: "Dachshund", 
+        size: "small", 
+        energy: "medium", 
+        goodWithKids: "no", 
+        image: "assets/css/images/Dachshund.png", 
+        es: {text: "Un perro pequeño y curioso, pero no siempre es adecuado para niños."}, 
+        en: {text: "A small, curious dog, not always the best for kids."}
+    },
+    { 
+        name: "Boxer", 
+        size: "large", 
+        energy: "high", 
+        goodWithKids: "yes", 
+        image: "assets/css/images/Boxer.png", 
+        es: {text: "Un perro grande y enérgico, ideal para familias activas."}, 
+        en: {text: "A large and energetic dog, great for active families."}
+    },
+    { 
+        name: "Siberian Husky", 
+        size: "large", 
+        energy: "high", 
+        goodWithKids: "yes", 
+        image: "assets/css/images/Siberian Husky.png", 
+        es: {text: "Un perro grande y lleno de energía, necesita mucho ejercicio."}, 
+        en: {text: "A large, high-energy dog, needs lots of exercise."}
+    },
+    { 
+        name: "Yorkshire Terrier", 
+        size: "small", 
+        energy: "medium", 
+        goodWithKids: "no", 
+        image: "assets/css/images/Yorkshire Terrier.png", 
+        es: {text: "Un perro pequeño y elegante, pero no siempre es el mejor con niños."}, 
+        en: {text: "A small, elegant dog, not always the best with kids."}
+    },
+    { 
+        name: "French Bulldog", 
+        size: "medium", 
+        energy: "low", 
+        goodWithKids: "yes", 
+        image: "assets/css/images/French Bulldog.png", 
+        es: {text: "Un perro tranquilo y adorable, perfecto para familias y apartamentos."}, 
+        en: {text: "A calm and lovable dog, perfect for families and apartments."}
+    },
+    { 
+        name: "Cocker Spaniel", 
+        size: "medium", 
+        energy: "medium", 
+        goodWithKids: "yes", 
+        image: "assets/css/images/Cocker Spaniel.png", 
+        es: {text: "Un perro mediano y amigable, ideal para familias."}, 
+        en: {text: "A friendly, medium-sized dog, great for families."}
+    },
+    { 
+        name: "Shih Tzu", 
+        size: "small", 
+        energy: "low", 
+        goodWithKids: "yes", 
+        image: "assets/css/images/Shih Tzu.png", 
+        es: {text: "Un perro pequeño y tranquilo, ideal para personas mayores o apartamentos."}, 
+        en: {text: "A small, calm dog, perfect for seniors or apartments."}
+    },
+    { 
+        name: "Rottweiler", 
+        size: "large", 
+        energy: "high", 
+        goodWithKids: "yes", 
+        image: "assets/css/images/Rottweiler.png", 
+        es: {text: "Un perro grande y protector, bueno con niños si es bien entrenado."}, 
+        en: {text: "A large, protective dog, good with kids if well trained."}
+    },
+    { 
+        name: "Pug", 
+        size: "small", 
+        energy: "low", 
+        goodWithKids: "yes", 
+        image: "assets/css/images/Pug.png", 
+        es: {text: "Un perro pequeño y encantador, perfecto para la vida en apartamento."}, 
+        en: {text: "A small, charming dog, perfect for apartment living."}
+    }
 ];
 
 setInitState()
@@ -186,7 +306,7 @@ function setDogCards() {
 
         const dog = dogBreeds.find(dog => dog.name === dogName);
 
-        dogNameElement.textContent = dog.name;
+        dogNameElement.innerHTML = `<strong>${dog.name}</strong>`;
         dogDescriptionElement.textContent =  dog[selectedLang].text;
         dogImage.src = dog.image;
     });
