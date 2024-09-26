@@ -60,25 +60,25 @@ const content = {
 
 // Array de razas de perros con sus características
 const dogBreeds = [
-    { name: "Chihuahua", size: "small", energy: "low", goodWithKids: "no" },
-    { name: "Golden Retriever", size: "large", energy: "high", goodWithKids: "yes" },
-    { name: "Beagle", size: "medium", energy: "medium", goodWithKids: "yes" },
-    { name: "Labrador Retriever", size: "large", energy: "high", goodWithKids: "yes" },
-    { name: "Bulldog", size: "medium", energy: "low", goodWithKids: "yes" },
-    { name: "Poodle", size: "medium", energy: "high", goodWithKids: "yes" },
-    { name: "Dachshund", size: "small", energy: "medium", goodWithKids: "no" },
-    { name: "Boxer", size: "large", energy: "high", goodWithKids: "yes" },
-    { name: "Siberian Husky", size: "large", energy: "high", goodWithKids: "yes" },
-    { name: "Yorkshire Terrier", size: "small", energy: "medium", goodWithKids: "no" },
-    { name: "French Bulldog", size: "medium", energy: "low", goodWithKids: "yes" },
-    { name: "Cocker Spaniel", size: "medium", energy: "medium", goodWithKids: "yes" },
-    { name: "Shih Tzu", size: "small", energy: "low", goodWithKids: "yes" },
-    { name: "Rottweiler", size: "large", energy: "high", goodWithKids: "yes" },
-    { name: "Pug", size: "small", energy: "low", goodWithKids: "yes" }
+    { name: "Chihuahua", size: "small", energy: "low", goodWithKids: "no", image: "assets/css/images/Chihuahua.png", es: {text: "texto"}, en: {text: "text"}},
+    { name: "Golden Retriever", size: "large", energy: "high", goodWithKids: "yes", image: "assets/css/images/Golden Retriever.png", es: {text: "texto"}, en: {text: "text"}},
+    { name: "Beagle", size: "medium", energy: "medium", goodWithKids: "yes", image: "assets/css/images/Beagle.png", es: {text: "texto"}, en: {text: "text"}},
+    { name: "Labrador Retriever", size: "large", energy: "high", goodWithKids: "yes", image: "assets/css/images/Labrador Retriever.png", es: {text: "texto"}, en: {text: "text"}},
+    { name: "Bulldog", size: "medium", energy: "low", goodWithKids: "yes", image: "assets/css/images/Bulldog.png", es: {text: "texto"}, en: {text: "text"}},
+    { name: "Poodle", size: "medium", energy: "high", goodWithKids: "yes", image: "assets/css/images/Poodle.png", es: {text: "texto"}, en: {text: "text"}},
+    { name: "Dachshund", size: "small", energy: "medium", goodWithKids: "no", image: "assets/css/images/Dachshund.png", es: {text: "texto"}, en: {text: "text"}},
+    { name: "Boxer", size: "large", energy: "high", goodWithKids: "yes", image: "assets/css/images/Boxer.png", es: {text: "texto"}, en: {text: "text"}},
+    { name: "Siberian Husky", size: "large", energy: "high", goodWithKids: "yes", image: "assets/css/images/Siberian Husky.png", es: {text: "texto"}, en: {text: "text"}},
+    { name: "Yorkshire Terrier", size: "small", energy: "medium", goodWithKids: "no", image: "assets/css/images/Yorkshire Terrier.png", es: {text: "texto"}, en: {text: "text"}},
+    { name: "French Bulldog", size: "medium", energy: "low", goodWithKids: "yes", image: "assets/css/images/French Bulldog.png", es: {text: "texto"}, en: {text: "text"}},
+    { name: "Cocker Spaniel", size: "medium", energy: "medium", goodWithKids: "yes", image: "assets/css/images/Cocker Spaniel.png", es: {text: "texto"}, en: {text: "text"}},
+    { name: "Shih Tzu", size: "small", energy: "low", goodWithKids: "yes", image: "assets/css/images/Shih Tzu.png", es: {text: "texto"}, en: {text: "text"}},
+    { name: "Rottweiler", size: "large", energy: "high", goodWithKids: "yes", image: "assets/css/images/Rottweiler.png", es: {text: "texto"}, en: {text: "text"}},
+    { name: "Pug", size: "small", energy: "low", goodWithKids: "yes", image: "assets/css/images/Pug.png", es: {text: "texto"}, en: {text: "text"}}
 ];
 
 setInitState()
-
+setDogCards()
 
 // Cargar la primera pregunta
 function loadQuestion() {
@@ -176,6 +176,22 @@ function startQuizz()
     loadQuestion()
 }
 
+function setDogCards() {
+    const dogCards = document.querySelectorAll('.dog-card');
+    dogCards.forEach(card => {
+        const dogName = card.getAttribute('data-name');
+        const dogImage = card.querySelector('.dog-image');
+        const dogNameElement = card.querySelector('.dog-name');
+        const dogDescriptionElement = card.querySelector('.dog-description');
+
+        const dog = dogBreeds.find(dog => dog.name === dogName);
+
+        dogNameElement.textContent = dog.name;
+        dogDescriptionElement.textContent =  dog[selectedLang].text;
+        dogImage.src = dog.image;
+    });
+}
+
 function filterDogs() {
     const dogCards = document.querySelectorAll('.dog-card');
     dogCards.forEach(card => {
@@ -204,13 +220,7 @@ function filterDogs() {
         else
         {
             card.classList.add('hidden'); // Hide non-matching dogs
-            card.style.display = 'none'; // Remove it from the layout flow
-            /* 
-            // Set a timeout to remove it from display after the transition
-             setTimeout(() => {
-                card.style.display = 'none'; // Remove it from the layout flow
-            }, 300); // Match this duration with your CSS transition duration
-            */        
+            card.style.display = 'none'; // Remove it from the layout flow      
         }
         /*card.style.display = matches ? 'block' : 'none';*/
     });
@@ -256,6 +266,7 @@ function setLanguage(lang)
         endmessageElement.textContent = content[selectedLang].end_message;
 
         changeQuestionsPanelLanguage()
+        setDogCards()
 }
 
 
