@@ -1,6 +1,7 @@
 let currentQuestionIndex = 0;
 let selectedLang = "";
 let lastClickedCard = null; // Track the last clicked card
+let duplicatedCard = null;      // Track the placeholder
 
 // Objeto para almacenar los filtros seleccionados
 const filters = {}; 
@@ -411,17 +412,38 @@ function toggleCard(card) {
         closeCard(null, lastClickedCard); // Close the previous card
     }
 
-    // Add 'clicked' class to the currently clicked card
-    card.classList.toggle('clicked');
+    // Create a duplicate of the clicked card
+    duplicatedCard = card.cloneNode(true);
+    duplicatedCard.classList.add('clicked');
+    duplicatedCard.style.position = 'fixed'; // Make it fixed to center
+    duplicatedCard.style.top = '50%';
+    duplicatedCard.style.left = '50%';
+    duplicatedCard.style.transform = 'translate(-50%, -50%) scale(1.8)'; // Center and scale
+    duplicatedCard.querySelector('.close-btn').style.display = 'block'; // Show close button
+    // Append the duplicated card to the body
+    document.body.appendChild(duplicatedCard);
 
     // Update the last clicked card
-    lastClickedCard = card.classList.contains('clicked') ? card : null;
+    lastClickedCard = duplicatedCard;
+    
+    // Add 'clicked' class to the currently clicked card
+    // card.classList.toggle('clicked');
+
+
+    // Update the last clicked card
+    //lastClickedCard = card.classList.contains('clicked') ? card : null;
 }
 
 function closeCard(event, card) {
     if (event) event.stopPropagation(); // Prevent the click event from bubbling up
     card.classList.remove('clicked'); // Remove the 'clicked' class to reset the card
     
+    // Remove the duplicated card from the body
+    if (duplicatedCard) {
+        document.body.removeChild(duplicatedCard);
+        duplicatedCard = null; // Reset duplicated card
+    }
+
     // Reset the last clicked card reference if it's the one being closed
     if (lastClickedCard === card) {
         lastClickedCard = null;
