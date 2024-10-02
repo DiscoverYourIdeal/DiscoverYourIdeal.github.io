@@ -79,7 +79,7 @@ body {
     width: 150px;
     text-align: center;
     cursor: pointer; 
-    transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for movement and fade-out */
+    transition: transform 1.0s ease, opacity 1.0s ease; /* Smooth transition for movement and fade-out */
     transition-delay: 0.1s; /* Adjust delay for staggered effect */
 }
 
@@ -126,6 +126,11 @@ body {
 .dog-card img {
     width: 100%;
     height: auto;
+}
+
+.fade-out {
+  opacity: 0;                   /* Fade out opacity */
+  transition: opacity 1.0s ease; /* Smooth transition for opacity */
 }
 
 /* Button Style */

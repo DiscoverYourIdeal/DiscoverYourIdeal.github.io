@@ -352,14 +352,22 @@ function filterDogs() {
         if (matches)
         {
             card.classList.remove('hidden'); // Show matching dogs
+            card.classList.remove('fade-out'); // Ensure the fade-out class is removed
             card.style.display = 'block'; // Ensure it is displayed
+            card.style.opacity = '1'; // Set opacity to 1 for visible cards
         }
         else
         {
-            card.classList.add('hidden'); // Hide non-matching dogs
-            card.style.display = 'none'; // Remove it from the layout flow      
+            // Fade out and then hide
+            card.classList.add('fade-out'); // Add fade-out class
+            setTimeout(() => {
+                card.style.display = 'none'; // Hide after fading out
+                card.classList.add('hidden');
+            }, 1000); // Match this timeout with the CSS transition duration
+        
+            //card.classList.add('hidden'); // Hide non-matching dogs
+            //card.style.display = 'none'; // Remove it from the layout flow      
         }
-        /*card.style.display = matches ? 'block' : 'none';*/
     });
 }
 
@@ -372,9 +380,14 @@ function resetFilters() {
     // Make sure all dog cards are visible
     const dogCards = document.querySelectorAll('.dog-card');
     dogCards.forEach(card => {
+        card.classList.remove('fade-out'); // Ensure the fade-out class is removed
         card.classList.remove('hidden'); // Remove the hidden class
+
         card.style.display = 'block'; // Make sure it's visible
+        card.style.opacity = '1';
     });
+    // Call filterDogs to re-evaluate which cards should be shown
+    filterDogs();
 }
 
 function restartQuiz() {
@@ -408,30 +421,29 @@ function setLanguage(lang)
 
 function toggleCard(card) {
     // If there is a last clicked card, reset it
-    if (lastClickedCard && lastClickedCard !== card) {
+    if (!lastClickedCard)
+    {
+        // Create a duplicate of the clicked card
+        duplicatedCard = card.cloneNode(true);
+        duplicatedCard.classList.add('clicked');
+        duplicatedCard.querySelector('.close-btn').style.display = 'block'; // Show close button
+        document.body.appendChild(duplicatedCard);    // Append the duplicated card to the body
+        // Update the last clicked card
+        lastClickedCard = duplicatedCard;
+    }
+    else(lastClickedCard !== card)
+    {
         closeCard(null, lastClickedCard); // Close the previous card
+        
+        // Create a duplicate of the clicked card
+        duplicatedCard = card.cloneNode(true);
+        duplicatedCard.classList.add('clicked');
+        duplicatedCard.querySelector('.close-btn').style.display = 'block'; // Show close button
+        document.body.appendChild(duplicatedCard);    // Append the duplicated card to the body
+        // Update the last clicked card
+        lastClickedCard = duplicatedCard;
     }
 
-    // Create a duplicate of the clicked card
-    duplicatedCard = card.cloneNode(true);
-    duplicatedCard.classList.add('clicked');
-    duplicatedCard.style.position = 'fixed'; // Make it fixed to center
-    duplicatedCard.style.top = '50%';
-    duplicatedCard.style.left = '50%';
-    duplicatedCard.style.transform = 'translate(-50%, -50%) scale(1.8)'; // Center and scale
-    duplicatedCard.querySelector('.close-btn').style.display = 'block'; // Show close button
-    // Append the duplicated card to the body
-    document.body.appendChild(duplicatedCard);
-
-    // Update the last clicked card
-    lastClickedCard = duplicatedCard;
-    
-    // Add 'clicked' class to the currently clicked card
-    // card.classList.toggle('clicked');
-
-
-    // Update the last clicked card
-    //lastClickedCard = card.classList.contains('clicked') ? card : null;
 }
 
 function closeCard(event, card) {
