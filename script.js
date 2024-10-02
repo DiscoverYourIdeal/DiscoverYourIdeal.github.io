@@ -262,6 +262,10 @@ function setInitState()
     ? navigator.languages[0] 
     : (navigator.language || navigator.userLanguage || 'en');
 
+    // If userLang is still undefined or empty, fall back to 'en'
+    if (!userLang) {
+        userLang = 'en'; // Default to 'en' if no language is detected
+    }
 
     currentQuestionIndex = 0
 
