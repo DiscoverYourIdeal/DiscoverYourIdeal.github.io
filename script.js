@@ -348,25 +348,20 @@ function filterDogs() {
             matches = false;
         }
 
-        // Muestra u oculta la tarjeta del perro según el filtro
         if (matches)
         {
             card.classList.remove('hidden'); // Show matching dogs
             card.classList.remove('fade-out'); // Ensure the fade-out class is removed
             card.style.display = 'block'; // Ensure it is displayed
-            card.style.opacity = '1'; // Set opacity to 1 for visible cards
         }
         else
         {
-            // Fade out and then hide
-            card.classList.add('fade-out'); // Add fade-out class
+            card.classList.add('fade-out');
+            console.log(`Added 'fade-out' to ${dog.name}`);
             setTimeout(() => {
-                card.style.display = 'none'; // Hide after fading out
+                card.style.display = 'none'; // Hide after fading out               
                 card.classList.add('hidden');
-            }, 1000); // Match this timeout with the CSS transition duration
-        
-            //card.classList.add('hidden'); // Hide non-matching dogs
-            //card.style.display = 'none'; // Remove it from the layout flow      
+            }, 500); // Match this timeout with the CSS transition duration   
         }
     });
 }
@@ -377,16 +372,8 @@ function resetFilters() {
     filters.energy = null;
     filters.goodWithKids = null;
 
-    // Make sure all dog cards are visible
-    const dogCards = document.querySelectorAll('.dog-card');
-    dogCards.forEach(card => {
-        card.classList.remove('fade-out'); // Ensure the fade-out class is removed
-        card.classList.remove('hidden'); // Remove the hidden class
 
-        card.style.display = 'block'; // Make sure it's visible
-        card.style.opacity = '1';
-    });
-    // Call filterDogs to re-evaluate which cards should be shown
+    const dogCards = document.querySelectorAll('.dog-card');
     filterDogs();
 }
 
