@@ -1,5 +1,6 @@
 let currentQuestionIndex = 0;
 let selectedLang = "";
+let lastClickedCard = null; // Track the last clicked card
 
 // Objeto para almacenar los filtros seleccionados
 const filters = {}; 
@@ -405,18 +406,27 @@ function setLanguage(lang)
 }
 
 function toggleCard(card) {
-    card.classList.toggle('clicked'); // Toggle the 'clicked' class
+    // If there is a last clicked card, reset it
+    if (lastClickedCard && lastClickedCard !== card) {
+        closeCard(null, lastClickedCard); // Close the previous card
+    }
+
+    // Add 'clicked' class to the currently clicked card
+    card.classList.toggle('clicked');
+
+    // Update the last clicked card
+    lastClickedCard = card.classList.contains('clicked') ? card : null;
 }
 
 function closeCard(event, card) {
-    event.stopPropagation(); // Prevent the click event from bubbling up
+    if (event) event.stopPropagation(); // Prevent the click event from bubbling up
     card.classList.remove('clicked'); // Remove the 'clicked' class to reset the card
+    
+    // Reset the last clicked card reference if it's the one being closed
+    if (lastClickedCard === card) {
+        lastClickedCard = null;
+    }
 }
-
-
-
-
-
 
 /*const questions = [
     {

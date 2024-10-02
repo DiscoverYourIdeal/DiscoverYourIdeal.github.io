@@ -78,6 +78,7 @@ body {
     padding: 10px;
     width: 150px;
     text-align: center;
+    cursor: pointer; 
     transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for movement and fade-out */
     transition-delay: 0.1s; /* Adjust delay for staggered effect */
 }
