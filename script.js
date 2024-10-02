@@ -262,17 +262,28 @@ function setInitState()
     ? navigator.languages[0] 
     : (navigator.language || navigator.userLanguage || 'en');
 
+    // If userLang is still undefined or empty, fall back to 'en'
+    if (!userLang) {
+        userLang = 'en'; // Default to 'en' if no language is detected
+    }
 
     currentQuestionIndex = 0
 
     // set initial Language
-    if (userLang.startsWith('es') && selectedLang == "") 
-        {
-            setLanguage('es');
-        } 
-    if (userLang.startsWith('en') && selectedLang == "") 
-        {
-        setLanguage('en');
+    if (selectedLang == "")
+    {
+        if (userLang.startsWith('es')) 
+            {
+                setLanguage('es');
+            } 
+        else if (userLang.startsWith('en')) 
+            {
+                setLanguage('en');
+            }
+        else
+            {
+                setLanguage('en')
+            }
         }
 
     // Elements to be shown at the start
@@ -393,7 +404,14 @@ function setLanguage(lang)
         setDogCards()
 }
 
+function toggleCard(card) {
+    card.classList.toggle('clicked'); // Toggle the 'clicked' class
+}
 
+function closeCard(event, card) {
+    event.stopPropagation(); // Prevent the click event from bubbling up
+    card.classList.remove('clicked'); // Remove the 'clicked' class to reset the card
+}
 
 
 

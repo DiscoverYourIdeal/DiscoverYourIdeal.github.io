@@ -82,6 +82,36 @@ body {
     transition-delay: 0.1s; /* Adjust delay for staggered effect */
 }
 
+.dog-card:hover {
+  transform: scale(1.1);      /* Slightly bigger on hover */
+  background-color: rgba(255, 255, 255, 0.9); /* Less transparent on hover */
+}
+
+.dog-card.clicked {
+  position: fixed;            /* Fix position to viewport */
+  top: 50%;                   /* Center vertically */
+  left: 50%;                  /* Center horizontally */
+  transform: translate(-50%, -50%) scale(1.8); /* Center and scale when clicked */
+  background-color: rgba(255, 255, 255, 1); /* Fully opaque when clicked */
+  z-index: 10;                /* Bring it to the front */
+}
+
+.close-btn {
+  display: none;              /* Hidden by default */
+  position: absolute;         /* Position it within the card */
+  top: 0px;                  /* Distance from the top */
+  right: 0px;                /* Distance from the right */
+  background-color: red;      /* Close button color */
+  color: white;               /* Text color */
+  border: none;               /* No border */
+  border-radius: 5px;        /* Rounded corners */
+  cursor: pointer;            /* Pointer on hover */
+}
+
+.dog-card.clicked .close-btn {
+  display: block;             /* Show close button when card is clicked */
+}
+
 /* Hidden state */
 .dog-card.hidden {
     /*transform: scale(0.01);*/ /* Shrinks to nothing */
