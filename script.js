@@ -258,7 +258,11 @@ function answerQuestion(value) {
 
 function setInitState()
 {
-    const userLang = navigator.language || navigator.userLanguage;
+    const userLang = (navigator.languages && navigator.languages.length > 0) 
+    ? navigator.languages[0] 
+    : (navigator.language || navigator.userLanguage || 'en');
+
+
     currentQuestionIndex = 0
 
     // set initial Language

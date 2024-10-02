@@ -123,3 +123,41 @@ button.custom-btn:active {
     transform: scale(0.98); /* Slight shrink on click */
     background-color: rgba(255, 255, 255, 0.6);
 }
+
+
+.language-switch {
+  position: absolute;  /* Keeps it fixed even when scrolling */
+  top: 10px;        /* Adjust the distance from the top */
+  right: 10px;      /* Adjust the distance from the right */
+  display: flex;    /* Ensure the buttons are side by side */
+  gap: 10px;        /* Add some space between the buttons */
+}
+
+.lang-btn {
+  background-color: #f1f1f1;
+  border: none;
+  /* border-radius: 5px; */
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 30px;  /* Set button width */
+  height: 20px; /* Set button height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lang-btn:hover {
+  background-color: #ddd;
+}
+
+.lang-btn:focus {
+  outline: none;
+}
+
+.flag-icon {
+    width: 30px;
+    height: 30px;
+}
+
+
