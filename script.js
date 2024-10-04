@@ -353,6 +353,7 @@ function filterDogs() {
             card.classList.remove('hidden'); // Show matching dogs
             card.classList.remove('fade-out'); // Ensure the fade-out class is removed
             card.style.display = 'block'; // Ensure it is displayed
+            card.style.transform = 'translateY(0)';
         }
         else
         {
