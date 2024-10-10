@@ -11,14 +11,15 @@ body {
 
     font-family: Arial, sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 0px;
 }
 
 #dog-gallery {
     margin-top: 20px;
-    background-image: url('assets/css/images/hojas.jpg');
+    background-image: url('assets/css/images/pattern brown.jpeg');
+    /*background-image: url('assets/css/images/hojas.jpg');*/
     width: 90vw; /* 80% of the viewport width */ /*auto*/
-    height: 60vh; /* 60% of the viewport height */
+    height: 70vh; /* 60% of the viewport height */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,40 +46,24 @@ body {
 
 h1.title {
   font-family: 'Chewy', cursive; /* Fun, playful font */
-  color: #FF6B6B; /* Bright and playful color */
+  color: #000000;
   text-align: center; /* Center the text */
   text-transform: uppercase; /* Make the text uppercase for emphasis */
   letter-spacing: 2px; /* Add some spacing between letters */
   font-size: 3rem; /* Make it large and bold */
   background: linear-gradient(45deg, #ff6b6b, #ffcc5c, #17c0eb); /* Gradient background */
   -webkit-background-clip: text; /* Clip the background to the text */
-  -webkit-text-fill-color: transparent; /* Make text color transparent */
-  text-shadow: 2px 2px 0 #fff, 4px 4px 0 #000; /* Fun shadow effect */
-  /* padding: 20px; */ /* Add some padding around the text */
+  background-clip: text; /* Standard version */
+  text-shadow: -2px -2px 0 #ffffff00, 4px 4px 0 #00000000; /* Fun shadow effect */
+  -webkit-text-fill-color: transparent;
   margin-top: 20px; /* Add margin to push it down */
-  /*animation: bounce 1.5s infinite;*/ /* Optional: Add bounce animation */
-}
+  margin-bottom: 0px; /* Add space below the first div */
 
-/* Add a bounce animation for extra fun */
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
-
-.Title {
-    margin-bottom: 20px; /* Add space below the first div */
 }
 
 .Questions {
     /* Optionally add margin to the top of the second div */
-    margin-bottom: 20px; /* Add space above the second div */
+    margin-bottom: 50px; /* Add space above the second div */
 }
 
 .dog-card {
@@ -103,12 +88,22 @@ h1.title {
 }
 
 .dog-card.clicked {
-  position: fixed;            /* Fix position to viewport */
-  top: 50%;                   /* Center vertically */
-  left: 50%;                  /* Center horizontally */
-  transform: translate(-50%, -50%) scale(1.8); /* Center and scale when clicked */
-  background-color: rgba(255, 255, 255, 1); /* Fully opaque when clicked */
-  z-index: 10;                /* Bring it to the front */
+  background-color: rgba(82, 80, 80, 0.9); /* Semi-transparent white */
+  margin: 2vw;
+  border: 1px solid #ccc;
+  padding: 1vw;
+  width: 33vw;
+  height: 66vw;
+  transform: translate(67%, 0);
+  z-index: 10;
+  text-align: center;
+  border-radius: 15px; /* Smooth edges */
+  /*position: fixed;*/            /* Fix position to viewport */
+  /*top: 50%;*/                   /* Center vertically */
+  /*left: 50%;*/                  /* Center horizontally */
+  /*transform: translate(-50%, -200%) scale(1.8);*/ /* Center and scale when clicked */
+  /*background-color: rgba(255, 255, 255, 1);*/ /* Fully opaque when clicked */
+  /*z-index: 10;*/                /* Bring it to the front */
 }
 
 .close-btn {
@@ -146,6 +141,7 @@ h1.title {
 .dog-card img {
     width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
 /* Button Style */
@@ -174,7 +170,6 @@ button.custom-btn:active {
     transform: scale(0.98); /* Slight shrink on click */
     background-color: rgba(255, 255, 255, 0.6);
 }
-
 
 .language-switch {
   position: absolute;  /* Keeps it fixed even when scrolling */
