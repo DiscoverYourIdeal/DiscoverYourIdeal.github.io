@@ -83,9 +83,9 @@ h1.title {
 
 .dog-card {
     background-color: rgba(82, 80, 80, 0.4); /* Semi-transparent white */
-    margin: 10px;
+    margin: 1vw;
     border: 1px solid #ccc;
-    padding: 10px;
+    padding: 1vw;
     width: 10vw;
     height: 10vw;
     text-align: center;
