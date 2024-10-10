@@ -17,9 +17,7 @@ body {
 #dog-gallery {
     margin-top: 20px;
     background-image: url('assets/css/images/hojas.jpg');
-    /* width: auto; */ /* Set a fixed width */
-    /* height: auto; */ /* Set a fixed height */
-    width: 90vw; /* 80% of the viewport width */
+    width: 90vw; /* 80% of the viewport width */ /*auto*/
     height: 60vh; /* 60% of the viewport height */
     background-size: cover;
     background-position: center;
@@ -42,7 +40,7 @@ body {
     position: absolute; /* Position it relative to the viewport */
     left: 50%; /* Move it halfway across the viewport */
     transform: translate(-50%, 0%); /* Shift it back by half its width and height to center it */
-
+    gap: 20px 10px; /* 20px vertical gap, 10px horizontal gap */
   }
 
 h1.title {
@@ -88,11 +86,13 @@ h1.title {
     margin: 10px;
     border: 1px solid #ccc;
     padding: 10px;
-    width: 150px;
+    width: 10vw;
+    height: 10vw;
     text-align: center;
     cursor: pointer; 
     transition: margin 0.5s ease, transform 0.5s ease;
     transition-delay: 0.05s;
+    border-radius: 15px; /* Smooth edges */
     /* transition: transform 1.0s ease, opacity 1.0s ease; */ /* Smooth transition for movement and fade-out */
     /* transition-delay: 0.05s; */ /* Adjust delay for staggered effect */
 }

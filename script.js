@@ -324,7 +324,7 @@ function setDogCards() {
         const dog = dogBreeds.find(dog => dog.name === dogName);
 
         dogNameElement.innerHTML = `<strong>${dog.name}</strong>`;
-        dogDescriptionElement.textContent =  dog[selectedLang].text;
+        //dogDescriptionElement.textContent =  dog[selectedLang].text;
         dogImage.src = dog.image;
     });
 }
@@ -416,6 +416,11 @@ function toggleCard(card) {
         duplicatedCard.classList.add('clicked');
         duplicatedCard.querySelector('.close-btn').style.display = 'block'; // Show close button
         document.body.appendChild(duplicatedCard);    // Append the duplicated card to the body
+
+        const dogName = card.getAttribute('data-name');
+        const dog = dogBreeds.find(dog => dog.name === dogName);
+        duplicatedCard.querySelector('.dog-description').textContent = dog[selectedLang].text;
+
         // Update the last clicked card
         lastClickedCard = duplicatedCard;
     }
@@ -428,6 +433,11 @@ function toggleCard(card) {
         duplicatedCard.classList.add('clicked');
         duplicatedCard.querySelector('.close-btn').style.display = 'block'; // Show close button
         document.body.appendChild(duplicatedCard);    // Append the duplicated card to the body
+
+        const dogName = card.getAttribute('data-name');
+        const dog = dogBreeds.find(dog => dog.name === dogName);
+        duplicatedCard.querySelector('.dog-description').textContent = dog[selectedLang].text;
+
         // Update the last clicked card
         lastClickedCard = duplicatedCard;
     }
