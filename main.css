@@ -16,7 +16,8 @@ body {
 
 #dog-gallery {
     margin-top: 20px;
-    background-image: url('assets/css/images/hojas.jpg');
+    background-image: url('assets/css/images/pattern brown.jpeg');
+    /*background-image: url('assets/css/images/hojas.jpg');*/
     width: 90vw; /* 80% of the viewport width */ /*auto*/
     height: 60vh; /* 60% of the viewport height */
     background-size: cover;
@@ -52,6 +53,7 @@ h1.title {
   font-size: 3rem; /* Make it large and bold */
   background: linear-gradient(45deg, #ff6b6b, #ffcc5c, #17c0eb); /* Gradient background */
   -webkit-background-clip: text; /* Clip the background to the text */
+  background-clip: text;
   -webkit-text-fill-color: transparent; /* Make text color transparent */
   text-shadow: 2px 2px 0 #fff, 4px 4px 0 #000; /* Fun shadow effect */
   /* padding: 20px; */ /* Add some padding around the text */
@@ -174,7 +176,6 @@ button.custom-btn:active {
     transform: scale(0.98); /* Slight shrink on click */
     background-color: rgba(255, 255, 255, 0.6);
 }
-
 
 .language-switch {
   position: absolute;  /* Keeps it fixed even when scrolling */
