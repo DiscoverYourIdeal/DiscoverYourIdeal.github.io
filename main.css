@@ -53,16 +53,9 @@ h1.title {
   font-size: 3rem; /* Make it large and bold */
   background: linear-gradient(45deg, #ff6b6b, #ffcc5c, #17c0eb); /* Gradient background */
   -webkit-background-clip: text; /* Clip the background to the text */
-<<<<<<< HEAD
   background-clip: text; /* Standard version */
   text-shadow: -2px -2px 0 #ffffff00, 4px 4px 0 #00000000; /* Fun shadow effect */
   -webkit-text-fill-color: transparent;
-=======
-  background-clip: text;
-  -webkit-text-fill-color: transparent; /* Make text color transparent */
-  text-shadow: 2px 2px 0 #fff, 4px 4px 0 #000; /* Fun shadow effect */
-  /* padding: 20px; */ /* Add some padding around the text */
->>>>>>> 16ee9b9afd5a32552a929fbe941e9ab28f690db1
   margin-top: 20px; /* Add margin to push it down */
   margin-bottom: 0px; /* Add space below the first div */
 
@@ -102,7 +95,7 @@ h1.title {
   width: 33vw;
   height: 66vw;
   position: fixed;
-  top: 80%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
