@@ -101,9 +101,13 @@ h1.title {
   padding: 1vw;
   width: 33vw;
   height: 66vw;
-  transform: translate(75%, 0);
+  position: fixed;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 10;
   text-align: center;
+  
   border-radius: 15px; /* Smooth edges */
   /*position: fixed;*/            /* Fix position to viewport */
   /*top: 50%;*/                   /* Center vertically */
