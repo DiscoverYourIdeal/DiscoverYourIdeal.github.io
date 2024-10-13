@@ -92,15 +92,14 @@ h1.title {
   margin: 2vw;
   border: 1px solid #ccc;
   padding: 1vw;
-  width: 33vw;
-  height: 66vw;
+  width: 33vh;
+  height: 66vh;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
   text-align: center;
-  
   border-radius: 15px; /* Smooth edges */
   /*position: fixed;*/            /* Fix position to viewport */
   /*top: 50%;*/                   /* Center vertically */
