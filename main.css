@@ -42,25 +42,55 @@ body {
     position: absolute; /* Position it relative to the viewport */
     left: 50%; /* Move it halfway across the viewport */
     transform: translate(-50%, 0%); /* Shift it back by half its width and height to center it */
-    gap: 20px 10px; /* 20px vertical gap, 10px horizontal gap */
+    gap: 0px 10px; /* 20px vertical gap, 10px horizontal gap */
   }
   @media screen and (max-width: 480px) {
   
     .dog-card {
-      background-color: rgba(82, 80, 80, 0.4); /* Semi-transparent white */
-      margin: 2vw;
-      border: 1px solid #ccc;
-      padding: 1vw;
-      width: 15vw;
-      height: 15vw;
-      text-align: center;
-      cursor: pointer; 
-      transition: margin 0.5s ease, transform 0.5s ease;
-      transition-delay: 0.05s;
-      border-radius: 15px; /* Smooth edges */
-      /* transition: transform 1.0s ease, opacity 1.0s ease; */ /* Smooth transition for movement and fade-out */
-      /* transition-delay: 0.05s; */ /* Adjust delay for staggered effect */
-  }
+        background-color: rgba(82, 80, 80, 0.4); /* Semi-transparent white */
+        margin: 2vw;
+        border: 1px solid #ccc;
+        padding: 2vw!important ;
+        width: 19vw !important;
+        height: 19vw !important;
+        text-align: center;
+        cursor: pointer; 
+        transition: margin 0.5s ease, transform 0.5s ease;
+        transition-delay: 0.05s;
+        border-radius: 15px; /* Smooth edges */
+        /* transition: transform 1.0s ease, opacity 1.0s ease; */ /* Smooth transition for movement and fade-out */
+        /* transition-delay: 0.05s; */ /* Adjust delay for staggered effect */
+    }
+  #dog-gallery {
+      margin-top: 20px;
+      background-image: url('assets/css/images/pattern brown.jpeg');
+      /*background-image: url('assets/css/images/hojas.jpg');*/
+      width: 90vw; /* 80% of the viewport width */ /*auto*/
+      height: 70vh; /* 60% of the viewport height */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      /* Cool Border */
+      border: 5px solid transparent; /* Transparent base border */
+      border-image: linear-gradient(45deg, #ff6b6b, #f7d794, #17c0eb, #ff6b6b); /* Gradient border */
+      border-image-slice: 1; /* Ensures the gradient fills the border */
+      border-radius: 15px; /* Smooth, rounded corners */
+      /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);*/ /* Soft shadow for a 3D effect */
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.7), /* Horizontal and vertical offsets, with a strong blur */
+      0 12px 24px rgba(0, 0, 0, 0.5); /* Secondary shadow for extra depth */
+      overflow: hidden; /* Prevents overflow if elements are larger */
+      overflow-y: auto; /* Allow vertical scrolling if content overflows */
+      transition: all 0.5s ease; /* Smooth transition for gallery layout changes */
+      position: absolute; /* Position it relative to the viewport */
+      left: 50%; /* Move it halfway across the viewport */
+      transform: translate(-50%, 0%); /* Shift it back by half its width and height to center it */
+      gap: 35px 10px !important; /* 20px vertical gap, 10px horizontal gap */
+    }
+
   }
 
 h1.title {
