@@ -3448,7 +3448,10 @@ function setDogCards() {
         const dog = dogBreeds.find(dog => dog.name === dogName);
 
         dogNameElement.innerHTML = `<strong>${dog.name}</strong>`;
-        //dogDescriptionElement.textContent =  dog[selectedLang].text;
+        if(dogDescriptionElement.textContent !== "")
+        {
+            dogDescriptionElement.textContent =  dog[selectedLang].text;
+        }
         dogImage.src = dog.image;
     });
 }
