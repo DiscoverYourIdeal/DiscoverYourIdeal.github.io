@@ -140,7 +140,7 @@ h1.title {
 }
 
 .dog-card.clicked {
-  background-color: rgba(82, 80, 80, 0.9); /* Semi-transparent white */
+  background-color: rgb(237, 177, 73); /* Semi-transparent white */
   margin: 0vw;
   border: 1px solid #ccc;
   padding: 1vw;
