@@ -1,8 +1,9 @@
 let currentQuestionIndex = 0;
+let numberOfDogsLeft = 202;
 let currentQuestionConcept = "";
 let selectedLang = "";
 let lastClickedCard = null; // Track the last clicked card
-let duplicatedCard = null;      // Track the placeholder
+let duplicatedCard = null;  // Track the placeholder
 
 // Objeto para almacenar los filtros seleccionados
 const filters = {}; 
@@ -187,14 +188,14 @@ const content = {
       start_button: 'Empieza el Quizz',
       restart_button: 'Volver',
       start_message: "Empieza el quizz y encuentra tu perro ideal!",
-      end_message: "¡Hemos encontrado los perros ideales para ti!"
+      end_message: "¡Buen Trabajo! ¡Hemos encontrado la selección de perros ideales para ti!"
     },
     en: {
-      title: 'Find your perfect dog',
+      title: 'Find your ideal dog',
       start_button: 'Start the Quizz',
       restart_button: 'Return',
       start_message: "Start the Quizz and find your ideal dog!",
-      end_message: "These are your ideal dogs!"
+      end_message: "Great Job! This is the selection of your ideal dogs!"
     }
   };
 
@@ -479,26 +480,6 @@ const dogBreeds = [
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro amigable y alegre, ideal para familias activas y entrenamiento." },
         en: { text: "A friendly and cheerful dog, ideal for active families and training." }
-    },
-    {
-        name: "Beauceron",
-        size: 3,
-        energy: 3,
-        goodWithKids: 2,
-        groomingRequirements: 2,
-        goodWithPets: 2,
-        intelligence: 3,
-        trainability: 3,
-        shedding: 2,
-        spaceNeeded: 3,
-        barking: 2,
-        health: 2,
-        lifespan: 2,
-        weather: 2,
-        dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "Un perro fuerte y versátil, ideal para dueños experimentados y actividades al aire libre." },
-        en: { text: "A strong and versatile dog, ideal for experienced owners and outdoor activities." }
     },
     {
         name: "Belgian Malinois",
@@ -1059,46 +1040,6 @@ const dogBreeds = [
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro inteligente y versátil, ideal para familias activas." },
         en: { text: "An intelligent and versatile dog, ideal for active families." }
-    },
-    {
-        name: "Brittany Spaniel",
-        size: 2,
-        energy: 3,
-        goodWithKids: 3,
-        groomingRequirements: 2,
-        goodWithPets: 3,
-        intelligence: 3,
-        trainability: 3,
-        shedding: 2,
-        spaceNeeded: 2,
-        barking: 2,
-        health: 2,
-        lifespan: 2,
-        weather: 2,
-        dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "Un perro amigable y activo, excelente para familias y actividades al aire libre." },
-        en: { text: "A friendly and active dog, great for families and outdoor activities." }
-    },
-    {
-        name: "Doberman Pinscher",
-        size: "large",
-        energy: 3,
-        goodWithKids: 3,
-        groomingRequirements: 1,
-        goodWithPets: 2,
-        intelligence: 3,
-        trainability: 3,
-        shedding: 2,
-        spaceNeeded: 2,
-        barking: 2,
-        health: 2,
-        lifespan: 2,
-        weather: 2,
-        dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "Un perro leal y protector, ideal para familias y protección." },
-        en: { text: "A loyal and protective dog, ideal for families and guarding." }
     },
     {
         name: "English Cocker Spaniel",
@@ -2020,246 +1961,7 @@ const dogBreeds = [
         es: { text: "El Havanese es un perro amigable y cariñoso, ideal para la vida en apartamentos." },
         en: { text: "The Havanese is a friendly and affectionate dog, ideal for apartment living." }
     },
-    {
-        name: "German Shepherd Dog",
-        size: "large",
-        energy: 3,
-        goodWithKids: 3,
-        groomingRequirements: 2,
-        goodWithPets: 2,
-        intelligence: 3,
-        trainability: 3,
-        shedding: 3,
-        spaceNeeded: 3,
-        barking: 2,
-        health: 2,
-        lifespan: 2,
-        weather: 2,
-        dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "El Pastor Alemán es un perro inteligente y versátil, ideal para trabajo y familia." },
-        en: { text: "The German Shepherd is an intelligent and versatile dog, ideal for work and family." }
-    },
-    {
-        name: "German Shorthaired Pointer",
-        size: 2,
-        energy: 3,
-        goodWithKids: 3,
-        groomingRequirements: 1,
-        goodWithPets: 2,
-        intelligence: 3,
-        trainability: 3,
-        shedding: 2,
-        spaceNeeded: 3,
-        barking: 2,
-        health: 2,
-        lifespan: 2,
-        weather: 2,
-        dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "El Pointer Alemán de Pelo Corto es un perro enérgico y amante de la caza." },
-        en: { text: "The German Shorthaired Pointer is an energetic and hunting-loving dog." }
-    },
-    {
-        name: "German Wirehaired Pointer",
-        size: 2,
-        energy: 3,
-        goodWithKids: 3,
-        groomingRequirements: 2,
-        goodWithPets: 2,
-        intelligence: 3,
-        trainability: 3,
-        shedding: 2,
-        spaceNeeded: 3,
-        barking: 2,
-        health: 2,
-        lifespan: 2,
-        weather: 2,
-        dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "El Pointer Alemán de Pelo Duro es un perro versátil y trabajador." },
-        en: { text: "The German Wirehaired Pointer is a versatile and hardworking dog." }
-    },
-    {
-        name: "Giant Schnauzer",
-        size: "large",
-        energy: 3,
-        goodWithKids: 3,
-        groomingRequirements: 3,
-        goodWithPets: 2,
-        intelligence: 3,
-        trainability: 3,
-        shedding: 2,
-        spaceNeeded: 3,
-        barking: 2,
-        health: 2,
-        lifespan: 2,
-        weather: 2,
-        dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "El Schnauzer Gigante es un perro fuerte y protector, ideal para el hogar." },
-        en: { text: "The Giant Schnauzer is a strong and protective dog, ideal for home." }
-    },
-    {
-        name: "Glen of Imaal Terrier",
-        size: 2,
-        energy: 2,
-        goodWithKids: 3,
-        groomingRequirements: 2,
-        goodWithPets: 2,
-        intelligence: 2,
-        trainability: 2,
-        shedding: 1,
-        spaceNeeded: 2,
-        barking: 2,
-        health: 2,
-        lifespan: 2,
-        weather: 2,
-        dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "El Glen of Imaal Terrier es un perro curioso y leal, ideal para familias." },
-        en: { text: "The Glen of Imaal Terrier is a curious and loyal dog, ideal for families." }
-    },
-    {
-        name: "Goldador",
-        size: "large",
-        energy: 3,
-        goodWithKids: 3,
-        groomingRequirements: 2,
-        goodWithPets: 3,
-        intelligence: 3,
-        trainability: 3,
-        shedding: 3,
-        spaceNeeded: 3,
-        barking: 2,
-        health: 2,
-        lifespan: 2,
-        weather: 2,
-        dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "El Goldador es un perro amigable y cariñoso, ideal para familias." },
-        en: { text: "The Goldador is a friendly and affectionate dog, ideal for families." }
-    },
-    {
-        name: "Goldendoodle",
-        size: 2,
-        energy: 3,
-        goodWithKids: 3,
-        groomingRequirements: 3,
-        goodWithPets: 3,
-        intelligence: 3,
-        trainability: 3,
-        shedding: 2,
-        spaceNeeded: 2,
-        barking: 2,
-        health: 2,
-        lifespan: 2,
-        weather: 2,
-        dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "El Goldendoodle es un perro cariñoso y juguetón, ideal para la familia." },
-        en: { text: "The Goldendoodle is a loving and playful dog, ideal for family." }
-    },
-    {
-        name: "Great Dane",
-        size: "giant",
-        energy: 2,
-        goodWithKids: 3,
-        groomingRequirements: 1,
-        goodWithPets: 2,
-        intelligence: 2,
-        trainability: 2,
-        shedding: 2,
-        spaceNeeded: 3,
-        barking: 2,
-        health: 2,
-        lifespan: 2,
-        weather: 2,
-        dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "El Gran Danés es un perro impresionante y amable, ideal para la familia." },
-        en: { text: "The Great Dane is an impressive and gentle dog, ideal for family." }
-    },
-    {
-        name: "Great Pyrenees",
-        size: "large",
-        energy: 2,
-        goodWithKids: 3,
-        groomingRequirements: 3,
-        goodWithPets: 3,
-        intelligence: 2,
-        trainability: 2,
-        shedding: 3,
-        spaceNeeded: 3,
-        barking: 2,
-        health: 2,
-        lifespan: 2,
-        weather: 3,
-        dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "El Gran Pirineo es un perro protector y cariñoso, ideal para familias." },
-        en: { text: "The Great Pyrenees is a protective and affectionate dog, ideal for families." }
-    },
-    {
-        name: "Greater Swiss Mountain Dog",
-        size: "large",
-        energy: 2,
-        goodWithKids: 3,
-        groomingRequirements: 2,
-        goodWithPets: 3,
-        intelligence: 2,
-        trainability: 2,
-        shedding: 3,
-        spaceNeeded: 3,
-        barking: 2,
-        health: 2,
-        lifespan: 2,
-        weather: 3,
-        dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "El Perro de Montaña Suizo Mayor es un perro leal y trabajador." },
-        en: { text: "The Greater Swiss Mountain Dog is a loyal and hardworking dog." }
-    },
-    {
-        name: "Harrier",
-        size: 2,
-        energy: 3,
-        goodWithKids: 3,
-        groomingRequirements: 2,
-        goodWithPets: 2,
-        intelligence: 2,
-        trainability: 2,
-        shedding: 2,
-        spaceNeeded: 3,
-        barking: 2,
-        health: 2,
-        lifespan: 2,
-        weather: 2,
-        dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "El Harrier es un perro activo y juguetón, ideal para familias." },
-        en: { text: "The Harrier is an active and playful dog, ideal for families." }
-    },
-    {
-        name: "Havanese",
-        size: "small",
-        energy: 2,
-        goodWithKids: 3,
-        groomingRequirements: 3,
-        goodWithPets: 3,
-        intelligence: 3,
-        trainability: 3,
-        shedding: 1,
-        spaceNeeded: 1,
-        barking: 2,
-        health: 2,
-        lifespan: 3,
-        weather: 1,
-        dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "El Havanese es un perro amigable y cariñoso, ideal para la vida en apartamentos." },
-        en: { text: "The Havanese is a friendly and affectionate dog, ideal for apartment living." }
-    },
+
     {
         name: "Irish Setter",
         size: "large",
@@ -3298,13 +3000,7 @@ function changeQuestionsPanelLanguage() {
 }
 
 function answerQuestion(value) {
-    //[1] spaceNeeded
-    //[2] energy
-    //[3] shedding
-    //[4] goodWithKids
-
     // Almacena la respuesta seleccionada
-    //currentQuestionConcept
     switch (currentQuestionConcept){
         case "spaceNeeded":
             filters.spaceNeeded = value;
@@ -3353,25 +3049,12 @@ function answerQuestion(value) {
             break;
 
     }
-    /*
-    if (currentQuestionIndex === 0) {
-        filters.spaceNeeded = value;
-    } 
-    else if (currentQuestionIndex === 1) {
-        filters.energy = value;
-    } 
-    else if (currentQuestionIndex === 2) {
-        filters.shedding = value;
-    }
-    else if (currentQuestionIndex === 3) {
-        filters.goodWithKids = value;
-    }
-    */
+
     // Filtra los perros según las respuestas acumuladas
     filterDogs();
 
     currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) 
+    if (numberOfDogsLeft>5 && currentQuestionIndex < questions.length) 
         {
         loadQuestion(); // Carga la siguiente pregunta
         } 
@@ -3458,6 +3141,8 @@ function setDogCards() {
 
 function filterDogs() {
     const dogCards = document.querySelectorAll('.dog-card');
+    numberOfDogsLeft = dogBreeds.length
+    console.log(numberOfDogsLeft); 
     dogCards.forEach(card => {
         const dogName = card.getAttribute('data-name');
         const dog = dogBreeds.find(dog => dog.name === dogName);
@@ -3517,6 +3202,7 @@ function filterDogs() {
         }
         else
         {
+            numberOfDogsLeft--;
             card.classList.add('fade-out');
             console.log(`Added 'fade-out' to ${dog.name}`);
             setTimeout(() => {
@@ -3525,6 +3211,7 @@ function filterDogs() {
             }, 500); // Match this timeout with the CSS transition duration   
         }
     });
+    console.log(numberOfDogsLeft); 
 }
 
 function resetFilters() {
