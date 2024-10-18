@@ -61,6 +61,7 @@ body {
     /* transition-delay: 0.05s; */ /* Adjust delay for staggered effect */
 }
 
+/* PHONE SETTINGS */
 @media screen and (max-width: 480px) {
   
     .dog-card {
@@ -107,28 +108,6 @@ body {
       left: 50%; /* Move it halfway across the viewport */
       transform: translate(-50%, 0%); /* Shift it back by half its width and height to center it */
       gap: 35px 10px !important; /* 20px vertical gap, 10px horizontal gap */
-    }
-
-    .dog-card.clicked {
-      background-color: rgba(82, 80, 80, 0.9); /* Semi-transparent white */
-      margin: -1vw !important;
-      border: 1px solid #ccc;
-      padding: 1vw;
-      width: 33vh;
-      height: 66vh;
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 10;
-      text-align: center;
-      border-radius: 15px; /* Smooth edges */
-      /*position: fixed;*/            /* Fix position to viewport */
-      /*top: 50%;*/                   /* Center vertically */
-      /*left: 50%;*/                  /* Center horizontally */
-      /*transform: translate(-50%, -200%) scale(1.8);*/ /* Center and scale when clicked */
-      /*background-color: rgba(255, 255, 255, 1);*/ /* Fully opaque when clicked */
-      /*z-index: 10;*/                /* Bring it to the front */
     }
 
   }
