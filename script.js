@@ -58,12 +58,12 @@ const questions = [
     },
     {
         es: {
-            question: "a",
-            answers: ["a", "b", "c"],
+            question: "¿Cuál es tu estado físico?",
+            answers: ["Frágil", "Normal", "Atlético"],
           },
         en: {
-            question: "a",
-            answers: ["a", "b", "c"],
+            question: "How would you describe your fitness level?",
+            answers: ["Fragile", "Normal", "Athletic"],
           },
         value: [1, 2, 3],
         concept: "size"
@@ -82,24 +82,24 @@ const questions = [
     },
     {
         es: {
-            question: "a",
-            answers: ["a", "b", "c"],
+            question: "¿Hay otros animales en casa?",
+            answers: ["No", "Sí, enjaulados", "Sí, libres"],
           },
         en: {
-            question: "a",
-            answers: ["a", "b", "c"],
+            question: "Are there other pets at home?",
+            answers: ["No", "Yes, caged", "Yes, free"],
           },
         value: [1, 2, 3],
         concept: "goodWithPets"
     },
     {
         es: {
-            question: "a",
-            answers: ["a", "b", "c"],
+            question: "¿Eres una persona paciente?",
+            answers: ["No", "A veces", "Sí"],
           },
         en: {
-            question: "a",
-            answers: ["a", "b", "c"],
+            question: "Are you a patient person?",
+            answers: ["No", "Sometimes", "Yes"],
           },
         value: [1, 2, 3],
         concept: "intelligence"
@@ -176,6 +176,44 @@ const questions = [
         value: [1, 2, 3],
         concept: "purpose"
     }
+
+/*
+    {
+        question: "¿Cuánto tiempo puedes dedicar al ejercicio diario de tu perro?",
+        answers: ["Menos de 30 minutos", "30 minutos a 1 hora", "Más de 1 hora"],
+        value: [1, 2, 3]
+    },
+    {
+        question: "¿Cuánto tiempo pasas fuera de casa diariamente?",
+        answers: ["En casa la mayor parte del día", "Fuera parte del día (4-6 horas)", "Fuera la mayor parte del día (8+ horas)"],
+        value: ["home", "partial", "away"]
+    },
+    {
+        question: "¿Qué tan activo es tu estilo de vida?",
+        answers: ["Sedentario", "Moderadamente activo", "Muy activo"],
+        value: ["sedentario", "moderado", "activo"]
+    },
+    {
+        question: "¿Cuál es tu principal objetivo al tener un perro?",
+        answers: ["Compañía", "Guardia o protección", "Terapia o apoyo emocional", "Actividades al aire libre"],
+        value: ["compañía", "protección", "terapia", "deportes"]
+    },
+    {
+        question: "¿Cuál es tu presupuesto para gastos relacionados con el perro (comida, veterinario, etc.)?",
+        answers: ["Bajo", "Medio", "Alto"],
+        value: ["bajo", "medio", "alto"]
+    },
+    {
+        question: "¿Estás dispuesto a tener una raza que requiera cuidados especiales o grooming regular?",
+        answers: ["Sí", "No"],
+        value: ["yes", "no"]
+    },
+    {
+        question: "¿Qué nivel de experiencia tienes con perros?",
+        answers: ["Primera vez con un perro", "Algo de experiencia", "Mucha experiencia"],
+        value: ["principiante", "moderado", "experimentado"]
+    }
+*/
 
 ];
 
@@ -3473,16 +3511,16 @@ function filterDogs() {
         if (filters.goodWithKids && dog.goodWithKids < filters.goodWithKids) {
             matches = false;
         }
-        if (filters.size && dog.size !== filters.size) {
+        if (filters.size && dog.size > filters.size) {
             matches = false;
         }
         if (filters.groomingRequirements && dog.groomingRequirements > filters.groomingRequirements) {
             matches = false;
         }
-        if (filters.goodWithPets && dog.goodWithPets !== filters.goodWithPets) {
+        if (filters.goodWithPets && dog.goodWithPets < filters.goodWithPets) {
             matches = false;
         }
-        if (filters.intelligence && dog.intelligence !== filters.intelligence) {
+        if (filters.intelligence && dog.intelligence < filters.intelligence) {
             matches = false;
         }
         if (filters.trainability && dog.trainability !== filters.trainability) {
@@ -3625,46 +3663,3 @@ function closeCard(event, card) {
         lastClickedCard = null;
     }
 }
-
-/*const questions = [
-    {
-        question: "¿Cuánto tiempo puedes dedicar al ejercicio diario de tu perro?",
-        answers: ["Menos de 30 minutos", "30 minutos a 1 hora", "Más de 1 hora"],
-        value: [1, 2, 3]
-    },
-    {
-        question: "¿Cuánto tiempo pasas fuera de casa diariamente?",
-        answers: ["En casa la mayor parte del día", "Fuera parte del día (4-6 horas)", "Fuera la mayor parte del día (8+ horas)"],
-        value: ["home", "partial", "away"]
-    },
-    {
-        question: "¿Qué tan activo es tu estilo de vida?",
-        answers: ["Sedentario", "Moderadamente activo", "Muy activo"],
-        value: ["sedentario", "moderado", "activo"]
-    },
-    {
-        question: "¿Tienes otras mascotas en casa?",
-        answers: ["Sí", "No"],
-        value: ["yes", "no"]
-    },
-    {
-        question: "¿Cuál es tu principal objetivo al tener un perro?",
-        answers: ["Compañía", "Guardia o protección", "Terapia o apoyo emocional", "Actividades al aire libre"],
-        value: ["compañía", "protección", "terapia", "deportes"]
-    },
-    {
-        question: "¿Cuál es tu presupuesto para gastos relacionados con el perro (comida, veterinario, etc.)?",
-        answers: ["Bajo", "Medio", "Alto"],
-        value: ["bajo", "medio", "alto"]
-    },
-    {
-        question: "¿Estás dispuesto a tener una raza que requiera cuidados especiales o grooming regular?",
-        answers: ["Sí", "No"],
-        value: ["yes", "no"]
-    },
-    {
-        question: "¿Qué nivel de experiencia tienes con perros?",
-        answers: ["Primera vez con un perro", "Algo de experiencia", "Mucha experiencia"],
-        value: ["principiante", "moderado", "experimentado"]
-    }
-];*/
