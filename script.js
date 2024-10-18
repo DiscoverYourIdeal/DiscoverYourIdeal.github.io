@@ -106,47 +106,60 @@ const questions = [
     },
     {
         es: {
-            question: "a",
-            answers: ["a", "b", "c"],
+            question: "¿Te gusta enseñar a otros?",
+            answers: ["No", "Me da igual", "Sí"],
           },
         en: {
-            question: "a",
-            answers: ["a", "b", "c"],
+            question: "Do you like to teach to others?",
+            answers: ["No", "I don't mind", "Yes"],
           },
         value: [1, 2, 3],
         concept: "trainability"
     },
     {
         es: {
-            question: "a",
-            answers: ["a", "b", "c"],
+            question: "¿Qué tan sensible eres al ruido?",
+            answers: ["Nada", "Poco", "Mucho"],
           },
         en: {
-            question: "a",
-            answers: ["a", "b", "c"],
+            question: "How sensitive are you to noise?",
+            answers: ["None", "A little", "A lot"],
           },
         value: [1, 2, 3],
         concept: "barking"
     },
     {
         es: {
-            question: "a",
-            answers: ["a", "b", "c"],
+            question: "¿Cuánto estás dispuesto a ayudar a los demás?",
+            answers: ["Lo justo", "Lo que puedo", "Me entrego"],
           },
         en: {
-            question: "a",
-            answers: ["a", "b", "c"],
+            question: "How much are you willing to help others?",
+            answers: ["Just enough", "What I can manage", "I give my all"],
           },
-        value: [1, 2, 3],
+        value: [3, 2, 1],
         concept: "health"
     },
     {
         es: {
-            question: "a",
+            question: "¿Cuánto tiempo pasas fuera de casa diariamente?",
+            answers: ["4h", "8h", "12h"],
+          },
+        en: {
+            question: "How much time do you spend outside of your home daily?",
+            answers: ["4h", "8h", "12h"],
+          },
+        value: [3, 2, 1],
+        concept: "dependance"
+    }
+    /*
+    {
+        es: {
+            question: "¿?",
             answers: ["a", "b", "c"],
           },
         en: {
-            question: "a",
+            question: "?",
             answers: ["a", "b", "c"],
           },
         value: [1, 2, 3],
@@ -154,67 +167,17 @@ const questions = [
     },
     {
         es: {
-            question: "a",
+            question: "¿?",
             answers: ["a", "b", "c"],
           },
         en: {
-            question: "a",
+            question: "?",
             answers: ["a", "b", "c"],
           },
         value: [1, 2, 3],
         concept: "weather"
     },
-    {
-        es: {
-            question: "a",
-            answers: ["a", "b", "c"],
-          },
-        en: {
-            question: "a",
-            answers: ["a", "b", "c"],
-          },
-        value: [1, 2, 3],
-        concept: "purpose"
-    }
-
-/*
-    {
-        question: "¿Cuánto tiempo puedes dedicar al ejercicio diario de tu perro?",
-        answers: ["Menos de 30 minutos", "30 minutos a 1 hora", "Más de 1 hora"],
-        value: [1, 2, 3]
-    },
-    {
-        question: "¿Cuánto tiempo pasas fuera de casa diariamente?",
-        answers: ["En casa la mayor parte del día", "Fuera parte del día (4-6 horas)", "Fuera la mayor parte del día (8+ horas)"],
-        value: ["home", "partial", "away"]
-    },
-    {
-        question: "¿Qué tan activo es tu estilo de vida?",
-        answers: ["Sedentario", "Moderadamente activo", "Muy activo"],
-        value: ["sedentario", "moderado", "activo"]
-    },
-    {
-        question: "¿Cuál es tu principal objetivo al tener un perro?",
-        answers: ["Compañía", "Guardia o protección", "Terapia o apoyo emocional", "Actividades al aire libre"],
-        value: ["compañía", "protección", "terapia", "deportes"]
-    },
-    {
-        question: "¿Cuál es tu presupuesto para gastos relacionados con el perro (comida, veterinario, etc.)?",
-        answers: ["Bajo", "Medio", "Alto"],
-        value: ["bajo", "medio", "alto"]
-    },
-    {
-        question: "¿Estás dispuesto a tener una raza que requiera cuidados especiales o grooming regular?",
-        answers: ["Sí", "No"],
-        value: ["yes", "no"]
-    },
-    {
-        question: "¿Qué nivel de experiencia tienes con perros?",
-        answers: ["Primera vez con un perro", "Algo de experiencia", "Mucha experiencia"],
-        value: ["principiante", "moderado", "experimentado"]
-    }
-*/
-
+    */
 ];
 
 // Define the content for different languages
@@ -252,7 +215,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/Siberian_Husky.png",
         es: { text: "Un perro enérgico y amigable, ideal para familias activas y amantes del aire libre." },
         en: { text: "An energetic and friendly dog, ideal for active families and outdoor enthusiasts." }
@@ -272,7 +235,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/Poodle.png",
         es: { text: "Un perro inteligente y elegante, ideal para familias y personas activas." },
         en: { text: "An intelligent and elegant dog, ideal for families and active individuals." }
@@ -292,7 +255,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Pequeño y enérgico, el Affenpinscher es curioso y necesita entrenamiento temprano." },
         en: { text: "Small and energetic, the Affenpinscher is curious and requires early training." }
@@ -312,7 +275,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro leal y protector, el Akita es mejor en hogares con dueños experimentados." },
         en: { text: "A loyal and protective dog, the Akita is best suited for homes with experienced owners." }
@@ -332,7 +295,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro fuerte y enérgico, el Alaskan Malamute es perfecto para actividades al aire libre." },
         en: { text: "A strong and energetic dog, the Alaskan Malamute is perfect for outdoor activities." }
@@ -352,7 +315,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro amigable y protector, excelente para familias, requiere entrenamiento y socialización." },
         en: { text: "A friendly and protective dog, great for families, requires training and socialization." }
@@ -372,7 +335,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro enérgico y leal, necesita entrenamiento y socialización desde una edad temprana." },
         en: { text: "An energetic and loyal dog, needs training and socialization from a young age." }
@@ -392,7 +355,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro guardián fuerte y protector, ideal para familias con experiencia en razas grandes." },
         en: { text: "A strong and protective guardian dog, ideal for families with experience in large breeds." }
@@ -412,7 +375,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro inteligente y enérgico, excelente para familias activas y entrenamiento." },
         en: { text: "An intelligent and energetic dog, great for active families and training." }
@@ -432,7 +395,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro ágil y trabajador, ideal para familias activas y entrenamiento." },
         en: { text: "An agile and hardworking dog, ideal for active families and training." }
@@ -452,7 +415,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro independiente y enérgico, a menudo se considera un buen compañero." },
         en: { text: "An independent and energetic dog, often considered a good companion." }
@@ -472,7 +435,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro tranquilo y amigable, ideal para familias y que se lleva bien con otras mascotas." },
         en: { text: "A calm and friendly dog, ideal for families and gets along well with other pets." }
@@ -492,7 +455,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/Beagle.png",
         es: { text: "Un perro curioso y juguetón, perfecto para familias activas y con niños." },
         en: { text: "A curious and playful dog, perfect for active families with children." }
@@ -512,7 +475,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro amigable y alegre, ideal para familias activas y entrenamiento." },
         en: { text: "A friendly and cheerful dog, ideal for active families and training." }
@@ -532,7 +495,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro fuerte y versátil, ideal para dueños experimentados y actividades al aire libre." },
         en: { text: "A strong and versatile dog, ideal for experienced owners and outdoor activities." }
@@ -552,7 +515,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro inteligente y enérgico, excelente para entrenamiento y trabajos de servicio." },
         en: { text: "An intelligent and energetic dog, excellent for training and service work." }
@@ -572,7 +535,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro pequeño y cariñoso, ideal para apartamentos y familias con niños." },
         en: { text: "A small and affectionate dog, ideal for apartments and families with children." }
@@ -592,7 +555,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro extremadamente inteligente y ágil, perfecto para familias activas y deportes caninos." },
         en: { text: "An extremely intelligent and agile dog, perfect for active families and dog sports." }
@@ -612,7 +575,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro pequeño y cariñoso, ideal para apartamentos y familias." },
         en: { text: "A small and affectionate dog, ideal for apartments and families." }
@@ -632,7 +595,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/Boxer.png",
         es: { text: "Un perro enérgico y leal, ideal para familias y actividades al aire libre." },
         en: { text: "An energetic and loyal dog, ideal for families and outdoor activities." }
@@ -652,7 +615,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro enérgico y alegre, ideal para familias activas y entrenamiento." },
         en: { text: "An energetic and cheerful dog, ideal for active families and training." }
@@ -672,7 +635,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/Bulldog.png",
         es: { text: "Un perro tranquilo y cariñoso, ideal para familias y apartamentos." },
         en: { text: "A calm and affectionate dog, ideal for families and apartments." }
@@ -692,7 +655,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro pequeño y amigable, ideal para familias y niños." },
         en: { text: "A small and friendly dog, ideal for families and children." }
@@ -712,7 +675,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro cariñoso y amable, ideal para familias y apartamentos." },
         en: { text: "A loving and gentle dog, ideal for families and apartments." }
@@ -732,7 +695,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/Chihuahua.png",
         es: { text: "Un perro pequeño y valiente, ideal para dueños que buscan un compañero leal." },
         en: { text: "A small and brave dog, ideal for owners looking for a loyal companion." }
@@ -752,7 +715,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro tranquilo y leal, ideal para familias y hogares." },
         en: { text: "A calm and loyal dog, ideal for families and homes." }
@@ -772,7 +735,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro único y leal, ideal para dueños que buscan un compañero independiente." },
         en: { text: "A unique and loyal dog, ideal for owners looking for an independent companion." }
@@ -792,7 +755,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/Cocker_Spaniel.png",
         es: { text: "Un perro cariñoso y amigable, ideal para familias con niños." },
         en: { text: "A loving and friendly dog, ideal for families with children." }
@@ -812,7 +775,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro pequeño y valiente, ideal para familias y dueños." },
         en: { text: "A small and brave dog, ideal for families and owners." }
@@ -832,7 +795,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro enérgico y amigable, ideal para familias activas y entusiastas." },
         en: { text: "An energetic and friendly dog, ideal for active families and enthusiasts." }
@@ -852,7 +815,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro inteligente y protector, ideal para familias y dueños experimentados." },
         en: { text: "An intelligent and protective dog, ideal for families and experienced owners." }
@@ -872,7 +835,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro tranquilo y cariñoso, ideal para familias y hogares." },
         en: { text: "A calm and affectionate dog, ideal for families and homes." }
@@ -892,7 +855,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro enérgico y amistoso, ideal para familias y actividades al aire libre." },
         en: { text: "An energetic and friendly dog, ideal for families and outdoor activities." }
@@ -912,7 +875,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro juguetón y cariñoso, ideal para familias y apartamentos." },
         en: { text: "A playful and affectionate dog, ideal for families and apartments." }
@@ -932,7 +895,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/Golden_Retriever.png",
         es: { text: "Un perro amigable y leal, ideal para familias activas." },
         en: { text: "A friendly and loyal dog, ideal for active families." }
@@ -952,7 +915,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro activo y amigable, ideal para familias y actividades al aire libre." },
         en: { text: "An active and friendly dog, ideal for families and outdoor activities." }
@@ -972,7 +935,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro pequeño y lleno de energía, ideal para dueños que buscan un compañero activo." },
         en: { text: "A small and energetic dog, ideal for owners looking for an active companion." }
@@ -992,7 +955,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/Pug.png",
         es: { text: "Un perro juguetón y cariñoso, ideal para familias y dueños." },
         en: { text: "A playful and affectionate dog, ideal for families and owners." }
@@ -1012,7 +975,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro fuerte y leal, ideal para dueños experimentados y familias." },
         en: { text: "A strong and loyal dog, ideal for experienced owners and families." }
@@ -1032,7 +995,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro inteligente y amistoso, ideal para familias con niños." },
         en: { text: "An intelligent and friendly dog, ideal for families with children." }
@@ -1052,7 +1015,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro cariñoso y leal, ideal para familias y apartamentos." },
         en: { text: "A loving and loyal dog, ideal for families and apartments." }
@@ -1072,7 +1035,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/Yorkshire_Terrier.png",
         es: { text: "Un perro pequeño y encantador, ideal para dueños que buscan un compañero leal." },
         en: { text: "A small and charming dog, ideal for owners looking for a loyal companion." }
@@ -1092,7 +1055,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro inteligente y versátil, ideal para familias activas." },
         en: { text: "An intelligent and versatile dog, ideal for active families." }
@@ -1112,7 +1075,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro amigable y activo, excelente para familias y actividades al aire libre." },
         en: { text: "A friendly and active dog, great for families and outdoor activities." }
@@ -1132,7 +1095,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro leal y protector, ideal para familias y protección." },
         en: { text: "A loyal and protective dog, ideal for families and guarding." }
@@ -1152,7 +1115,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro dulce y amigable, excelente para familias con niños." },
         en: { text: "A sweet and friendly dog, great for families with children." }
@@ -1172,7 +1135,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro activo y social, excelente para familias con espacio." },
         en: { text: "An active and social dog, great for families with space." }
@@ -1192,7 +1155,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro cariñoso y enérgico, ideal para familias activas." },
         en: { text: "A loving and energetic dog, ideal for active families." }
@@ -1212,7 +1175,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro ágil y fuerte, ideal para familias activas." },
         en: { text: "An agile and strong dog, ideal for active families." }
@@ -1232,7 +1195,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro cariñoso y leal, ideal para familias." },
         en: { text: "A loving and loyal dog, great for families." }
@@ -1252,7 +1215,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro amigable y trabajador, ideal para familias." },
         en: { text: "A friendly and hardworking dog, ideal for families." }
@@ -1272,7 +1235,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro activo y alerta, ideal para familias." },
         en: { text: "An active and alert dog, ideal for families." }
@@ -1292,7 +1255,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro amistoso y enérgico, ideal para familias." },
         en: { text: "A friendly and energetic dog, ideal for families." }
@@ -1312,7 +1275,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro enérgico y protector, ideal para familias." },
         en: { text: "An energetic and protective dog, ideal for families." }
@@ -1332,7 +1295,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Elegante y independiente, el Afghan Hound es un perro de compañía leal." },
         en: { text: "Elegant and independent, the Afghan Hound is a loyal companion dog." }
@@ -1352,7 +1315,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Airedale Terrier es conocido por su inteligencia y energía, ideal para familias." },
         en: { text: "The Airedale Terrier is known for its intelligence and energy, great for families." }
@@ -1372,7 +1335,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Un perro fuerte y leal, excelente para familias y protección." },
         en: { text: "A strong and loyal dog, excellent for families and protection." }
@@ -1392,7 +1355,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Pequeño y valiente, el Australian Terrier es perfecto para la vida familiar." },
         en: { text: "Small and brave, the Australian Terrier is perfect for family life." }
@@ -1412,7 +1375,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Con su aspecto distintivo, el Bedlington Terrier es un compañero encantador." },
         en: { text: "With its distinctive appearance, the Bedlington Terrier is a charming companion." }
@@ -1432,7 +1395,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Belgian Tervuren es un perro versátil y trabajador, ideal para actividades al aire libre." },
         en: { text: "The Belgian Tervuren is a versatile and hardworking dog, ideal for outdoor activities." }
@@ -1452,7 +1415,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Bergamasco es un perro leal y protector, ideal para el trabajo en el campo." },
         en: { text: "The Bergamasco is a loyal and protective dog, ideal for work in the field." }
@@ -1472,7 +1435,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Black and Tan Coonhound es un perro cazador con gran sentido del olfato." },
         en: { text: "The Black and Tan Coonhound is a hunting dog with a great sense of smell." }
@@ -1492,7 +1455,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Black Russian Terrier es un perro fuerte y protector, ideal para la familia." },
         en: { text: "The Black Russian Terrier is a strong and protective dog, ideal for family." }
@@ -1512,7 +1475,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Bloodhound es famoso por su olfato excepcional y su naturaleza amigable." },
         en: { text: "The Bloodhound is famous for its exceptional sense of smell and friendly nature." }
@@ -1532,7 +1495,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "Pequeño y valiente, el Border Terrier es un excelente compañero." },
         en: { text: "Small and brave, the Border Terrier is an excellent companion." }
@@ -1552,7 +1515,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Borzoi es un perro elegante y noble, ideal para hogares tranquilos." },
         en: { text: "The Borzoi is an elegant and noble dog, ideal for calm homes." }
@@ -1572,7 +1535,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Bouvier des Flandres es un perro fuerte y protector, ideal para familias." },
         en: { text: "The Bouvier des Flandres is a strong and protective dog, ideal for families." }
@@ -1592,7 +1555,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Boykin Spaniel es un perro enérgico y amigable, excelente para actividades al aire libre." },
         en: { text: "The Boykin Spaniel is an energetic and friendly dog, excellent for outdoor activities." }
@@ -1612,7 +1575,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Bracco Italiano es un perro de caza leal, ideal para familias activas." },
         en: { text: "The Bracco Italiano is a loyal hunting dog, ideal for active families." }
@@ -1632,7 +1595,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Brussels Griffon es un perro pequeño y curioso, ideal para la vida en apartamentos." },
         en: { text: "The Brussels Griffon is a small and curious dog, ideal for apartment living." }
@@ -1652,7 +1615,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Bull Terrier es conocido por su personalidad juguetona y enérgica." },
         en: { text: "The Bull Terrier is known for its playful and energetic personality." }
@@ -1672,7 +1635,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Bullmastiff es un perro poderoso y protector, excelente para la seguridad del hogar." },
         en: { text: "The Bullmastiff is a powerful and protective dog, excellent for home security." }
@@ -1692,7 +1655,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Chinese Crested es un perro único, conocido por su apariencia peculiar." },
         en: { text: "The Chinese Crested is a unique dog known for its peculiar appearance." }
@@ -1712,7 +1675,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Clumber Spaniel es un perro amable y amigable, ideal para familias." },
         en: { text: "The Clumber Spaniel is a gentle and friendly dog, ideal for families." }
@@ -1732,7 +1695,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Collie es un perro inteligente y leal, ideal para la vida familiar." },
         en: { text: "The Collie is an intelligent and loyal dog, ideal for family life." }
@@ -1752,7 +1715,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Coonhound es un perro cazador, enérgico y amigable." },
         en: { text: "The Coonhound is a hunting dog, energetic and friendly." }
@@ -1772,7 +1735,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Corgi es un perro juguetón y cariñoso, ideal para familias." },
         en: { text: "The Corgi is a playful and affectionate dog, ideal for families." }
@@ -1792,7 +1755,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Dogo Argentino es un perro fuerte y protector, ideal para la familia." },
         en: { text: "The Dogo Argentino is a strong and protective dog, ideal for family." }
@@ -1812,7 +1775,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Dogue de Bordeaux es un perro leal y poderoso, excelente para la protección." },
         en: { text: "The Dogue de Bordeaux is a loyal and powerful dog, excellent for protection." }
@@ -1832,7 +1795,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Pastor Alemán es un perro inteligente y versátil, ideal para trabajo y familia." },
         en: { text: "The German Shepherd is an intelligent and versatile dog, ideal for work and family." }
@@ -1852,7 +1815,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Pointer Alemán de Pelo Corto es un perro enérgico y amante de la caza." },
         en: { text: "The German Shorthaired Pointer is an energetic and hunting-loving dog." }
@@ -1872,7 +1835,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Pointer Alemán de Pelo Duro es un perro versátil y trabajador." },
         en: { text: "The German Wirehaired Pointer is a versatile and hardworking dog." }
@@ -1892,7 +1855,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Schnauzer Gigante es un perro fuerte y protector, ideal para el hogar." },
         en: { text: "The Giant Schnauzer is a strong and protective dog, ideal for home." }
@@ -1912,7 +1875,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Glen of Imaal Terrier es un perro curioso y leal, ideal para familias." },
         en: { text: "The Glen of Imaal Terrier is a curious and loyal dog, ideal for families." }
@@ -1932,7 +1895,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Goldador es un perro amigable y cariñoso, ideal para familias." },
         en: { text: "The Goldador is a friendly and affectionate dog, ideal for families." }
@@ -1952,7 +1915,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Goldendoodle es un perro cariñoso y juguetón, ideal para la familia." },
         en: { text: "The Goldendoodle is a loving and playful dog, ideal for family." }
@@ -1972,7 +1935,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Gran Danés es un perro impresionante y amable, ideal para la familia." },
         en: { text: "The Great Dane is an impressive and gentle dog, ideal for family." }
@@ -1992,7 +1955,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Gran Pirineo es un perro protector y cariñoso, ideal para familias." },
         en: { text: "The Great Pyrenees is a protective and affectionate dog, ideal for families." }
@@ -2012,7 +1975,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Perro de Montaña Suizo Mayor es un perro leal y trabajador." },
         en: { text: "The Greater Swiss Mountain Dog is a loyal and hardworking dog." }
@@ -2032,7 +1995,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Harrier es un perro activo y juguetón, ideal para familias." },
         en: { text: "The Harrier is an active and playful dog, ideal for families." }
@@ -2052,7 +2015,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Havanese es un perro amigable y cariñoso, ideal para la vida en apartamentos." },
         en: { text: "The Havanese is a friendly and affectionate dog, ideal for apartment living." }
@@ -2072,7 +2035,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Pastor Alemán es un perro inteligente y versátil, ideal para trabajo y familia." },
         en: { text: "The German Shepherd is an intelligent and versatile dog, ideal for work and family." }
@@ -2092,7 +2055,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Pointer Alemán de Pelo Corto es un perro enérgico y amante de la caza." },
         en: { text: "The German Shorthaired Pointer is an energetic and hunting-loving dog." }
@@ -2112,7 +2075,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Pointer Alemán de Pelo Duro es un perro versátil y trabajador." },
         en: { text: "The German Wirehaired Pointer is a versatile and hardworking dog." }
@@ -2132,7 +2095,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Schnauzer Gigante es un perro fuerte y protector, ideal para el hogar." },
         en: { text: "The Giant Schnauzer is a strong and protective dog, ideal for home." }
@@ -2152,7 +2115,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Glen of Imaal Terrier es un perro curioso y leal, ideal para familias." },
         en: { text: "The Glen of Imaal Terrier is a curious and loyal dog, ideal for families." }
@@ -2172,7 +2135,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Goldador es un perro amigable y cariñoso, ideal para familias." },
         en: { text: "The Goldador is a friendly and affectionate dog, ideal for families." }
@@ -2192,7 +2155,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Goldendoodle es un perro cariñoso y juguetón, ideal para la familia." },
         en: { text: "The Goldendoodle is a loving and playful dog, ideal for family." }
@@ -2212,7 +2175,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Gran Danés es un perro impresionante y amable, ideal para la familia." },
         en: { text: "The Great Dane is an impressive and gentle dog, ideal for family." }
@@ -2232,7 +2195,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Gran Pirineo es un perro protector y cariñoso, ideal para familias." },
         en: { text: "The Great Pyrenees is a protective and affectionate dog, ideal for families." }
@@ -2252,7 +2215,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Perro de Montaña Suizo Mayor es un perro leal y trabajador." },
         en: { text: "The Greater Swiss Mountain Dog is a loyal and hardworking dog." }
@@ -2272,7 +2235,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Harrier es un perro activo y juguetón, ideal para familias." },
         en: { text: "The Harrier is an active and playful dog, ideal for families." }
@@ -2292,7 +2255,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Havanese es un perro amigable y cariñoso, ideal para la vida en apartamentos." },
         en: { text: "The Havanese is a friendly and affectionate dog, ideal for apartment living." }
@@ -2312,7 +2275,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Setter Irlandés es un perro enérgico y amistoso, ideal para familias activas." },
         en: { text: "The Irish Setter is an energetic and friendly dog, ideal for active families." }
@@ -2332,7 +2295,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Terrier Irlandés es un perro leal y juguetón, ideal para familias." },
         en: { text: "The Irish Terrier is a loyal and playful dog, ideal for families." }
@@ -2352,7 +2315,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Spaniel de Agua Irlandés es un perro juguetón y versátil, ideal para familias activas." },
         en: { text: "The Irish Water Spaniel is a playful and versatile dog, ideal for active families." }
@@ -2372,7 +2335,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Galgo Italiano es un perro elegante y cariñoso, ideal para apartamentos." },
         en: { text: "The Italian Greyhound is an elegant and affectionate dog, ideal for apartments." }
@@ -2392,7 +2355,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Jack Russell Terrier es un perro activo y inteligente, ideal para familias." },
         en: { text: "The Jack Russell Terrier is an active and intelligent dog, ideal for families." }
@@ -2412,7 +2375,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Chin Japonés es un perro juguetón y cariñoso, ideal para la vida en casa." },
         en: { text: "The Japanese Chin is a playful and affectionate dog, ideal for home life." }
@@ -2432,7 +2395,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Keeshond es un perro amigable y alerta, ideal para familias." },
         en: { text: "The Keeshond is a friendly and alert dog, ideal for families." }
@@ -2452,7 +2415,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Lagotto Romagnolo es un perro inteligente y enérgico, ideal para la familia." },
         en: { text: "The Lagotto Romagnolo is an intelligent and energetic dog, ideal for family." }
@@ -2472,7 +2435,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Lakeland Terrier es un perro juguetón y leal, ideal para familias." },
         en: { text: "The Lakeland Terrier is a playful and loyal dog, ideal for families." }
@@ -2492,7 +2455,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Lhasa Apso es un perro independiente y leal, ideal para la vida en casa." },
         en: { text: "The Lhasa Apso is an independent and loyal dog, ideal for home life." }
@@ -2512,7 +2475,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Maltés es un perro cariñoso y juguetón, ideal para la vida en casa." },
         en: { text: "The Maltese is a loving and playful dog, ideal for home life." }
@@ -2532,7 +2495,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Manchester Terrier es un perro ágil y alerta, ideal para la familia." },
         en: { text: "The Manchester Terrier is an agile and alert dog, ideal for family." }
@@ -2552,7 +2515,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Mastín es un perro fuerte y leal, ideal para familias y hogares espaciosos." },
         en: { text: "The Mastiff is a strong and loyal dog, ideal for families and spacious homes." }
@@ -2572,7 +2535,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Bull Terrier Miniatura es un perro juguetón y enérgico, ideal para familias." },
         en: { text: "The Miniature Bull Terrier is a playful and energetic dog, ideal for families." }
@@ -2592,7 +2555,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Pinscher Miniatura es un perro ágil y activo, ideal para apartamentos." },
         en: { text: "The Miniature Pinscher is an agile and active dog, ideal for apartments." }
@@ -2612,7 +2575,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Schnauzer Miniatura es un perro cariñoso y juguetón, ideal para familias." },
         en: { text: "The Miniature Schnauzer is a loving and playful dog, ideal for families." }
@@ -2632,7 +2595,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Terranova es un perro amable y protector, ideal para familias." },
         en: { text: "The Newfoundland is a gentle and protective dog, ideal for families." }
@@ -2652,7 +2615,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Norfolk Terrier es un perro pequeño y amistoso, ideal para familias." },
         en: { text: "The Norfolk Terrier is a small and friendly dog, ideal for families." }
@@ -2672,7 +2635,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Buhund Noruego es un perro versátil y activo, ideal para familias." },
         en: { text: "The Norwegian Buhund is a versatile and active dog, ideal for families." }
@@ -2692,7 +2655,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Elkhound Noruego es un perro leal y protector, ideal para familias." },
         en: { text: "The Norwegian Elkhound is a loyal and protective dog, ideal for families." }
@@ -2712,7 +2675,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Perro Pastor Inglés Antiguo es un perro amistoso y protector, ideal para familias." },
         en: { text: "The Old English Sheepdog is a friendly and protective dog, ideal for families." }
@@ -2732,7 +2695,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Papillon es un perro pequeño y alegre, ideal para la vida en casa." },
         en: { text: "The Papillon is a small and cheerful dog, ideal for home life." }
@@ -2752,7 +2715,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 1,
-        purpose: 1,
+        dependance: 1,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Pekingés es un perro leal y cariñoso, ideal para la vida en casa." },
         en: { text: "The Pekingese is a loyal and affectionate dog, ideal for home life." }
@@ -2772,7 +2735,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Corgi Galés de Pembroke es un perro amigable y leal, ideal para familias." },
         en: { text: "The Pembroke Welsh Corgi is a friendly and loyal dog, ideal for families." }
@@ -2792,7 +2755,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Pit Bull Terrier es un perro fuerte y cariñoso, ideal para familias." },
         en: { text: "The Pit Bull Terrier is a strong and affectionate dog, ideal for families." }
@@ -2812,7 +2775,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Pointer es un perro activo y amistoso, ideal para familias y actividades al aire libre." },
         en: { text: "The Pointer is an active and friendly dog, ideal for families and outdoor activities." }
@@ -2832,7 +2795,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Perro Pastor Polaco es un perro inteligente y protector, ideal para familias." },
         en: { text: "The Polish Lowland Sheepdog is an intelligent and protective dog, ideal for families." }
@@ -2852,7 +2815,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Perro de Agua Portugués es un perro enérgico y versátil, ideal para familias." },
         en: { text: "The Portuguese Water Dog is an energetic and versatile dog, ideal for families." }
@@ -2872,7 +2835,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El San Bernardo es un perro amable y protector, ideal para familias grandes." },
         en: { text: "The Saint Bernard is a gentle and protective dog, ideal for large families." }
@@ -2892,7 +2855,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Saluki es un perro elegante y enérgico, ideal para familias activas." },
         en: { text: "The Saluki is an elegant and energetic dog, ideal for active families." }
@@ -2912,7 +2875,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Samoyedo es un perro amistoso y enérgico, ideal para familias y climas fríos." },
         en: { text: "The Samoyed is a friendly and energetic dog, ideal for families and cold climates." }
@@ -2932,7 +2895,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Schipperke es un perro curioso y enérgico, ideal para familias." },
         en: { text: "The Schipperke is a curious and energetic dog, ideal for families." }
@@ -2952,7 +2915,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Deerhound Escocés es un perro leal y protector, ideal para familias." },
         en: { text: "The Scottish Deerhound is a loyal and protective dog, ideal for families." }
@@ -2972,7 +2935,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Terrier Escocés es un perro valiente y leal, ideal para familias." },
         en: { text: "The Scottish Terrier is a brave and loyal dog, ideal for families." }
@@ -2992,7 +2955,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Sealyham Terrier es un perro amigable y enérgico, ideal para familias." },
         en: { text: "The Sealyham Terrier is a friendly and energetic dog, ideal for families." }
@@ -3012,7 +2975,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 3,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Shetland Sheepdog es un perro inteligente y leal, ideal para familias." },
         en: { text: "The Shetland Sheepdog is an intelligent and loyal dog, ideal for families." }
@@ -3032,7 +2995,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Shiba Inu es un perro independiente y leal, ideal para familias." },
         en: { text: "The Shiba Inu is an independent and loyal dog, ideal for families." }
@@ -3052,7 +3015,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Staffordshire Bull Terrier es un perro leal y enérgico, ideal para familias." },
         en: { text: "The Staffordshire Bull Terrier is a loyal and energetic dog, ideal for families." }
@@ -3072,7 +3035,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Schnauzer Estándar es un perro activo y leal, ideal para familias." },
         en: { text: "The Standard Schnauzer is an active and loyal dog, ideal for families." }
@@ -3092,7 +3055,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 3,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Mastín Tibetano es un perro protector y leal, ideal para familias." },
         en: { text: "The Tibetan Mastiff is a protective and loyal dog, ideal for families." }
@@ -3112,7 +3075,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Spaniel Tibetano es un perro amistoso y cariñoso, ideal para familias." },
         en: { text: "The Tibetan Spaniel is a friendly and affectionate dog, ideal for families." }
@@ -3132,7 +3095,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 3,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Terrier Tibetano es un perro cariñoso y amigable, ideal para familias." },
         en: { text: "The Tibetan Terrier is a loving and friendly dog, ideal for families." }
@@ -3152,7 +3115,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Vizsla es un perro activo y cariñoso, ideal para familias y actividades al aire libre." },
         en: { text: "The Vizsla is an active and affectionate dog, ideal for families and outdoor activities." }
@@ -3172,7 +3135,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Weimaraner es un perro enérgico y leal, ideal para familias activas." },
         en: { text: "The Weimaraner is an energetic and loyal dog, ideal for active families." }
@@ -3192,7 +3155,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Spaniel de Welsh es un perro amistoso y enérgico, ideal para familias." },
         en: { text: "The Welsh Springer Spaniel is a friendly and energetic dog, ideal for families." }
@@ -3212,7 +3175,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Terrier de Welsh es un perro amistoso y leal, ideal para familias." },
         en: { text: "The Welsh Terrier is a friendly and loyal dog, ideal for families." }
@@ -3232,7 +3195,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El West Highland White Terrier es un perro alegre y amistoso, ideal para familias." },
         en: { text: "The West Highland White Terrier is a cheerful and friendly dog, ideal for families." }
@@ -3252,7 +3215,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Whippet es un perro rápido y cariñoso, ideal para familias." },
         en: { text: "The Whippet is a fast and affectionate dog, ideal for families." }
@@ -3272,7 +3235,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 2,
+        dependance: 2,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Wire Fox Terrier es un perro enérgico y amistoso, ideal para familias." },
         en: { text: "The Wire Fox Terrier is an energetic and friendly dog, ideal for families." }
@@ -3292,7 +3255,7 @@ const dogBreeds = [
         health: 2,
         lifespan: 2,
         weather: 2,
-        purpose: 3,
+        dependance: 3,
         image: "assets/css/images/dog_placeholder.png",
         es: { text: "El Wirehaired Pointing Griffon es un perro versátil y amistoso, ideal para familias." },
         en: { text: "The Wirehaired Pointing Griffon is a versatile and friendly dog, ideal for families." }
@@ -3382,8 +3345,8 @@ function answerQuestion(value) {
         case "weather":
             filters.weather = value;
             break;
-        case "purpose":
-            filters.purpose = value;
+        case "dependance":
+            filters.dependance = value;
             break;
         default:
             // Optionally handle other cases or do nothing
@@ -3523,13 +3486,13 @@ function filterDogs() {
         if (filters.intelligence && dog.intelligence < filters.intelligence) {
             matches = false;
         }
-        if (filters.trainability && dog.trainability !== filters.trainability) {
+        if (filters.trainability && dog.trainability < filters.trainability) {
             matches = false;
         }
-        if (filters.barking && dog.barking !== filters.barking) {
+        if (filters.barking && dog.barking < filters.barking) {
             matches = false;
         }
-        if (filters.health && dog.health !== filters.health) {
+        if (filters.health && dog.health > filters.health) {
             matches = false;
         }
         if (filters.lifespan && dog.lifespan !== filters.lifespan) {
@@ -3538,7 +3501,7 @@ function filterDogs() {
         if (filters.weather && dog.weather !== filters.weather) {
             matches = false;
         }
-        if (filters.purpose && dog.purpose !== filters.purpose) {
+        if (filters.dependance && dog.dependance > filters.dependance) {
             matches = false;
         }
 
@@ -3572,7 +3535,7 @@ function resetFilters() {
     filters.health = null;
     filters.lifespan = null;
     filters.weather = null;
-    filters.purpose = null;
+    filters.dependance = null;
     filters.spaceNeeded = null;
     filters.energy = null;
     filters.shedding = null;
