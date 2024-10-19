@@ -96,23 +96,23 @@ const questions = [
     {
         es: {
             question: "¿Eres una persona paciente?",
-            answers: ["No", "A veces", "Sí"],
+            answers: ["No", "Bastante", "Mucho"],
           },
         en: {
             question: "Are you a patient person?",
-            answers: ["No", "Sometimes", "Yes"],
+            answers: ["No", "Enough", "A lot"],
           },
-        value: [1, 2, 3],
+        value: [3, 2, 1],
         concept: "intelligence"
     },
     {
         es: {
             question: "¿Te gusta enseñar a otros?",
-            answers: ["No", "Me da igual", "Sí"],
+            answers: ["No", "Un poco", "Mucho"],
           },
         en: {
             question: "Do you like to teach to others?",
-            answers: ["No", "I don't mind", "Yes"],
+            answers: ["No", "A little", "A lot"],
           },
         value: [1, 2, 3],
         concept: "trainability"
@@ -126,7 +126,7 @@ const questions = [
             question: "How sensitive are you to noise?",
             answers: ["None", "A little", "A lot"],
           },
-        value: [1, 2, 3],
+        value: [3, 2, 1],
         concept: "barking"
     },
     {
@@ -187,14 +187,14 @@ const content = {
       title: 'Encuentra tu perro ideal',
       start_button: 'Empieza el Quizz',
       restart_button: 'Volver',
-      start_message: "Empieza el quizz y encuentra tu perro ideal!",
-      end_message: "¡Buen Trabajo! ¡Hemos encontrado la selección de perros ideales para ti!"
+      start_message: "Responde preguntas sobre tus gustos y tu estilo de vida y encuentra a tu perro ideal!",
+      end_message: "¡Buen Trabajo! ¡Esta es la selección de perros ideales para ti!"
     },
     en: {
       title: 'Find your ideal dog',
       start_button: 'Start the Quizz',
       restart_button: 'Return',
-      start_message: "Start the Quizz and find your ideal dog!",
+      start_message: "Aswer questions about your interests and lyfestyle and find your ideal dog!",
       end_message: "Great Job! This is the selection of your ideal dogs!"
     }
   };
@@ -3177,10 +3177,10 @@ function filterDogs() {
         if (filters.trainability && dog.trainability < filters.trainability) {
             matches = false;
         }
-        if (filters.barking && dog.barking < filters.barking) {
+        if (filters.barking && dog.barking > filters.barking) {
             matches = false;
         }
-        if (filters.health && dog.health > filters.health) {
+        if (filters.health && dog.health < filters.health) {
             matches = false;
         }
         if (filters.lifespan && dog.lifespan !== filters.lifespan) {
