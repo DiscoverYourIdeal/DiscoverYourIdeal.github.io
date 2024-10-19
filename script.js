@@ -188,14 +188,16 @@ const content = {
       start_button: 'Empieza el Quizz',
       restart_button: 'Volver',
       start_message: "Responde preguntas sobre tus gustos y tu estilo de vida y encuentra a tu perro ideal!",
-      end_message: "¡Buen Trabajo! ¡Esta es la selección de perros ideales para ti!"
+      end_message: "¡Buen Trabajo! ¡Esta es la selección de perros ideales para ti!",
+      ups_message: "Ups! Parece que no hay perros que se adapten a tus gustos y estilo de vida! Vuelve a probar!"
     },
     en: {
       title: 'Find your ideal dog',
       start_button: 'Start the Quizz',
       restart_button: 'Return',
-      start_message: "Aswer questions about your interests and lyfestyle and find your ideal dog!",
-      end_message: "Great Job! This is the selection of your ideal dogs!"
+      start_message: "Aswer questions about your interests and lifestyle and find your ideal dog!",
+      end_message: "Great Job! This is the selection of your ideal dogs!",
+      ups_message: "Ups! It seems that there isn't any dog that adapts to your interests and lifestyle. Try again!"
     }
   };
 
@@ -3054,15 +3056,25 @@ function answerQuestion(value) {
     filterDogs();
 
     currentQuestionIndex++;
-    if (numberOfDogsLeft>5 && currentQuestionIndex < questions.length) 
-        {
-        loadQuestion(); // Carga la siguiente pregunta
-        } 
-    else {
+    if(numberOfDogsLeft<=0)
+    {
         document.getElementById('questions-panel').style.display = 'none'; // Oculta el panel de preguntas
         document.getElementById('restart-button').style.display = 'inline'; // Muestra el botón de reinicio
-        document.getElementById('end-message').style.display = 'inline'; // Muestra el botón de reinicio
-        }
+        document.getElementById('ups-message').style.display = 'inline'; // Muestra el mensage final         
+    }
+    else
+    {
+        if (numberOfDogsLeft>7 && currentQuestionIndex < questions.length) 
+            {
+                loadQuestion(); // Carga la siguiente pregunta
+            } 
+        else {
+                document.getElementById('questions-panel').style.display = 'none'; // Oculta el panel de preguntas
+                document.getElementById('restart-button').style.display = 'inline'; // Muestra el botón de reinicio
+                document.getElementById('end-message').style.display = 'inline'; // Muestra el mensage final
+            }
+    }
+
 }
 
 function setInitState()
@@ -3104,6 +3116,7 @@ function setInitState()
     document.getElementById('quizz-question').style.display = 'none';
     document.getElementById('restart-button').style.display = 'none';
     document.getElementById('end-message').style.display = 'none';
+    document.getElementById('ups-message').style.display = 'none';
 
     let quizzAnswers = document.querySelectorAll('#questions-panel button');
     quizzAnswers.forEach(answer => {answer.style.display = 'none';});
@@ -3252,6 +3265,7 @@ function setLanguage(lang)
         const restartButtonElement = document.getElementById('restart-button');
         const startmessageElement = document.getElementById('start-message');
         const endmessageElement = document.getElementById('end-message');
+        const upsmessageElement = document.getElementById('ups-message');
         
         // Update the title and description based on the selected language
         titleElement.textContent = content[selectedLang].title;
@@ -3259,6 +3273,7 @@ function setLanguage(lang)
         restartButtonElement.textContent = content[selectedLang].restart_button;
         startmessageElement.textContent = content[selectedLang].start_message;
         endmessageElement.textContent = content[selectedLang].end_message;
+        upsmessageElement.textContent = content[selectedLang].ups_message;
 
         changeQuestionsPanelLanguage()
         setDogCards()
