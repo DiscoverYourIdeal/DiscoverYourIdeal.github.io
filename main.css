@@ -126,6 +126,15 @@ font-size: 1vw;
       gap: 35px 10px !important; /* 20px vertical gap, 10px horizontal gap */
     }
 
+    .dog-name {
+      /*white-space: nowrap;*/ /* Prevents the text from wrapping */
+      overflow: hidden; /* Hides the overflowing text */
+      text-overflow: ellipsis; /* Adds an ellipsis at the end */
+      position: relative;
+      max-width: block; /*140%;*/
+      font-size: 3vw;
+      }
+
   }
 
 h1.title {
