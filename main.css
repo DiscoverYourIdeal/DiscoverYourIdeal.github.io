@@ -16,9 +16,8 @@ body {
 }
 
 #dog-gallery {
-    margin-top: 20px;
+    margin-top: 2vh;
     background-image: url('assets/css/images/pattern brown.jpeg');
-    /*background-image: url('assets/css/images/hojas.jpg');*/
     width: 90vw; /* 80% of the viewport width */ /*auto*/
     height: 70vh; /* 60% of the viewport height */
     background-size: cover;
@@ -42,7 +41,7 @@ body {
     position: absolute; /* Position it relative to the viewport */
     left: 50%; /* Move it halfway across the viewport */
     transform: translate(-50%, 0%); /* Shift it back by half its width and height to center it */
-    gap: 0px 10px; /* 20px vertical gap, 10px horizontal gap */
+    gap: 0.5vw 1vw; /* 20px vertical gap, 10px horizontal gap */
   }
 
 .dog-card {
@@ -59,6 +58,23 @@ body {
     border-radius: 15px; /* Smooth edges */
     /* transition: transform 1.0s ease, opacity 1.0s ease; */ /* Smooth transition for movement and fade-out */
     /* transition-delay: 0.05s; */ /* Adjust delay for staggered effect */
+}
+
+.dog-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.dog-name {
+/*white-space: nowrap;*/ /* Prevents the text from wrapping */
+overflow: hidden; /* Hides the overflowing text */
+text-overflow: ellipsis; /* Adds an ellipsis at the end */
+position: relative;
+margin: 1vw -2vw;
+/*width: 14vw;*/
+max-width: 140%; /*block;*/
+font-size: calc(10px + 0.5vw);
 }
 
 /* PHONE SETTINGS */
@@ -191,12 +207,6 @@ h1.title {
 .fade-out {
   opacity: 0; /* Fade out opacity */
   transition: opacity 0.5s ease; /* Smooth transition for opacity */
-}
-
-.dog-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
 }
 
 .quizz-card img {

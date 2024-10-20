@@ -3064,7 +3064,7 @@ function answerQuestion(value) {
     }
     else
     {
-        if (numberOfDogsLeft>7 && currentQuestionIndex < questions.length) 
+        if (numberOfDogsLeft>5 && currentQuestionIndex < questions.length) 
             {
                 loadQuestion(); // Carga la siguiente pregunta
             } 
