@@ -71,10 +71,10 @@ body {
 overflow: hidden; /* Hides the overflowing text */
 text-overflow: ellipsis; /* Adds an ellipsis at the end */
 position: relative;
-margin: 1vw -2vw;
+/*margin: 1vw -2vw;*/
 /*width: 14vw;*/
-max-width: 140%; /*block;*/
-font-size: calc(10px + 0.5vw);
+max-width: block; /*140%;*/
+font-size: 1vw;
 }
 
 /* PHONE SETTINGS */
@@ -175,6 +175,10 @@ h1.title {
   /*transform: translate(-50%, -200%) scale(1.8);*/ /* Center and scale when clicked */
   /*background-color: rgba(255, 255, 255, 1);*/ /* Fully opaque when clicked */
   /*z-index: 10;*/                /* Bring it to the front */
+}
+
+.dog-card.clicked .dog-name {
+  font-size: 20px; /* Adjust the size as needed */
 }
 
 .close-btn {
