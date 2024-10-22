@@ -879,7 +879,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Labrador_Retriever.png",
         es: { text: "Un perro activo y amigable, ideal para familias y actividades al aire libre." },
         en: { text: "An active and friendly dog, ideal for families and outdoor activities." }
     },
@@ -899,7 +899,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 1,
         dependance: 1,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Pomeranian2.png",
         es: { text: "Un perro pequeño y lleno de energía, ideal para dueños que buscan un compañero activo." },
         en: { text: "A small and energetic dog, ideal for owners looking for an active companion." }
     },
@@ -939,29 +939,9 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Rottweiler.png",
         es: { text: "Un perro fuerte y leal, ideal para dueños experimentados y familias." },
         en: { text: "A strong and loyal dog, ideal for experienced owners and families." }
-    },
-    {
-        name: "Schnauzer",
-        size: 2,
-        energy: 2,
-        goodWithKids: 3,
-        groomingRequirements: 3,
-        goodWithPets: 2,
-        intelligence: 3,
-        trainability: 2,
-        shedding: 2,
-        spaceNeeded: 2,
-        barking: 2,
-        health: 2,
-        lifespan: 3,
-        weather: 2,
-        dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
-        es: { text: "Un perro inteligente y amistoso, ideal para familias con niños." },
-        en: { text: "An intelligent and friendly dog, ideal for families with children." }
     },
     {
         name: "Shih Tzu",
@@ -979,7 +959,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 1,
         dependance: 1,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Shih_Tzu.png",
         es: { text: "Un perro cariñoso y leal, ideal para familias y apartamentos." },
         en: { text: "A loving and loyal dog, ideal for families and apartments." }
     },
@@ -1039,7 +1019,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/English_Cocker_Spaniel.png",
         es: { text: "Un perro dulce y amigable, excelente para familias con niños." },
         en: { text: "A sweet and friendly dog, great for families with children." }
     },
@@ -1059,7 +1039,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/English_Foxhound.png",
         es: { text: "Un perro activo y social, excelente para familias con espacio." },
         en: { text: "An active and social dog, great for families with space." }
     },
@@ -1079,7 +1059,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/English_Setter.png",
         es: { text: "Un perro cariñoso y enérgico, ideal para familias activas." },
         en: { text: "A loving and energetic dog, ideal for active families." }
     },
@@ -1099,7 +1079,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Entlebucher_Mountain_Dog.png",
         es: { text: "Un perro ágil y fuerte, ideal para familias activas." },
         en: { text: "An agile and strong dog, ideal for active families." }
     },
