@@ -839,7 +839,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 1,
         dependance: 1,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/French_Bulldog.png",
         es: { text: "Un perro juguetón y cariñoso, ideal para familias y apartamentos." },
         en: { text: "A playful and affectionate dog, ideal for families and apartments." }
     },
