@@ -1099,7 +1099,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Field_Spaniel.png",
         es: { text: "Un perro cariñoso y leal, ideal para familias." },
         en: { text: "A loving and loyal dog, great for families." }
     },
@@ -1119,7 +1119,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 3,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Finnish_Lapphund.png",
         es: { text: "Un perro amigable y trabajador, ideal para familias." },
         en: { text: "A friendly and hardworking dog, ideal for families." }
     },
