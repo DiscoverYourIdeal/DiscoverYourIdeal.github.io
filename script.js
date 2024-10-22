@@ -499,7 +499,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Belgian_Malinois.png",
         es: { text: "Un perro inteligente y enérgico, excelente para entrenamiento y trabajos de servicio." },
         en: { text: "An intelligent and energetic dog, excellent for training and service work." }
     },
@@ -519,7 +519,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 1,
         dependance: 1,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Bichon_Frise.png",
         es: { text: "Un perro pequeño y cariñoso, ideal para apartamentos y familias con niños." },
         en: { text: "A small and affectionate dog, ideal for apartments and families with children." }
     },
@@ -539,7 +539,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Border_Collie.png",
         es: { text: "Un perro extremadamente inteligente y ágil, perfecto para familias activas y deportes caninos." },
         en: { text: "An extremely intelligent and agile dog, perfect for active families and dog sports." }
     },
@@ -559,7 +559,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 1,
         dependance: 1,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Boston_Terrier.png",
         es: { text: "Un perro pequeño y cariñoso, ideal para apartamentos y familias." },
         en: { text: "A small and affectionate dog, ideal for apartments and families." }
     },
@@ -599,29 +599,9 @@ const dogBreeds = [
         lifespan: 3,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Brittany_Spaniel.png",
         es: { text: "Un perro enérgico y alegre, ideal para familias activas y entrenamiento." },
         en: { text: "An energetic and cheerful dog, ideal for active families and training." }
-    },
-    {
-        name: "Bulldog",
-        size: 2,
-        energy: 1,
-        goodWithKids: 3,
-        groomingRequirements: 1,
-        goodWithPets: 2,
-        intelligence: 2,
-        trainability: 1,
-        shedding: 2,
-        spaceNeeded: 2,
-        barking: 1,
-        health: 2,
-        lifespan: 2,
-        weather: 2,
-        dependance: 1,
-        image: "assets/css/images/Bulldog.png",
-        es: { text: "Un perro tranquilo y cariñoso, ideal para familias y apartamentos." },
-        en: { text: "A calm and affectionate dog, ideal for families and apartments." }
     },
     {
         name: "Cairn Terrier",
@@ -639,7 +619,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 1,
         dependance: 1,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Cairn_Terrier.png",
         es: { text: "Un perro pequeño y amigable, ideal para familias y niños." },
         en: { text: "A small and friendly dog, ideal for families and children." }
     },
@@ -659,7 +639,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 1,
         dependance: 1,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Cavalier_King_Charles_Spaniel.png",
         es: { text: "Un perro cariñoso y amable, ideal para familias y apartamentos." },
         en: { text: "A loving and gentle dog, ideal for families and apartments." }
     },
@@ -699,7 +679,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Chinese_Shar_Pei.png",
         es: { text: "Un perro tranquilo y leal, ideal para familias y hogares." },
         en: { text: "A calm and loyal dog, ideal for families and homes." }
     },
@@ -719,7 +699,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Chow_Chow.png",
         es: { text: "Un perro único y leal, ideal para dueños que buscan un compañero independiente." },
         en: { text: "A unique and loyal dog, ideal for owners looking for an independent companion." }
     },
@@ -759,7 +739,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 1,
         dependance: 1,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Dachshund.png",
         es: { text: "Un perro pequeño y valiente, ideal para familias y dueños." },
         en: { text: "A small and brave dog, ideal for families and owners." }
     },
@@ -779,7 +759,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Dalmatian.png",
         es: { text: "Un perro enérgico y amigable, ideal para familias activas y entusiastas." },
         en: { text: "An energetic and friendly dog, ideal for active families and enthusiasts." }
     },
@@ -799,7 +779,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Doberman_Pinscher.png",
         es: { text: "Un perro inteligente y protector, ideal para familias y dueños experimentados." },
         en: { text: "An intelligent and protective dog, ideal for families and experienced owners." }
     },
@@ -819,7 +799,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 1,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/English_Bulldog.png",
         es: { text: "Un perro tranquilo y cariñoso, ideal para familias y hogares." },
         en: { text: "A calm and affectionate dog, ideal for families and homes." }
     },
@@ -839,7 +819,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/English_Springer_Spaniel.png",
         es: { text: "Un perro enérgico y amistoso, ideal para familias y actividades al aire libre." },
         en: { text: "An energetic and friendly dog, ideal for families and outdoor activities." }
     },
