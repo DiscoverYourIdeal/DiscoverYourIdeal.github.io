@@ -259,7 +259,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 1,
         dependance: 1,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Affenpinscher.png",
         es: { text: "Pequeño y enérgico, el Affenpinscher es curioso y necesita entrenamiento temprano." },
         en: { text: "Small and energetic, the Affenpinscher is curious and requires early training." }
     },
@@ -279,7 +279,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 3,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Akita.png",
         es: { text: "Un perro leal y protector, el Akita es mejor en hogares con dueños experimentados." },
         en: { text: "A loyal and protective dog, the Akita is best suited for homes with experienced owners." }
     },
@@ -299,7 +299,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 3,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Alaskan_Malamute.png",
         es: { text: "Un perro fuerte y enérgico, el Alaskan Malamute es perfecto para actividades al aire libre." },
         en: { text: "A strong and energetic dog, the Alaskan Malamute is perfect for outdoor activities." }
     },
@@ -319,7 +319,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/American_Bulldog.png",
         es: { text: "Un perro amigable y protector, excelente para familias, requiere entrenamiento y socialización." },
         en: { text: "A friendly and protective dog, great for families, requires training and socialization." }
     },
@@ -339,7 +339,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/American_Pit_Bull_Terrier.png",
         es: { text: "Un perro enérgico y leal, necesita entrenamiento y socialización desde una edad temprana." },
         en: { text: "An energetic and loyal dog, needs training and socialization from a young age." }
     },
@@ -359,7 +359,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 3,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Anatolian_Shepherd_Dog.png",
         es: { text: "Un perro guardián fuerte y protector, ideal para familias con experiencia en razas grandes." },
         en: { text: "A strong and protective guardian dog, ideal for families with experience in large breeds." }
     },
@@ -379,7 +379,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Australian_Cattle_Dog.png",
         es: { text: "Un perro inteligente y enérgico, excelente para familias activas y entrenamiento." },
         en: { text: "An intelligent and energetic dog, great for active families and training." }
     },
@@ -399,7 +399,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Australian_Shepherd.png",
         es: { text: "Un perro ágil y trabajador, ideal para familias activas y entrenamiento." },
         en: { text: "An agile and hardworking dog, ideal for active families and training." }
     },
@@ -419,7 +419,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 2,
         dependance: 1,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Basenji.png",
         es: { text: "Un perro independiente y enérgico, a menudo se considera un buen compañero." },
         en: { text: "An independent and energetic dog, often considered a good companion." }
     },
@@ -439,7 +439,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 1,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Basset_Hound.png",
         es: { text: "Un perro tranquilo y amigable, ideal para familias y que se lleva bien con otras mascotas." },
         en: { text: "A calm and friendly dog, ideal for families and gets along well with other pets." }
     },
@@ -479,7 +479,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Bearded_Collie.png",
         es: { text: "Un perro amigable y alegre, ideal para familias activas y entrenamiento." },
         en: { text: "A friendly and cheerful dog, ideal for active families and training." }
     },
@@ -1039,7 +1039,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 3,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Beauceron.png",
         es: { text: "Un perro inteligente y versátil, ideal para familias activas." },
         en: { text: "An intelligent and versatile dog, ideal for active families." }
     },
