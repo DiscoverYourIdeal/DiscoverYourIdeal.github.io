@@ -1139,7 +1139,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 3,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Finnish_Spitz.png",
         es: { text: "Un perro activo y alerta, ideal para familias." },
         en: { text: "An active and alert dog, ideal for families." }
     },
@@ -1159,7 +1159,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Flat_Coated_Retriever.png",
         es: { text: "Un perro amistoso y enérgico, ideal para familias." },
         en: { text: "A friendly and energetic dog, ideal for families." }
     },
@@ -1179,7 +1179,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/German_Pinscher.png",
         es: { text: "Un perro enérgico y protector, ideal para familias." },
         en: { text: "An energetic and protective dog, ideal for families." }
     },
@@ -1199,7 +1199,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Afghan_Hound.png",
         es: { text: "Elegante y independiente, el Afghan Hound es un perro de compañía leal." },
         en: { text: "Elegant and independent, the Afghan Hound is a loyal companion dog." }
     },
@@ -1219,7 +1219,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Airedale_Terrier.png",
         es: { text: "El Airedale Terrier es conocido por su inteligencia y energía, ideal para familias." },
         en: { text: "The Airedale Terrier is known for its intelligence and energy, great for families." }
     },
@@ -1239,7 +1239,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/American_Staffordshire_Terrier.png",
         es: { text: "Un perro fuerte y leal, excelente para familias y protección." },
         en: { text: "A strong and loyal dog, excellent for families and protection." }
     },
@@ -1259,7 +1259,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Australian_Terrier.png",
         es: { text: "Pequeño y valiente, el Australian Terrier es perfecto para la vida familiar." },
         en: { text: "Small and brave, the Australian Terrier is perfect for family life." }
     },
@@ -1279,7 +1279,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Bedlington_Terrier.png",
         es: { text: "Con su aspecto distintivo, el Bedlington Terrier es un compañero encantador." },
         en: { text: "With its distinctive appearance, the Bedlington Terrier is a charming companion." }
     },
@@ -1299,7 +1299,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 3,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Belgian_Tervuren.png",
         es: { text: "El Belgian Tervuren es un perro versátil y trabajador, ideal para actividades al aire libre." },
         en: { text: "The Belgian Tervuren is a versatile and hardworking dog, ideal for outdoor activities." }
     },
@@ -1319,7 +1319,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 3,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Bergamasco_Sheepdog.png",
         es: { text: "El Bergamasco es un perro leal y protector, ideal para el trabajo en el campo." },
         en: { text: "The Bergamasco is a loyal and protective dog, ideal for work in the field." }
     },
@@ -1339,7 +1339,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Black_and_Tan_Coonhound.png",
         es: { text: "El Black and Tan Coonhound es un perro cazador con gran sentido del olfato." },
         en: { text: "The Black and Tan Coonhound is a hunting dog with a great sense of smell." }
     },
@@ -1359,7 +1359,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 3,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Black_Russian_Terrier.png",
         es: { text: "El Black Russian Terrier es un perro fuerte y protector, ideal para la familia." },
         en: { text: "The Black Russian Terrier is a strong and protective dog, ideal for family." }
     },
@@ -1379,7 +1379,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Bloodhound.png",
         es: { text: "El Bloodhound es famoso por su olfato excepcional y su naturaleza amigable." },
         en: { text: "The Bloodhound is famous for its exceptional sense of smell and friendly nature." }
     },
@@ -1399,7 +1399,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Border_Terrier.png",
         es: { text: "Pequeño y valiente, el Border Terrier es un excelente compañero." },
         en: { text: "Small and brave, the Border Terrier is an excellent companion." }
     },
@@ -1419,7 +1419,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 1,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Borzoi.png",
         es: { text: "El Borzoi es un perro elegante y noble, ideal para hogares tranquilos." },
         en: { text: "The Borzoi is an elegant and noble dog, ideal for calm homes." }
     },
@@ -1439,7 +1439,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 3,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Bouvier_des_Flandres.png",
         es: { text: "El Bouvier des Flandres es un perro fuerte y protector, ideal para familias." },
         en: { text: "The Bouvier des Flandres is a strong and protective dog, ideal for families." }
     },
@@ -2220,7 +2220,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.png",
+        image: "assets/css/images/Miniature_Pinscher.png",
         es: { text: "El Pinscher Miniatura es un perro ágil y activo, ideal para apartamentos." },
         en: { text: "The Miniature Pinscher is an agile and active dog, ideal for apartments." }
     },
