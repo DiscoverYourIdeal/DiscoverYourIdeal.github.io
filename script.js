@@ -219,7 +219,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 3,
         dependance: 2,
-        image: "assets/css/images/Siberian_Husky.png",
+        image: "assets/css/images/Siberian_Husky.webp",
         es: { text: "Un perro enérgico y amigable, ideal para familias activas y amantes del aire libre." },
         en: { text: "An energetic and friendly dog, ideal for active families and outdoor enthusiasts." }
     },
@@ -239,7 +239,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/Poodle.png",
+        image: "assets/css/images/Poodle.webp",
         es: { text: "Un perro inteligente y elegante, ideal para familias y personas activas." },
         en: { text: "An intelligent and elegant dog, ideal for families and active individuals." }
     },
@@ -1699,7 +1699,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.webp",
+        image: "assets/css/images/German_Wirehaired_Pointer.webp",
         es: { text: "El Pointer Alemán de Pelo Duro es un perro versátil y trabajador." },
         en: { text: "The German Wirehaired Pointer is a versatile and hardworking dog." }
     },
