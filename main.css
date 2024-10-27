@@ -71,11 +71,11 @@ body {
   display: none;
   overflow: hidden; /* Prevents overflow if elements are larger */
   overflow-y: auto; /* Allow vertical scrolling if content overflows */
-  width: 36vh; /* 80% of the viewport width */ /*auto*/
+  width: 100%;
   height: 20vh; /* 60% of the viewport height */
   position: relative;
   max-width: block; /*140%;*/
-  font-size: 2vw;
+  font-size: 1.75vh;
 }
 
 .dog-affiliatedLink
