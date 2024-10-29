@@ -185,7 +185,7 @@ const questions = [
 // Define the content for different languages
 const content = {
     es: {
-      title: 'Encuentra tu perro ideal',
+      title: 'Descubre tu perro ideal',
       start_button: 'Empieza el Quizz',
       restart_button: 'Volver',
       start_message: "Responde preguntas sobre tus gustos y tu estilo de vida y encuentra a tu perro ideal!",
@@ -193,7 +193,7 @@ const content = {
       ups_message: "Ups! Parece que no hay perros que se adapten a tus gustos y estilo de vida! Vuelve a probar!"
     },
     en: {
-      title: 'Find your ideal dog',
+      title: 'Discover Your Ideal Dog Breed',
       start_button: 'Start the Quizz',
       restart_button: 'Return',
       start_message: "Aswer questions about your interests and lifestyle and find your ideal dog!",
@@ -2002,7 +2002,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.webp",
+        image: "assets/css/images/Harrier.webp",
         es_ES: { affiliatedLink: "es_ES link", textLink: "Mira este producto!"},
         en_US: { affiliatedLink: "en_US link", textLink: "Check out this product!"},
         es: { text: "El Harrier es un perro activo y juguetón, ideal para familias." },
@@ -2024,13 +2024,12 @@ const dogBreeds = [
         lifespan: 3,
         weather: 1,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.webp",
+        image: "assets/css/images/Havanese.webp",
         es_ES: { affiliatedLink: "es_ES link", textLink: "Mira este producto!"},
         en_US: { affiliatedLink: "en_US link", textLink: "Check out this product!"},
         es: { text: "El Havanese es un perro amigable y cariñoso, ideal para la vida en apartamentos." },
         en: { text: "The Havanese is a friendly and affectionate dog, ideal for apartment living." }
     },
-
     {
         name: "Irish Setter",
         size: "large",
@@ -2047,7 +2046,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.webp",
+        image: "assets/css/images/Irish_Setter.webp",
         es_ES: { affiliatedLink: "es_ES link", textLink: "Mira este producto!"},
         en_US: { affiliatedLink: "en_US link", textLink: "Check out this product!"},
         es: { text: "El Setter Irlandés es un perro enérgico y amistoso, ideal para familias activas." },
@@ -2069,7 +2068,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.webp",
+        image: "assets/css/images/Irish_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link", textLink: "Mira este producto!"},
         en_US: { affiliatedLink: "en_US link", textLink: "Check out this product!"},
         es: { text: "El Terrier Irlandés es un perro leal y juguetón, ideal para familias." },
@@ -2091,7 +2090,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 3,
-        image: "assets/css/images/dog_placeholder.webp",
+        image: "assets/css/images/Irish_Water_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link", textLink: "Mira este producto!"},
         en_US: { affiliatedLink: "en_US link", textLink: "Check out this product!"},
         es: { text: "El Spaniel de Agua Irlandés es un perro juguetón y versátil, ideal para familias activas." },
