@@ -188,7 +188,7 @@ const content = {
       title: 'Descubre tu perro ideal',
       start_button: 'Empieza el Quizz',
       restart_button: 'Volver',
-      start_message: "Responde preguntas sobre tus gustos y tu estilo de vida y encuentra a tu perro ideal!",
+      start_message: "Responde preguntas sobre tus gustos y tu estilo de vida y descubre a tu perro ideal!",
       end_message: "¡Buen Trabajo! ¡Esta es la selección de perros ideales para ti!",
       ups_message: "Ups! Parece que no hay perros que se adapten a tus gustos y estilo de vida! Vuelve a probar!"
     },
@@ -196,7 +196,7 @@ const content = {
       title: 'Discover Your Ideal Dog Breed',
       start_button: 'Start the Quizz',
       restart_button: 'Return',
-      start_message: "Aswer questions about your interests and lifestyle and find your ideal dog!",
+      start_message: "Aswer questions about your interests and lifestyle and discover your ideal dog!",
       end_message: "Great Job! This is the selection of your ideal dogs!",
       ups_message: "Ups! It seems that there isn't any dog that adapts to your interests and lifestyle. Try again!"
     }
