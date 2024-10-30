@@ -88,16 +88,15 @@ body {
 }
 
 .dog-name {
-/*white-space: nowrap;*/ /* Prevents the text from wrapping */
-overflow: hidden; /* Hides the overflowing text */
-text-overflow: ellipsis; /* Adds an ellipsis at the end */
-position: relative;
-/*margin: 1vw -2vw;*/
-/*width: 14vw;*/
-max-width: block; /*140%;*/
-font-size: 1vw;
-margin-bottom: 3%;
-margin-top: 1%;
+  /*white-space: nowrap;*/ /* Prevents the text from wrapping */
+  overflow: hidden; /* Hides the overflowing text */
+  text-overflow: ellipsis; /* Adds an ellipsis at the end */
+  position: relative;
+  /*margin: 1vw -2vw;*/
+  /*width: 14vw;*/
+  max-width: block; /*140%;*/
+  font-size: 1vw;
+
 }
 
 /* PHONE SETTINGS */
@@ -211,6 +210,8 @@ h1.title {
 
 .dog-card.clicked .dog-name {
   font-size: 20px; /* Adjust the size as needed */
+  margin-bottom: 3%;
+  margin-top: 1%;
 }
 
 .dog-card.clicked .dog-description
