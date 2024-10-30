@@ -153,8 +153,19 @@ body {
       overflow: hidden; /* Hides the overflowing text */
       text-overflow: ellipsis; /* Adds an ellipsis at the end */
       position: relative;
-      max-width: block; /*140%;*/
+      width: 22vw;
+      max-width: 120%;
       font-size: 3vw;
+      margin-left: -1.5vw;
+      }
+  
+      .dog-card.clicked .dog-name {
+        font-size: 15px; /* Adjust the size as needed */
+        margin-bottom: 3%;
+        margin-top: 1%;
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0vw;
       }
 
   }
