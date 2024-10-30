@@ -223,8 +223,8 @@ const dogBreeds = [
         image: "assets/css/images/Siberian_Husky.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro enérgico y amigable, ideal para familias activas y amantes del aire libre.", textLink: "Mira este producto!" },
-        en: { text: "The Siberian Husky is a medium-sized, active dog known for its friendly and outgoing nature. Originally bred as sled dogs, they are strong, energetic, and have an independent streak. Their dense double coat, erect triangular ears, and striking blue or multi-colored eyes are distinctive features. Huskies are good with families and other dogs but require consistent training and ample exercise to satisfy their high energy levels. They are not prone to excessive barking, but they can be vocal with howls.", textLink: "Check out this product!" }
+        es: { text: "Los Huskies Siberianos son perros de tamaño mediano conocidos por su naturaleza amigable y extrovertida y sus llamativos ojos azules o de varios colores. Criados originalmente como perros de trineo, son fuertes, enérgicos e independientes. Los Huskies tienen un denso pelaje doble, orejas triangulares y necesitan ejercicio regular. Prosperan en familias activas y tienden a ser vocales, aullando en lugar de ladrar.", textLink: "Mira este producto!" },
+        en: { text: "Siberian Huskies are medium-sized dogs known for their friendly, outgoing nature and striking blue or multi-colored eyes. Originally bred as sled dogs, they are strong, energetic, and independent. Huskies have a thick double coat, triangular ears, and require regular exercise. They thrive in active families and tend to be vocal, howling rather than barking.", textLink: "Check out this product!" }
     },
     {
         name: "Poodle",
