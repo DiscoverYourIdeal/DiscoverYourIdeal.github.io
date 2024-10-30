@@ -159,17 +159,24 @@ body {
       margin-left: -1.5vw;
       }
   
+<<<<<<< HEAD
     .dog-card.clicked .dog-name {
+=======
+      .dog-card.clicked .dog-name {
+>>>>>>> cbe2e8b543141d060f17fa4b1726f6a5b7bc3931
         font-size: 15px; /* Adjust the size as needed */
         margin-bottom: 3%;
         margin-top: 1%;
         width: 100%;
         max-width: 100%;
         margin-left: 0vw;
+<<<<<<< HEAD
       }
 
     h1.title {
         font-size: 2rem !important; /* Make it large and bold */
+=======
+>>>>>>> cbe2e8b543141d060f17fa4b1726f6a5b7bc3931
       }
 
   }
