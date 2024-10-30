@@ -1,5 +1,5 @@
 let currentQuestionIndex = 0;
-let numberOfDogsLeft = 202;
+let numberOfDogsLeft = 133;
 let currentQuestionConcept = "";
 let selectedLang = "";
 let selectedCountry = "";
@@ -2112,7 +2112,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 1,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.webp",
+        image: "assets/css/images/Italian_Greyhound.webp",
         es_ES: { affiliatedLink: "es_ES link", textLink: "Mira este producto!"},
         en_US: { affiliatedLink: "en_US link", textLink: "Check out this product!"},
         es: { text: "El Galgo Italiano es un perro elegante y cariñoso, ideal para apartamentos." },
@@ -2134,7 +2134,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 2,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.webp",
+        image: "assets/css/images/Jack_Russell_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link", textLink: "Mira este producto!"},
         en_US: { affiliatedLink: "en_US link", textLink: "Check out this product!"},
         es: { text: "El Jack Russell Terrier es un perro activo y inteligente, ideal para familias." },
@@ -2156,7 +2156,7 @@ const dogBreeds = [
         lifespan: 3,
         weather: 1,
         dependance: 1,
-        image: "assets/css/images/dog_placeholder.webp",
+        image: "assets/css/images/Japanese_Chin.webp",
         es_ES: { affiliatedLink: "es_ES link", textLink: "Mira este producto!"},
         en_US: { affiliatedLink: "en_US link", textLink: "Check out this product!"},
         es: { text: "El Chin Japonés es un perro juguetón y cariñoso, ideal para la vida en casa." },
@@ -2178,7 +2178,7 @@ const dogBreeds = [
         lifespan: 2,
         weather: 3,
         dependance: 2,
-        image: "assets/css/images/dog_placeholder.webp",
+        image: "assets/css/images/Keeshond.webp",
         es_ES: { affiliatedLink: "es_ES link", textLink: "Mira este producto!"},
         en_US: { affiliatedLink: "en_US link", textLink: "Check out this product!"},
         es: { text: "El Keeshond es un perro amigable y alerta, ideal para familias." },
