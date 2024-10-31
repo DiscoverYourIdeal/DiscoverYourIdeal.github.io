@@ -619,8 +619,8 @@ const dogBreeds = [
         image: "assets/css/images/Boxer.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los Boxers son perros de tamaño mediano y musculosos, conocidos por su naturaleza juguetona y protectora. Son leales, enérgicos y disfrutan de estar cerca de sus familias. Los Boxers son inteligentes y responden bien a un entrenamiento constante. Son naturalmente protectores, lo que los convierte en buenos perros guardianes, pero también son cariñosos y excelentes con los niños. Su pelaje corto requiere un mínimo mantenimiento.", textLink: "Mira este producto!" },
+        en: { text: "Boxers are medium-sized, muscular dogs known for their playful and protective nature. They are loyal, energetic, and enjoy being around their families. Boxers are intelligent and respond well to consistent training. They are naturally protective, making them good guard dogs, but they are also affectionate and great with children. Their short coat requires minimal grooming.", textLink: "Check out this product!" }
     },
     {
         name: "Brittany Spaniel",
@@ -641,8 +641,8 @@ const dogBreeds = [
         image: "assets/css/images/Brittany_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Spaniel Bretón es una raza de perro atlética, enérgica y versátil, criada originalmente para la caza. Son amigables, alertas y ansiosos por complacer, lo que los convierte en excelentes compañeros y socios de caza. Los Brittanys tienen un agudo sentido del olfato y un fuerte deseo de trabajar. Son conocidos por su agilidad e inteligencia, requiriendo tanto ejercicio físico como estimulación mental. Su pelaje es relativamente fácil de mantener y generalmente son buenos con niños y otros perros.", textLink: "Mira este producto!" },
+        en: { text: "The Brittany Spaniel is an athletic, energetic, and versatile dog breed, originally bred for hunting. They are friendly, alert, and eager to please, making them excellent companions and hunting partners. Brittanys have a keen sense of smell and a strong desire to work. They are known for their agility and intelligence, requiring both physical exercise and mental stimulation. Their coat is relatively easy to maintain and they are generally good with children and other dogs.", textLink: "Check out this product!" }
     },
     {
         name: "Cairn Terrier",
@@ -663,8 +663,8 @@ const dogBreeds = [
         image: "assets/css/images/Cairn_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Cairn Terrier es una raza de perro pequeña y tenaz, conocida por su personalidad vivaz y naturaleza intrépida. Criados originalmente para cazar pequeñas presas, son alertas, inteligentes y curiosos. Los Cairn Terrier son independientes pero cariñosos, formando fuertes lazos con sus familias. Son altamente adaptables y se desenvuelven bien tanto en entornos urbanos como rurales. Su pelaje resistente a la intemperie requiere un cuidado regular.", textLink: "Mira este producto!" },
+        en: { text: "The Cairn Terrier is a small, tenacious dog breed known for its lively personality and fearless nature. Originally bred for hunting small game, they are alert, intelligent, and curious. Cairn Terriers are independent yet affectionate, forming strong bonds with their families. They are highly adaptable and do well in both urban and rural environments. Their weather-resistant coat requires regular grooming.", textLink: "Check out this product!" }
     },
     {
         name: "Cavalier King Charles Spaniel",
@@ -685,8 +685,8 @@ const dogBreeds = [
         image: "assets/css/images/Cavalier_King_Charles_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Cavalier King Charles Spaniel es una raza de perro pequeña y elegante, conocida por su temperamento dulce y cariñoso. Son amigables, juguetones y se llevan bien con los niños y otras mascotas. Los Cavaliers son inteligentes y ansiosos por complacer, lo que los hace relativamente fáciles de entrenar. Disfrutan estar con sus familias y son adecuados para vivir en apartamentos. Se necesita un aseo regular para mantener su pelaje sedoso.", textLink: "Mira este producto!" },
+        en: { text: "The Cavalier King Charles Spaniel is a small, elegant dog breed known for its gentle and affectionate temperament. They are friendly, playful, and get along well with children and other pets. Cavaliers are intelligent and eager to please, making them relatively easy to train. They enjoy being with their families and are well-suited for apartment living. Regular grooming is needed to maintain their silky coat.", textLink: "Check out this product!" }
     },
     {
         name: "Chihuahua",
@@ -707,8 +707,8 @@ const dogBreeds = [
         image: "assets/css/images/Chihuahua.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Chihuahua es una raza de perro pequeña y segura de sí misma, conocida por su personalidad audaz y vivaz. A pesar de su pequeño tamaño, son intrépidos y alertas, lo que los convierte en buenos perros guardianes. Los Chihuahuas son leales y forman fuertes lazos con sus dueños. Son adaptables a varios entornos de vida, incluidos los apartamentos. Los Chihuahuas vienen en variedades de pelo corto y largo y requieren poco mantenimiento.", textLink: "Mira este producto!" },
+        en: { text: "The Chihuahua is a small and confident dog breed known for its bold and lively personality. Despite their tiny size, they are fearless and alert, making them good watchdogs. Chihuahuas are loyal and form strong attachments to their owners. They are adaptable to various living environments, including apartments. Chihuahuas come in both short-haired and long-haired varieties and require minimal grooming.", textLink: "Check out this product!" }
     },
     {
         name: "Chinese Shar-Pei",
@@ -729,8 +729,8 @@ const dogBreeds = [
         image: "assets/css/images/Chinese_Shar_Pei.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Shar-Pei Chino es una raza de perro distintiva, conocida por su piel arrugada y lengua azul-negra. Son independientes, tranquilos y algo reservados con los extraños. Los Shar-Pei son leales y protectores con sus familias, lo que los convierte en buenos perros guardianes. Requieren entrenamiento y socialización constantes desde una edad temprana para manejar su tendencia a ser obstinados. Su pelaje corto es de bajo mantenimiento, pero necesita atención para mantener la piel sana.", textLink: "Mira este producto!" },
+        en: { text: "The Chinese Shar-Pei is a distinctive dog breed known for its wrinkled skin and blue-black tongue. They are independent, calm, and somewhat reserved with strangers. Shar-Peis are loyal and protective of their families, making them good watchdogs. They require consistent training and socialization from an early age to manage their stubborn tendencies. Their short coat is relatively low-maintenance but needs attention to keep their skin healthy.", textLink: "Check out this product!" }
     },
     {
         name: "Chow Chow",
@@ -751,8 +751,8 @@ const dogBreeds = [
         image: "assets/css/images/Chow_Chow.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Chow Chow es una raza de perro digna y distante con una apariencia distintiva, caracterizada por un denso doble pelaje y una lengua azul-negra única. Son independientes, leales y reservados con los extraños, pero afectuosos con sus familias. Los Chow Chows son conocidos por su carácter fuerte y protector. Requieren un entrenamiento constante y una socialización temprana para asegurar un buen comportamiento. El aseo regular es esencial para mantener su espeso pelaje.", textLink: "Mira este producto!" },
+        en: { text: "The Chow Chow is a dignified and aloof dog breed with a distinctive appearance, marked by a dense double coat and a unique blue-black tongue. They are independent, loyal, and reserved around strangers but affectionate with their families. Chow Chows are known for their strong-willed and protective nature. They require consistent training and early socialization to ensure they are well-behaved. Regular grooming is essential to maintain their thick coat.", textLink: "Check out this product!" }
     },
     {
         name: "Cocker Spaniel",
@@ -773,8 +773,8 @@ const dogBreeds = [
         image: "assets/css/images/Cocker_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Cocker Spaniel es una raza alegre y cariñosa, reconocida por su hermoso y fluido pelaje y sus ojos expresivos. Son conocidos por su naturaleza amigable y juguetona, llevándose bien con niños y otras mascotas. Los Cockers son inteligentes y ansiosos por complacer, lo que los hace relativamente fáciles de entrenar. Disfrutan de actividades físicas y requieren ejercicio regular. Su pelaje necesita un aseo frecuente para mantenerse en su mejor forma.", textLink: "Mira este producto!" },
+        en: { text: "The Cocker Spaniel is a cheerful and affectionate breed, recognized for its beautiful, flowing coat and expressive eyes. They are known for their friendly and playful nature, getting along well with children and other pets. Cockers are intelligent and eager to please, making them relatively easy to train. They enjoy physical activities and require regular exercise. Their coat needs frequent grooming to keep it looking its best.", textLink: "Check out this product!" }
     },
     {
         name: "Dachshund",
@@ -795,8 +795,8 @@ const dogBreeds = [
         image: "assets/css/images/Dachshund.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Dachshund, también conocido como 'perro salchicha', es una raza pequeña con cuerpo alargado y patas cortas. Fueron criados originalmente para la caza de pequeñas presas, y su naturaleza valiente y vivaz refleja esta herencia. Los Dachshunds son conocidos por ser leales y protectores, formando a menudo fuertes lazos con sus dueños. Son inteligentes y pueden ser tercos, requiriendo un entrenamiento constante. Los Dachshunds vienen en tres variedades de pelaje: liso, de pelo duro y de pelo largo.", textLink: "Mira este producto!" },
+        en: { text: "The Dachshund, also known as the 'wiener dog', is a small, long-bodied breed with short legs. They were originally bred for hunting small game, and their courageous and lively nature reflects this heritage. Dachshunds are known for being loyal and protective, often forming strong bonds with their owners. They are intelligent and can be stubborn, requiring consistent training. Dachshunds come in three coat varieties: smooth, wirehaired, and longhaired.", textLink: "Check out this product!" }
     },
     {
         name: "Dalmatian",
@@ -817,8 +817,8 @@ const dogBreeds = [
         image: "assets/css/images/Dalmatian.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Dálmata es una raza distintiva y enérgica, famosa por sus manchas negras o hígado sobre un pelaje blanco. Originalmente utilizados como perros de carruaje, los Dálmatas son conocidos por su atletismo y resistencia. Son amigables, extrovertidos y leales, siendo excelentes compañeros para familias activas. Los Dálmatas son inteligentes y tienen un fuerte deseo de complacer, pero requieren socialización temprana y un entrenamiento constante. Necesitan ejercicio regular para canalizar su energía de manera positiva.", textLink: "Mira este producto!" },
+        en: { text: "The Dalmatian is a distinctive and energetic breed, famous for its unique black or liver spots on a white coat. Originally used as carriage dogs, Dalmatians are known for their athleticism and endurance. They are friendly, outgoing, and loyal, making great companions for active families. Dalmatians are intelligent and have a strong desire to please but require early socialization and consistent training. They need regular exercise to channel their energy positively.", textLink: "Check out this product!" }
     },
     {
         name: "Doberman Pinscher",
@@ -839,8 +839,8 @@ const dogBreeds = [
         image: "assets/css/images/Doberman_Pinscher.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Doberman Pinscher es una raza de perro elegante, poderosa e inteligente, conocida por su lealtad y naturaleza protectora. Criados originalmente para el trabajo de protección, los Dobermans son alertas, valientes y altamente entrenables. Forman fuertes lazos con sus familias y suelen ser gentiles y cariñosos con aquellos que conocen. Los Dobermans requieren una socialización temprana y un entrenamiento constante para convertirse en compañeros bien educados. Necesitan ejercicio regular para mantenerse estimulados mental y físicamente.", textLink: "Mira este producto!" },
+        en: { text: "The Doberman Pinscher is a sleek, powerful, and intelligent dog breed known for its loyalty and protective nature. Originally bred for protection work, Dobermans are alert, fearless, and highly trainable. They form strong bonds with their families and are often gentle and affectionate with those they know. Dobermans require early socialization and consistent training to become well-mannered companions. Regular exercise is necessary to keep them both mentally and physically stimulated.", textLink: "Check out this product!" }
     },
     {
         name: "English Bulldog",
@@ -861,8 +861,8 @@ const dogBreeds = [
         image: "assets/css/images/English_Bulldog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Bulldog Inglés es una raza de tamaño mediano y musculosa, conocida por su distintivo rostro arrugado y su nariz chata. A pesar de su apariencia dura, son gentiles y amorosos, siendo maravillosos compañeros. Los Bulldogs son conocidos por su temperamento tranquilo y son especialmente buenos con los niños. Requieren poco ejercicio, pero necesitan un aseo regular para mantener la salud de su pelaje y piel. Su nariz corta los hace sensibles al calor, por lo que deben ser monitoreados en climas cálidos.", textLink: "Mira este producto!" },
+        en: { text: "The English Bulldog is a medium-sized, muscular breed known for its distinctive wrinkled face and pushed-in nose. Despite their tough appearance, they are gentle and loving, making them wonderful companions. Bulldogs are known for their calm demeanor and are particularly good with children. They require minimal exercise but do need regular grooming to maintain their coat and skin health. Their short nose means they are sensitive to heat and should be monitored in warm weather.", textLink: "Check out this product!" }
     },
     {
         name: "English Springer Spaniel",
@@ -883,8 +883,8 @@ const dogBreeds = [
         image: "assets/css/images/English_Springer_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Springer Spaniel Inglés es una raza vivaz de tamaño mediano, conocida por su energía inagotable y su carácter amistoso. Criados originalmente como perros de caza, los Springers son inteligentes y versátiles, destacando en diversas actividades, como el trabajo de campo y deportes de agilidad. Son afectuosos, ansiosos por complacer y se llevan bien con los niños y otras mascotas. Los Springers Ingleses tienen un hermoso doble pelaje que requiere un aseo regular.", textLink: "Mira este producto!" },
+        en: { text: "The English Springer Spaniel is a lively, medium-sized breed known for its boundless energy and friendly demeanor. Originally bred as hunting dogs, Springers are intelligent and versatile, excelling in various activities, including fieldwork and agility sports. They are affectionate, eager to please, and get along well with children and other pets. English Springers have a beautiful double coat that requires regular grooming.", textLink: "Check out this product!" }
     },
     {
         name: "French Bulldog",
@@ -905,8 +905,8 @@ const dogBreeds = [
         image: "assets/css/images/French_Bulldog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Bulldog Francés es una raza pequeña y musculosa, conocida por sus orejas de murciélago y su personalidad amigable y adaptable. Son juguetones, cariñosos y les encanta la compañía humana, lo que los hace ideales para apartamentos. Los Bulldogs Franceses tienen un pelaje corto y fácil de mantener, y su nivel de energía moderado significa que no requieren mucho ejercicio. Son buenos con los niños y otras mascotas. Sin embargo, debido a sus caras planas, son sensibles al calor y deben ser monitoreados en climas cálidos.", textLink: "Mira este producto!" },
+        en: { text: "The French Bulldog is a small, muscular breed known for its bat-like ears and friendly, adaptable personality. They are playful, affectionate, and love human companionship, making them ideal apartment dogs. French Bulldogs have a short, easy-to-maintain coat, and their moderate energy level means they don't require extensive exercise. They are typically good with children and other pets. However, due to their flat faces, they are sensitive to heat and need careful monitoring in warmer climates.", textLink: "Check out this product!" }
     },
     {
         name: "Golden Retriever",
@@ -927,8 +927,8 @@ const dogBreeds = [
         image: "assets/css/images/Golden_Retriever.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Golden Retriever es una raza amigable, inteligente y versátil, conocida por su leal y paciente carácter. Son excelentes mascotas familiares y altamente entrenables, destacándose en roles como perros de servicio, perros de búsqueda y rescate, y perros de terapia. Los Goldens tienen un hermoso doble pelaje que requiere un aseo regular. Son activos y necesitan ejercicio diario para mantenerse sanos. Esta raza es conocida por su naturaleza gentil y su fuerte vínculo con los humanos, lo que los convierte en excelentes compañeros para familias e individuos.", textLink: "Mira este producto!" },
+        en: { text: "The Golden Retriever is a friendly, intelligent, and versatile breed known for its loyal and patient demeanor. They are excellent family pets and are highly trainable, excelling in roles such as service dogs, search-and-rescue dogs, and therapy dogs. Goldens have a beautiful double coat that requires regular grooming. They are active and need daily exercise to stay healthy. This breed is known for its gentle nature and strong bond with humans, making them great companions for families and individuals alike.", textLink: "Check out this product!" }
     },
     {
         name: "Labrador Retriever",
@@ -949,8 +949,8 @@ const dogBreeds = [
         image: "assets/css/images/Labrador_Retriever.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Labrador Retriever es una de las razas de perros más populares del mundo, conocida por su naturaleza amigable, inteligencia y adaptabilidad. Los Labs son altamente entrenables y a menudo se emplean como perros de servicio, perros de búsqueda y rescate, y en diversos roles de trabajo. Son cariñosos y gentiles con los niños, lo que los convierte en excelentes mascotas familiares. Los Labradores tienen un pelaje corto y denso que es resistente al agua y fácil de mantener. Son activos y requieren ejercicio regular para mantenerse sanos y felices.", textLink: "Mira este producto!" },
+        en: { text: "The Labrador Retriever is one of the most popular dog breeds worldwide, known for its friendly nature, intelligence, and adaptability. Labs are highly trainable and are often employed as service dogs, search-and-rescue dogs, and in various working roles. They are affectionate and gentle with children, making them great family pets. Labradors have a short, dense coat that is water-resistant and easy to groom. They are active and require regular exercise to stay healthy and happy.", textLink: "Check out this product!" }
     },
     {
         name: "Pomeranian",
@@ -971,8 +971,8 @@ const dogBreeds = [
         image: "assets/css/images/Pomeranian2.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Pomerania es una raza pequeña y vivaz con un esponjoso doble pelaje y una distintiva cola en forma de pluma. Conocidos por su personalidad audaz y segura, los Pomeranias son muy inteligentes y les encanta ser el centro de atención. A pesar de su pequeño tamaño, tienen una actitud de perro grande y son conocidos por su alerta y fuerte voluntad. Se necesita un aseo regular para mantener su espeso pelaje. Los Pomeranias son leales y son excelentes compañeros para quienes buscan un pequeño perro enérgico y cariñoso.", textLink: "Mira este producto!" },
+        en: { text: "The Pomeranian is a small, lively breed with a fluffy double coat and a distinctive plume-like tail. Known for their bold and confident personality, Pomeranians are highly intelligent and love to be the center of attention. Despite their small size, they have a big-dog attitude and are known for their alertness and strong will. Regular grooming is needed to maintain their thick coat. Pomeranians are loyal and make excellent companions for those looking for an energetic and affectionate little dog.", textLink: "Check out this product!" }
     },
     {
         name: "Pug",
@@ -993,8 +993,8 @@ const dogBreeds = [
         image: "assets/css/images/Pug.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Pug es una raza pequeña y robusta con un rostro arrugado y una distintiva cola enroscada. Conocidos por su naturaleza juguetona y cariñosa, los Pugs son perros sociales que disfrutan de la compañía humana. A menudo se los describe como encantadores y traviesos. Los Pugs tienen un pelaje corto que es fácil de mantener, pero mudan moderadamente. Son sensibles a las temperaturas extremas debido a sus caras planas y deben ser monitoreados en climas cálidos. Los Pugs son generalmente buenos con los niños y son maravillosos compañeros.", textLink: "Mira este producto!" },
+        en: { text: "The Pug is a small, sturdy breed with a wrinkled face and a distinct curled tail. Known for their playful and affectionate nature, Pugs are social dogs that enjoy human companionship. They are often described as being both charming and mischievous. Pugs have a short coat that is easy to groom but do shed moderately. They are sensitive to extreme temperatures due to their flat faces and should be monitored in hot weather. Pugs are generally good with children and make wonderful companions.", textLink: "Check out this product!" }
     },
     {
         name: "Rottweiler",
@@ -1015,8 +1015,8 @@ const dogBreeds = [
         image: "assets/css/images/Rottweiler.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Rottweiler es una raza poderosa y segura, conocida por su fuerza, lealtad e instintos protectores. Criados originalmente como perros de trabajo, los Rottweilers son inteligentes, entrenables y destacan en roles como perros guardianes, perros policías y perros de búsqueda y rescate. Son cariñosos y gentiles con sus familias, pero pueden ser cautelosos con los extraños. La socialización y el entrenamiento adecuados son esenciales para esta raza, asegurando que sean bien educados y seguros. Los Rottweilers tienen un pelaje corto y fácil de mantener.", textLink: "Mira este producto!" },
+        en: { text: "The Rottweiler is a powerful, confident breed known for its strength, loyalty, and protective instincts. Originally bred as working dogs, Rottweilers are intelligent, trainable, and excel in roles such as guard dogs, police dogs, and search-and-rescue dogs. They are affectionate and gentle with their families but can be wary of strangers. Proper socialization and training are essential for this breed to ensure they are well-behaved and confident. Rottweilers have a short coat that is easy to groom.", textLink: "Check out this product!" }
     },
     {
         name: "Shih Tzu",
@@ -1103,8 +1103,8 @@ const dogBreeds = [
         image: "assets/css/images/English_Cocker_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los English Cocker Spaniels son perros alegres, cariñosos y activos. Conocidos por sus orejas largas y ojos expresivos, son amigables con familias y otras mascotas. Criados originalmente para la caza, mantienen su aguda habilidad para rastrear y su amor por las actividades al aire libre. Los Cockers necesitan ejercicio y aseo regulares para mantenerse saludables. Son compañeros leales y prosperan en entornos familiares con mucho afecto y estimulación mental.", textLink: "Mira este producto!" },
+        en: { text: "English Cocker Spaniels are cheerful, affectionate, and active dogs. Known for their long ears and expressive eyes, they are friendly with families and pets alike. Originally bred for hunting, they retain their keen scenting ability and love for outdoor activities. Cockers require regular exercise and grooming to maintain their health and coat. These dogs are loyal companions and do well in family environments with plenty of affection and mental stimulation.", textLink: "Check out this product!" }
     },
     {
         name: "English Foxhound",
@@ -1125,8 +1125,8 @@ const dogBreeds = [
         image: "assets/css/images/English_Foxhound.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El English Foxhound es una raza robusta y activa, conocida por su resistencia y habilidades de caza. Criados originalmente para la caza de zorros, son decididos y tienen una fuerte mentalidad de manada, lo que los hace amigables con otros perros. Son adecuados para familias activas y necesitan ejercicio constante y espacio para moverse. Aunque pueden ser independientes, generalmente son de buen carácter. Su pelaje corto requiere poco mantenimiento.", textLink: "Mira este producto!" },
+        en: { text: "The English Foxhound is a sturdy, active breed known for its endurance and hunting skills. Originally bred for fox hunting, they are determined and have a strong pack mentality, making them friendly with other dogs. Foxhounds are best suited to active families and require consistent exercise and space to roam. While they may have an independent streak, they’re generally good-natured and friendly. Their short coat requires minimal grooming.", textLink: "Check out this product!" }
     },
     {
         name: "English Setter",
@@ -1147,8 +1147,8 @@ const dogBreeds = [
         image: "assets/css/images/English_Setter.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los English Setters son perros elegantes y amigables, conocidos por su pelaje moteado distintivo y movimientos gráciles. Son cariñosos, gentiles y disfrutan pasar tiempo con la familia. Criados originalmente para la caza de aves, conservan un agudo sentido del olfato y amor por la aventura al aire libre. Requieren ejercicio y estimulación mental regulares. Conocidos por su temperamento amigable, son excelentes con niños y otras mascotas. Necesitan un aseo regular para mantener su pelaje.", textLink: "Mira este producto!" },
+        en: { text: "English Setters are elegant and friendly sporting dogs known for their distinctive speckled coat and graceful movements. They are affectionate, gentle, and enjoy spending time with families. Originally bred as bird dogs, Setters retain a keen sense of smell and love for outdoor adventures. They require regular exercise and mental stimulation. Known for their amiable temperament, they are excellent with children and other pets. Setters need regular grooming to maintain their flowing coat.", textLink: "Check out this product!" }
     },
     {
         name: "Entlebucher Mountain Dog",
@@ -1169,8 +1169,8 @@ const dogBreeds = [
         image: "assets/css/images/Entlebucher_Mountain_Dog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Entlebucher Mountain Dog es una raza de pastoreo compacta y musculosa de Suiza, valorada por su lealtad y naturaleza trabajadora. Conocido por su pelaje tricolor y su personalidad enérgica, forma lazos fuertes con su familia. Los Entlebuchers son inteligentes, enérgicos y disfrutan de las actividades al aire libre, lo que los convierte en compañeros ideales para dueños activos. Prosperan en entornos donde puedan tener un trabajo o participar en desafíos físicos y mentales regulares.", textLink: "Mira este producto!" },
+        en: { text: "The Entlebucher Mountain Dog is a compact, muscular herding breed from Switzerland, valued for its loyalty and hardworking nature. Known for its tri-color coat and lively personality, it forms strong bonds with its family. Entlebuchers are intelligent, energetic, and enjoy outdoor activities, making them ideal companions for active owners. They thrive in environments where they can have a job or participate in regular physical and mental challenges.", textLink: "Check out this product!" }
     },
     {
         name: "Field Spaniel",
@@ -1191,8 +1191,8 @@ const dogBreeds = [
         image: "assets/css/images/Field_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los Field Spaniels son perros medianos y robustos con un temperamento tranquilo y amor por el aire libre. Criados originalmente para la caza, son conocidos por su inteligencia y versatilidad. Los Field Spaniels son leales y gentiles con las familias y los niños, prosperando en entornos donde puedan explorar y hacer ejercicio. Tienen un pelaje denso que requiere aseo regular. Son ideales para familias activas que buscan un compañero amigable y adaptable.", textLink: "Mira este producto!" },
+        en: { text: "Field Spaniels are medium-sized, sturdy dogs with a calm demeanor and love for the outdoors. Originally bred for hunting, they are known for their intelligence and versatility. Field Spaniels are loyal and gentle with families and children, thriving in environments where they can explore and exercise. They have a dense coat that requires regular grooming. These spaniels are well-suited to active families looking for a companion with a friendly and adaptable nature.", textLink: "Check out this product!" }
     },
     {
         name: "Finnish Lapphund",
@@ -1213,8 +1213,8 @@ const dogBreeds = [
         image: "assets/css/images/Finnish_Lapphund.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los Finnish Lapphunds son perros inteligentes, amigables y resistentes, utilizados originalmente para pastorear renos en los climas duros de Finlandia. Tienen un doble pelaje grueso y una expresión alerta distintiva. Los Lapphunds son conocidos por su naturaleza gentil y son excelentes con niños y otras mascotas. Estos perros adaptables disfrutan de las actividades al aire libre, pero también son felices en hogares familiares. Su pelaje denso requiere aseo regular y prosperan con ejercicio regular.", textLink: "Mira este producto!" },
+        en: { text: "Finnish Lapphunds are intelligent, friendly, and resilient dogs, originally used for herding reindeer in the harsh climates of Finland. They have a thick double coat and a distinctive, alert expression. Lapphunds are known for their gentle nature and are excellent with children and other pets. These adaptable dogs enjoy outdoor activities but are also content in family homes. Regular grooming is needed for their dense fur, and they thrive with regular exercise.", textLink: "Check out this product!" }
     },
     {
         name: "Finnish Spitz",
@@ -1235,8 +1235,8 @@ const dogBreeds = [
         image: "assets/css/images/Finnish_Spitz.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Finnish Spitz es un perro pequeño, similar a un zorro, conocido por su naturaleza vivaz, vocal y su pelaje rojo vibrante. Criado originalmente para la caza de aves, este perro tiene un oído agudo y es increíblemente alerta. Amigable y cariñoso, el Finnish Spitz forma lazos fuertes con su familia, convirtiéndose en un compañero leal. Es activo y necesita ejercicio regular. Su habilidad de 'ladrido señalador' es una característica única utilizada tradicionalmente para señalar a los cazadores.", textLink: "Mira este producto!" },
+        en: { text: "The Finnish Spitz is a small, fox-like dog known for its lively, vocal nature and vibrant red coat. Originally bred for hunting game birds, this breed has keen hearing and is incredibly alert. Friendly and affectionate, Finnish Spitz dogs form strong bonds with their families, making them loyal companions. They are spirited, needing regular physical and mental exercise. Their unique 'bark pointer' trait is a standout feature, used traditionally to signal hunters.", textLink: "Check out this product!" }
     },
     {
         name: "Flat-Coated Retriever",
@@ -1257,8 +1257,8 @@ const dogBreeds = [
         image: "assets/css/images/Flat_Coated_Retriever.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Flat-Coated Retriever es una raza alegre y activa, famosa por su brillante pelaje negro o color hígado y su espíritu juguetón. Conocidos por ser excelentes con familias, estos perros son inteligentes, ansiosos por agradar y mantienen un comportamiento juvenil toda su vida. Criados originalmente para recuperar presas, disfrutan de actividades al aire libre y juegos acuáticos. El ejercicio y la estimulación mental regulares son claves para su felicidad, y disfrutan de sesiones de entrenamiento e interacción familiar.", textLink: "Mira este producto!" },
+        en: { text: "The Flat-Coated Retriever is a joyful, active breed, famous for its shiny black or liver-colored coat and playful spirit. Known for being great with families, these retrievers are intelligent, eager to please, and maintain a youthful demeanor throughout their lives. Originally bred for retrieving game, they thrive on outdoor activities and water play. Regular exercise and mental engagement are key to their happiness, and they enjoy training sessions and family interactions.", textLink: "Check out this product!" }
     },
     {
         name: "German Pinscher",
@@ -1279,8 +1279,8 @@ const dogBreeds = [
         image: "assets/css/images/German_Pinscher.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El German Pinscher es una raza ágil y elegante con un pelaje liso y brillante y una complexión fuerte y muscular. Conocidos por su inteligencia e independencia, son leales y protectores, lo que los convierte en excelentes perros guardianes. Los German Pinschers necesitan entrenamiento constante y mucho ejercicio para satisfacer su mente activa. Son cariñosos con su familia, pero pueden ser reservados con extraños, mostrando su naturaleza alerta y confiada.", textLink: "Mira este producto!" },
+        en: { text: "The German Pinscher is an agile, elegant breed with a smooth, shiny coat and strong, muscular build. Known for their intelligence and independence, they are loyal and protective, making them excellent watchdogs. German Pinschers need consistent training and plenty of exercise to satisfy their active minds. They are affectionate with their families but can be reserved with strangers, showcasing their alert and confident nature.", textLink: "Check out this product!" }
     },
     {
         name: "Afghan Hound",
@@ -1301,8 +1301,8 @@ const dogBreeds = [
         image: "assets/css/images/Afghan_Hound.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Afghan Hound es una raza regia y elegante, conocida por su largo y sedoso pelaje y su apariencia distintiva. Criados originalmente en Afganistán para la caza, son rápidos, independientes y sensibles. Los Afghan Hounds son conocidos por su personalidad distante pero amorosa, formando fuertes lazos con su familia. Su pelaje requiere un aseo regular y prosperan en entornos donde pueden ejercitarse y mostrar su elegancia en movimiento.", textLink: "Mira este producto!" },
+        en: { text: "The Afghan Hound is a regal, graceful breed known for its long, silky coat and distinctive appearance. Originally bred in Afghanistan for hunting, they are fast, independent, and sensitive. Afghan Hounds are known for their aloof yet loving personality, forming strong bonds with their families. Their coat requires regular grooming, and they thrive in environments where they can exercise and showcase their elegant movements.", textLink: "Check out this product!" }
     },
     {
         name: "Airedale Terrier",
@@ -1323,8 +1323,8 @@ const dogBreeds = [
         image: "assets/css/images/Airedale_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Conocido como el 'Rey de los Terriers', el Airedale Terrier es el más grande de los terriers, con una disposición amigable y enérgica. Criados para cazar y trabajar, los Airedales son inteligentes y versátiles, destacándose en diversas actividades. Son leales y protectores con la familia, y aunque son independientes, disfrutan del entrenamiento y la interacción social. Su pelaje denso y áspero requiere un aseo regular.", textLink: "Mira este producto!" },
+        en: { text: "Known as the 'King of Terriers', the Airedale Terrier is the largest of the terrier breeds, with a friendly, energetic disposition. Bred for hunting and working, Airedales are intelligent and versatile, excelling in various activities. They are loyal and protective with families, and while they are independent, they enjoy training and social interactions. Regular grooming is necessary for their dense, wiry coat.", textLink: "Check out this product!" }
     },
     {
         name: "American Staffordshire Terrier",
@@ -1345,8 +1345,8 @@ const dogBreeds = [
         image: "assets/css/images/American_Staffordshire_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El American Staffordshire Terrier es una raza poderosa y segura de sí misma, con una naturaleza leal y amigable. Conocidos por su complexión fuerte y musculosa, estos perros son inteligentes y aman la compañía humana. Aunque son protectores y valientes, los Staffies americanos también son gentiles con los miembros de la familia, especialmente con los niños. Prosperan con entrenamiento y socialización consistentes y requieren ejercicio regular para mantener su musculatura y energía.", textLink: "Mira este producto!" },
+        en: { text: "The American Staffordshire Terrier is a powerful and confident breed with a loyal and friendly nature. Known for their strong build and muscular physique, these dogs are intelligent and love human companionship. While they are protective and brave, American Staffies are also gentle with family members, especially children. They thrive with consistent training and socialization, and require regular exercise to maintain their muscular structure and energy levels.", textLink: "Check out this product!" }
     },
     {
         name: "Australian Terrier",
@@ -1367,8 +1367,8 @@ const dogBreeds = [
         image: "assets/css/images/Australian_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Australian Terrier es un perro pequeño y robusto con una personalidad vivaz y un pelaje áspero. Criado originalmente para la caza y control de plagas, es conocido por su vigilancia, lealtad e independencia. Son amigables con la familia y buenos guardianes, aunque su instinto terrier los hace propensos a perseguir. Los Australian Terriers disfrutan del juego y el entrenamiento, adaptándose bien a dueños activos.", textLink: "Mira este producto!" },
+        en: { text: "The Australian Terrier is a small, sturdy dog with a spirited personality and a wiry coat. Originally bred for hunting and pest control, they’re known for their alertness, loyalty, and independent nature. They are friendly with family and good watchdogs, though their terrier instincts make them prone to chasing. Australian Terriers enjoy both playtime and training sessions, making them adaptable for active owners.", textLink: "Check out this product!" }
     },
     {
         name: "Bedlington Terrier",
@@ -1389,8 +1389,8 @@ const dogBreeds = [
         image: "assets/css/images/Bedlington_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Bedlington Terrier es una raza elegante, similar a un cordero, con un pelaje suave y rizado. Conocidos por su naturaleza amable, estos terriers son cariñosos y tranquilos en casa, pero mantienen un fuerte instinto cazador al aire libre. Criados originalmente para cazar alimañas, son ágiles, rápidos y valientes. Son excelentes compañeros familiares y prosperan con actividades físicas y mentales regulares.", textLink: "Mira este producto!" },
+        en: { text: "The Bedlington Terrier is a graceful, lamb-like breed with a soft, curly coat. Known for their gentle nature, these terriers are affectionate and calm indoors but maintain a strong prey drive outdoors. Originally bred for hunting vermin, they are agile, quick, and courageous. Bedlington Terriers are excellent family companions, thriving with regular mental and physical activities.", textLink: "Check out this product!" }
     },
     {
         name: "Belgian Tervuren",
@@ -1411,8 +1411,8 @@ const dogBreeds = [
         image: "assets/css/images/Belgian_Tervuren.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Belgian Tervuren es un perro de pastoreo altamente inteligente y ágil, con un pelaje denso y una naturaleza alerta y concentrada. Conocidos por su lealtad y ética de trabajo, los Tervuren destacan en obediencia, agilidad y tareas de pastoreo. Forman fuertes lazos con su familia y son naturalmente protectores, siendo excelentes perros guardianes. Necesitan estimulación mental y ejercicio físico regular para estar felices.", textLink: "Mira este producto!" },
+        en: { text: "The Belgian Tervuren is a highly intelligent and agile herding dog with a dense coat and an alert, focused nature. Known for their loyalty and work ethic, Tervurens excel in obedience, agility, and herding tasks. They form strong bonds with their families and are protective by nature, making them excellent guard dogs. Regular mental stimulation and physical exercise keep them content.", textLink: "Check out this product!" }
     },
     {
         name: "Bergamasco Sheepdog",
@@ -1433,8 +1433,8 @@ const dogBreeds = [
         image: "assets/css/images/Bergamasco_Sheepdog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Bergamasco Sheepdog es una antigua raza de pastoreo conocida por su único pelaje con cordones. Este perro inteligente y leal fue criado en los Alpes italianos para pastorear y proteger ganado. Los Bergamascos son tranquilos, independientes y se adaptan bien a diferentes entornos. Su pelaje requiere un cuidado específico, pero ofrece aislamiento y protección. Son mascotas familiares devotas y disfrutan de actividades que estimulan su mente.", textLink: "Mira este producto!" },
+        en: { text: "The Bergamasco Sheepdog is an ancient herding breed known for its unique, corded coat. This intelligent and loyal dog was bred in the Italian Alps to herd and guard livestock. Bergamascos are calm, independent, and highly adaptable to different environments. Their coat requires specific grooming but offers insulation and protection. They make devoted family pets and enjoy activities that engage their minds.", textLink: "Check out this product!" }
     },
     {
         name: "Black and Tan Coonhound",
@@ -1455,8 +1455,8 @@ const dogBreeds = [
         image: "assets/css/images/Black_and_Tan_Coonhound.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Black and Tan Coonhound es un perro de caza poderoso y determinado, con una capacidad olfativa notable. Conocido por rastrear mapaches y otras presas, es independiente pero amigable con la familia. Su pelaje liso y negro y fuego y sus largas orejas le dan una apariencia clásica de sabueso. Los Coonhounds requieren ejercicio regular y disfrutan de actividades al aire libre donde pueden usar sus habilidades de rastreo.", textLink: "Mira este producto!" },
+        en: { text: "The Black and Tan Coonhound is a powerful and determined hunting dog with a remarkable scenting ability. Known for trailing raccoons and other game, they are independent yet friendly with family members. Their smooth, black-and-tan coat and long ears give them a classic hound appearance. Coonhounds require regular exercise and thrive with plenty of outdoor activities where they can use their tracking skills.", textLink: "Check out this product!" }
     },
     {
         name: "Black Russian Terrier",
@@ -1477,8 +1477,8 @@ const dogBreeds = [
         image: "assets/css/images/Black_Russian_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Black Russian Terrier es un perro grande, inteligente y poderoso, criado originalmente para fines militares. Conocidos por su lealtad e instintos protectores, son excelentes perros guardianes y compañeros familiares dedicados. Su denso pelaje negro requiere un cuidado regular, y prosperan con ejercicio diario y estimulación mental. Son ideales para dueños experimentados que puedan brindarles entrenamiento constante.", textLink: "Mira este producto!" },
+        en: { text: "The Black Russian Terrier is a large, intelligent, and powerful dog, originally bred for military purposes. Known for their loyalty and protective instincts, they make excellent guard dogs and are dedicated family companions. Their dense, black coat requires regular grooming, and they thrive on daily exercise and mental engagement. Black Russian Terriers are best suited for experienced owners who can provide consistent training.", textLink: "Check out this product!" }
     },
     {
         name: "Bloodhound",
@@ -1499,8 +1499,8 @@ const dogBreeds = [
         image: "assets/css/images/Bloodhound.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Bloodhound es un perro de rastreo famoso por su habilidad para seguir rastros a largas distancias. Su piel suelta y orejas largas mejoran su capacidad olfativa, lo que los hace ideales para trabajos de búsqueda y rescate. Amistosos y gentiles con la familia, los Bloodhounds requieren entrenamiento constante y mucho ejercicio. Son ideales para dueños que aprecian sus cualidades únicas.", textLink: "Mira este producto!" },
+        en: { text: "The Bloodhound is a renowned scent-tracking dog, famous for its remarkable ability to follow trails over long distances. Their droopy skin and long ears enhance their scenting ability, making them ideal for search and rescue work. Friendly and gentle with family, Bloodhounds require consistent training and plenty of exercise. Known for their persistence, they are best suited for owners who appreciate their unique qualities.", textLink: "Check out this product!" }
     },
     {
         name: "Border Terrier",
@@ -1521,8 +1521,8 @@ const dogBreeds = [
         image: "assets/css/images/Border_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Border Terrier es un perro pequeño y resistente, criado originalmente para la caza. Conocido por su aspecto desaliñado y su fuerte instinto cazador, es cariñoso y amistoso con la familia. Los Border Terriers son inteligentes y responden bien al entrenamiento, pero pueden perseguir animales pequeños. Se adaptan bien a diferentes entornos y son felices con ejercicio regular y estimulación mental.", textLink: "Mira este producto!" },
+        en: { text: "The Border Terrier is a small, hardy dog originally bred for hunting. Known for their scruffy appearance and strong prey drive, they’re affectionate and friendly with family members. Border Terriers are intelligent and responsive to training but may chase small animals. They adapt well to various living environments and are happiest with regular exercise and mental stimulation.", textLink: "Check out this product!" }
     },
     {
         name: "Borzoi",
@@ -1543,8 +1543,8 @@ const dogBreeds = [
         image: "assets/css/images/Borzoi.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Borzoi es un galgo elegante y rápido, conocido por su apariencia refinada y su carácter gentil. Criado originalmente para cazar lobos en Rusia, es independiente y reservado, pero forma fuertes lazos con su familia. Los Borzois tienen un pelaje sedoso que requiere cuidados regulares. Disfrutan tanto de actividades al aire libre como de la tranquilidad en casa y son ideales para dueños tranquilos y experimentados.", textLink: "Mira este producto!" },
+        en: { text: "The Borzoi is a graceful, fast-moving sighthound known for its elegant appearance and gentle demeanor. Originally bred for hunting wolves in Russia, they are independent and reserved but form strong bonds with their family. Borzois have a sleek, silky coat that requires regular grooming. They enjoy both outdoor activities and quiet companionship and are best suited for calm, experienced owners.", textLink: "Check out this product!" }
     },
     {
         name: "Bouvier des Flandres",
@@ -1565,8 +1565,8 @@ const dogBreeds = [
         image: "assets/css/images/Bouvier_des_Flandres.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Bouvier des Flandres es un perro de pastoreo grande y robusto, conocido por su inteligencia y lealtad. Criado originalmente para trabajos agrícolas, es protector y trabajador, destacando en diversas tareas. Los Bouviers tienen un pelaje grueso resistente al clima que requiere cuidados, y prosperan con actividades mentales y físicas regulares. Son compañeros familiares devotos, ideales para dueños experimentados.", textLink: "Mira este producto!" },
+        en: { text: "The Bouvier des Flandres is a large, rugged herding dog known for its intelligence and loyalty. Originally bred for farm work, they are protective, hardworking, and excel in various tasks. Bouviers have a thick, weather-resistant coat that requires grooming and thrive with regular mental and physical activities. They make devoted family companions but are best suited for experienced handlers.", textLink: "Check out this product!" }
     },
     {
         name: "Boykin Spaniel",
@@ -1587,8 +1587,8 @@ const dogBreeds = [
         image: "assets/css/images/Boykin_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Boykin Spaniel es un perro de caza mediano conocido por su versatilidad y lealtad. Criado en Carolina del Sur para la caza de aves acuáticas, es un gran nadador y recuperador. Los Boykins son cariñosos y amigables con la familia, lo que los convierte en excelentes compañeros para familias activas. Con un pelaje marrón chocolate y amor por el aire libre, necesitan ejercicio regular y estimulación mental.", textLink: "Mira este producto!" },
+        en: { text: "The Boykin Spaniel is a medium-sized hunting dog known for its versatility and loyalty. Originally bred in South Carolina for waterfowl hunting, they are great swimmers and retrievers. Boykins are affectionate and friendly with family members, making them wonderful companions for active families. With a rich, chocolate-brown coat and a love for the outdoors, they need regular exercise and mental engagement.", textLink: "Check out this product!" }
     },
     {
         name: "Bracco Italiano",
@@ -1609,8 +1609,8 @@ const dogBreeds = [
         image: "assets/css/images/Bracco_Italiano.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Bracco Italiano es un perro de caza habilidoso con una naturaleza amable y una estructura atlética. Conocido por su apariencia distintiva, incluidas sus orejas caídas y expresión noble, esta raza es cariñosa y forma fuertes lazos con la familia. Criados en Italia para la caza, los Braccos son ágiles y prosperan con actividad al aire libre regular. Responden bien al entrenamiento y son excelentes compañeros para familias activas.", textLink: "Mira este producto!" },
+        en: { text: "The Bracco Italiano is a skilled hunting dog with a gentle nature and an athletic build. Known for its distinctive appearance, including droopy ears and a noble expression, this breed is affectionate and bonds strongly with family members. Originally bred in Italy for hunting, Braccos are agile and thrive with regular outdoor activity. They respond well to training and make excellent companions for active families.", textLink: "Check out this product!" }
     },
     {
         name: "Brussels Griffon",
@@ -1631,8 +1631,8 @@ const dogBreeds = [
         image: "assets/css/images/Brussels_Griffon.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Brussels Griffon es un perro pequeño con una personalidad vivaz y un rostro expresivo, a menudo comparado con el de un humano. Conocidos por su naturaleza cariñosa y curiosa, forman lazos cercanos con sus dueños y disfrutan de ser el centro de atención. Son excelentes compañeros para vivir en apartamentos, aunque se benefician del juego diario y la estimulación mental.", textLink: "Mira este producto!" },
+        en: { text: "The Brussels Griffon is a small dog with a lively personality and an expressive face, often compared to a human's. Known for their affectionate and curious nature, they bond closely with their owners and enjoy being the center of attention. Brussels Griffons are great companions for apartment living, but they still benefit from daily play and mental stimulation.", textLink: "Check out this product!" }
     },
     {
         name: "Bull Terrier",
@@ -1653,8 +1653,8 @@ const dogBreeds = [
         image: "assets/css/images/Bull_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Bull Terrier es una raza fuerte y vivaz, con una cabeza distintiva en forma de huevo y un carácter amigable. Conocidos por su lealtad y alegría, son excelentes compañeros para familias. Los Bull Terriers son inteligentes y responden bien al entrenamiento constante, pero necesitan una guía firme debido a su fuerte personalidad. El ejercicio regular y la estimulación mental son esenciales para su felicidad.", textLink: "Mira este producto!" },
+        en: { text: "The Bull Terrier is a strong and spirited breed with a distinctive egg-shaped head and a friendly nature. Known for their loyalty and playfulness, they make wonderful companions for families. Bull Terriers are intelligent and respond well to consistent training, but they need firm guidance due to their strong personalities. Regular exercise and mental stimulation are essential for their happiness.", textLink: "Check out this product!" }
     },
     {
         name: "Bullmastiff",
@@ -1675,8 +1675,8 @@ const dogBreeds = [
         image: "assets/css/images/Bullmastiff.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Bullmastiff es una raza grande y poderosa, criada originalmente para proteger propiedades. Conocidos por su lealtad e instintos protectores, son gentiles y cariñosos con sus familias. A pesar de su tamaño, los Bullmastiffs son tranquilos y se adaptan bien a la vida en el hogar, aunque requieren ejercicio regular para mantenerse saludables. Sus instintos naturales de guardia los convierten en excelentes protectores, aunque son amigables con los invitados cuando están bien socializados.", textLink: "Mira este producto!" },
+        en: { text: "The Bullmastiff is a large and powerful breed, originally bred to guard estates. Known for their loyalty and protective instincts, they are gentle and affectionate with their families. Despite their size, Bullmastiffs are calm and adapt well to home life, but they require regular exercise to stay healthy. Their natural guard instincts make them great protectors, yet they are generally friendly with guests when properly socialized.", textLink: "Check out this product!" }
     },
     {
         name: "Chinese Crested",
@@ -1697,8 +1697,8 @@ const dogBreeds = [
         image: "assets/css/images/Chinese_Crested.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Chinese Crested es un perro de compañía pequeño y único que viene en dos tipos: sin pelo y Powderpuff (con pelaje completo). Conocido por su personalidad cariñosa y vivaz, es ideal para familias y se adapta bien a la vida en apartamentos. Su estructura delgada y tamaño pequeño los hacen fáciles de llevar, y prosperan con la atención. Estos perros son sensibles al frío, por lo que necesitan cuidados adicionales en climas fríos.", textLink: "Mira este producto!" },
+        en: { text: "The Chinese Crested is a unique, small companion dog that comes in two types: Hairless and Powderpuff (with a full coat). Known for their affectionate and lively personality, they are great for families and adapt well to apartment living. Their slender build and small size make them easy to carry, and they thrive on attention. These dogs are sensitive to the cold, so they need extra care in colder climates.", textLink: "Check out this product!" }
     },
     {
         name: "Clumber Spaniel",
@@ -1719,8 +1719,8 @@ const dogBreeds = [
         image: "assets/css/images/Clumber_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Clumber Spaniel es un spaniel grande y robusto, conocido por su naturaleza tranquila y leal. Criado originalmente para la caza, tiene un temperamento suave y es una excelente mascota familiar. Los Clumbers son más tranquilos en comparación con otros spaniels, pero disfrutan de las actividades al aire libre. Tienen un pelaje denso y blanco que necesita cuidado regular, y son ideales para familias que puedan ofrecerles ejercicio moderado y compañía.", textLink: "Mira este producto!" },
+        en: { text: "The Clumber Spaniel is a large, sturdy spaniel known for its calm and loyal nature. Originally bred for hunting, they have a gentle temperament and are great family pets. Clumbers are relatively laid-back compared to other spaniels but still enjoy outdoor activities. They have a dense, white coat that needs regular grooming and are best suited for families who can provide them with moderate exercise and companionship.", textLink: "Check out this product!" }
     },
     {
         name: "Collie",
@@ -1741,8 +1741,8 @@ const dogBreeds = [
         image: "assets/css/images/Collie.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Collie es un elegante perro de pastoreo, conocido por su lealtad e inteligencia, representado en el personaje de Lassie. Los Collies son amables, de buen carácter y excelentes con los niños, lo que los hace ideales como mascotas familiares. Tienen un hermoso pelaje largo que necesita cuidado, especialmente la variedad de pelaje áspero. Con un fuerte instinto de pastoreo, los Collies disfrutan de actividades al aire libre y se benefician de un entrenamiento constante.", textLink: "Mira este producto!" },
+        en: { text: "The Collie is a graceful herding dog known for its loyalty and intelligence, famously depicted in the character Lassie. Collies are gentle, good-natured, and excellent with children, making them ideal family pets. They have a long, beautiful coat that requires grooming, especially the rough-coated variety. With a strong herding instinct, Collies enjoy outdoor activities and benefit from consistent training.", textLink: "Check out this product!" }
     },
     {
         name: "Dogo Argentino",
@@ -1763,8 +1763,8 @@ const dogBreeds = [
         image: "assets/css/images/Dogo_Argentino.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Dogo Argentino es una raza poderosa y atlética, desarrollada originalmente para la caza mayor en Argentina. Conocido por su valentía, fuerza y lealtad, es protector de su familia y es un excelente perro guardián. Los Dogos Argentinos requieren un dueño experimentado y un entrenamiento constante, así como ejercicio regular para canalizar su alta energía. Su pelaje corto y blanco es fácil de cuidar.", textLink: "Mira este producto!" },
+        en: { text: "The Dogo Argentino is a powerful and athletic breed, originally developed for big-game hunting in Argentina. Known for their bravery, strength, and loyalty, they are protective of their families and make excellent guard dogs. Dogo Argentinos require an experienced handler and consistent training, as well as regular exercise to channel their high energy levels. Their short, white coat is easy to care for.", textLink: "Check out this product!" }
     },
     {
         name: "Dogue de Bordeaux",
@@ -1785,8 +1785,8 @@ const dogBreeds = [
         image: "assets/css/images/Dogue_de_Bordeaux.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Dogue de Bordeaux es una raza grande y musculosa, con un rostro arrugado distintivo y un carácter calmado y protector. Conocido como una de las razas francesas más antiguas, es un compañero leal y excelente con los niños. A pesar de su gran tamaño, es gentil y cariñoso. El Dogue de Bordeaux tiene un pelaje corto, fácil de cuidar, y necesita ejercicio moderado y atención.", textLink: "Mira este producto!" },
+        en: { text: "The Dogue de Bordeaux is a muscular, large breed with a distinctively wrinkled face and a calm, protective demeanor. Known as one of the oldest French breeds, they make loyal companions and are excellent with children. Despite their large size, they are gentle and affectionate. The Dogue de Bordeaux has a short coat, is easy to groom, and needs moderate exercise and attention.", textLink: "Check out this product!" }
     },
     {
         name: "German Shepherd Dog",
@@ -1807,8 +1807,8 @@ const dogBreeds = [
         image: "assets/css/images/German_Shepherd_Dog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Pastor Alemán es un perro de trabajo versátil e inteligente, conocido por su lealtad y valentía. Criado originalmente para el pastoreo, sobresale en roles como policía y rescate. Son protectores, entrenables y buenos con familias, pero necesitan ejercicio regular y estimulación mental para evitar el aburrimiento. Su doble pelaje requiere cuidado regular, y prosperan con un dueño experimentado.", textLink: "Mira este producto!" },
+        en: { text: "The German Shepherd Dog is a versatile, intelligent working dog known for its loyalty and courage. Originally bred for herding, they excel in various roles, including police and search-and-rescue work. German Shepherds are protective, trainable, and good with families, but they need regular exercise and mental stimulation to prevent boredom. Their double coat requires regular grooming, and they thrive with an experienced handler.", textLink: "Check out this product!" }
     },
     {
         name: "German Shorthaired Pointer",
@@ -1829,8 +1829,8 @@ const dogBreeds = [
         image: "assets/css/images/German_Shorthaired_Pointer.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Pointer Alemán de Pelo Corto es un perro de caza enérgico y versátil, conocido por su atletismo y olfato agudo. Criado tanto para el trabajo en campo como en agua, es cariñoso, inteligente y adaptable, ideal para familias activas. Su pelaje corto y denso es fácil de mantener, y necesita ejercicio y estimulación mental para estar feliz y saludable.", textLink: "Mira este producto!" },
+        en: { text: "The German Shorthaired Pointer is an energetic and versatile hunting dog known for its athleticism and keen nose. Bred for both field and water work, they are affectionate, intelligent, and adaptable, making them great companions for active families. Their short, dense coat is easy to maintain, and they require ample exercise and mental stimulation to stay happy and healthy.", textLink: "Check out this product!" }
     },
     {
         name: "German Wirehaired Pointer",
@@ -1851,8 +1851,8 @@ const dogBreeds = [
         image: "assets/css/images/German_Wirehaired_Pointer.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Pointer Alemán de Pelo Duro es un perro de caza resistente y atlético, conocido por su pelaje denso y resistente a la intemperie y su instinto cazador. Criado para trabajar en diversos terrenos, es versátil, leal y cariñoso con la familia. Necesita ejercicio regular, estímulo mental y un dueño fuerte para sacar lo mejor de él. Prosperan en hogares activos y son relativamente fáciles de cuidar.", textLink: "Mira este producto!" },
+        en: { text: "The German Wirehaired Pointer is a rugged, athletic hunting dog known for its dense, weather-resistant coat and hunting instincts. Bred to work in various terrains, they are versatile, loyal, and affectionate with family members. This breed needs regular exercise, mental engagement, and a strong handler to bring out their best qualities. They thrive in active households and are relatively easy to groom.", textLink: "Check out this product!" }
     },
     {
         name: "Giant Schnauzer",
@@ -1873,8 +1873,8 @@ const dogBreeds = [
         image: "assets/css/images/Giant_Schnauzer.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Schnauzer Gigante es un perro de trabajo robusto e inteligente, criado para la protección y el pastoreo de ganado. Son protectores, leales y pueden ser reservados con extraños. Conocidos por su pelaje duro y su característica barba y cejas, requieren cuidado regular y entrenamiento constante. Son ideales para familias activas que puedan proporcionarles ejercicio y desafíos mentales.", textLink: "Mira este producto!" },
+        en: { text: "The Giant Schnauzer is a robust and intelligent working dog, bred for guarding and cattle driving. They are protective, loyal, and can be reserved with strangers. Known for their wiry coat and characteristic beard and eyebrows, they require regular grooming and consistent training. The Giant Schnauzer is well-suited for active families who can provide plenty of exercise and mental challenges.", textLink: "Check out this product!" }
     },
     {
         name: "Glen of Imaal Terrier",
@@ -1895,8 +1895,8 @@ const dogBreeds = [
         image: "assets/css/images/Glen_of_Imaal_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Terrier Glen of Imaal es una raza rara y robusta con una personalidad leal y amistosa. Conocido por su origen cazador, es independiente pero cariñoso, y se lleva bien con las familias. Su doble pelaje es de bajo mantenimiento y se adapta bien a diferentes entornos de vida. Aunque es pequeño, tiene una gran personalidad y requiere ejercicio moderado.", textLink: "Mira este producto!" },
+        en: { text: "The Glen of Imaal Terrier is a rare, sturdy breed with a loyal and friendly personality. Known for their hunting background, they are independent yet affectionate and get along well with families. Their double coat is low-maintenance, and they adapt well to different living environments. Though small, they have a big personality and require moderate exercise.", textLink: "Check out this product!" }
     },
     {
         name: "Goldendoodle",
