@@ -245,8 +245,8 @@ const dogBreeds = [
         image: "assets/css/images/Poodle.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro inteligente y elegante, ideal para familias y personas activas.", textLink: "Mira este producto!" },
-        en: { text: "An intelligent and elegant dog, ideal for families and active individuals.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Affenpinscher",
@@ -267,8 +267,8 @@ const dogBreeds = [
         image: "assets/css/images/Affenpinscher.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Pequeño y enérgico, el Affenpinscher es curioso y necesita entrenamiento temprano.", textLink: "Mira este producto!" },
-        en: { text: "Small and energetic, the Affenpinscher is curious and requires early training.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Akita",
@@ -289,8 +289,8 @@ const dogBreeds = [
         image: "assets/css/images/Akita.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro leal y protector, el Akita es mejor en hogares con dueños experimentados.", textLink: "Mira este producto!" },
-        en: { text: "A loyal and protective dog, the Akita is best suited for homes with experienced owners.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Alaskan Malamute",
@@ -311,8 +311,8 @@ const dogBreeds = [
         image: "assets/css/images/Alaskan_Malamute.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro fuerte y enérgico, el Alaskan Malamute es perfecto para actividades al aire libre.", textLink: "Mira este producto!" },
-        en: { text: "A strong and energetic dog, the Alaskan Malamute is perfect for outdoor activities.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "American Bulldog",
@@ -333,8 +333,8 @@ const dogBreeds = [
         image: "assets/css/images/American_Bulldog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro amigable y protector, excelente para familias, requiere entrenamiento y socialización.", textLink: "Mira este producto!" },
-        en: { text: "A friendly and protective dog, great for families, requires training and socialization.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "American Pit Bull Terrier",
@@ -355,8 +355,8 @@ const dogBreeds = [
         image: "assets/css/images/American_Pit_Bull_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro enérgico y leal, necesita entrenamiento y socialización desde una edad temprana.", textLink: "Mira este producto!" },
-        en: { text: "An energetic and loyal dog, needs training and socialization from a young age.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Anatolian Shepherd Dog",
@@ -377,8 +377,8 @@ const dogBreeds = [
         image: "assets/css/images/Anatolian_Shepherd_Dog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro guardián fuerte y protector, ideal para familias con experiencia en razas grandes.", textLink: "Mira este producto!" },
-        en: { text: "A strong and protective guardian dog, ideal for families with experience in large breeds.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Australian Cattle Dog",
@@ -399,8 +399,8 @@ const dogBreeds = [
         image: "assets/css/images/Australian_Cattle_Dog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro inteligente y enérgico, excelente para familias activas y entrenamiento.", textLink: "Mira este producto!" },
-        en: { text: "An intelligent and energetic dog, great for active families and training.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Australian Shepherd",
@@ -421,8 +421,8 @@ const dogBreeds = [
         image: "assets/css/images/Australian_Shepherd.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro ágil y trabajador, ideal para familias activas y entrenamiento.", textLink: "Mira este producto!" },
-        en: { text: "An agile and hardworking dog, ideal for active families and training.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Basenji",
@@ -443,8 +443,8 @@ const dogBreeds = [
         image: "assets/css/images/Basenji.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro independiente y enérgico, a menudo se considera un buen compañero.", textLink: "Mira este producto!" },
-        en: { text: "An independent and energetic dog, often considered a good companion.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Basset Hound",
@@ -465,8 +465,8 @@ const dogBreeds = [
         image: "assets/css/images/Basset_Hound.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro tranquilo y amigable, ideal para familias y que se lleva bien con otras mascotas.", textLink: "Mira este producto!" },
-        en: { text: "A calm and friendly dog, ideal for families and gets along well with other pets.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Beagle",
@@ -487,8 +487,8 @@ const dogBreeds = [
         image: "assets/css/images/Beagle.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro curioso y juguetón, perfecto para familias activas y con niños.", textLink: "Mira este producto!" },
-        en: { text: "A curious and playful dog, perfect for active families with children.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Bearded Collie",
@@ -509,8 +509,8 @@ const dogBreeds = [
         image: "assets/css/images/Bearded_Collie.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro amigable y alegre, ideal para familias activas y entrenamiento.", textLink: "Mira este producto!" },
-        en: { text: "A friendly and cheerful dog, ideal for active families and training.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Belgian Malinois",
@@ -531,8 +531,8 @@ const dogBreeds = [
         image: "assets/css/images/Belgian_Malinois.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro inteligente y enérgico, excelente para entrenamiento y trabajos de servicio.", textLink: "Mira este producto!" },
-        en: { text: "An intelligent and energetic dog, excellent for training and service work.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Bichon Frise",
@@ -553,8 +553,8 @@ const dogBreeds = [
         image: "assets/css/images/Bichon_Frise.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro pequeño y cariñoso, ideal para apartamentos y familias con niños.", textLink: "Mira este producto!" },
-        en: { text: "A small and affectionate dog, ideal for apartments and families with children.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Border Collie",
@@ -575,8 +575,8 @@ const dogBreeds = [
         image: "assets/css/images/Border_Collie.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro extremadamente inteligente y ágil, perfecto para familias activas y deportes caninos.", textLink: "Mira este producto!" },
-        en: { text: "An extremely intelligent and agile dog, perfect for active families and dog sports.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Boston Terrier",
@@ -597,8 +597,8 @@ const dogBreeds = [
         image: "assets/css/images/Boston_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro pequeño y cariñoso, ideal para apartamentos y familias.", textLink: "Mira este producto!" },
-        en: { text: "A small and affectionate dog, ideal for apartments and families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Boxer",
@@ -619,8 +619,8 @@ const dogBreeds = [
         image: "assets/css/images/Boxer.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro enérgico y leal, ideal para familias y actividades al aire libre.", textLink: "Mira este producto!" },
-        en: { text: "An energetic and loyal dog, ideal for families and outdoor activities.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Brittany Spaniel",
@@ -641,8 +641,8 @@ const dogBreeds = [
         image: "assets/css/images/Brittany_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro enérgico y alegre, ideal para familias activas y entrenamiento.", textLink: "Mira este producto!" },
-        en: { text: "An energetic and cheerful dog, ideal for active families and training.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Cairn Terrier",
@@ -663,8 +663,8 @@ const dogBreeds = [
         image: "assets/css/images/Cairn_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro pequeño y amigable, ideal para familias y niños.", textLink: "Mira este producto!" },
-        en: { text: "A small and friendly dog, ideal for families and children.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Cavalier King Charles Spaniel",
@@ -685,8 +685,8 @@ const dogBreeds = [
         image: "assets/css/images/Cavalier_King_Charles_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro cariñoso y amable, ideal para familias y apartamentos.", textLink: "Mira este producto!" },
-        en: { text: "A loving and gentle dog, ideal for families and apartments.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Chihuahua",
@@ -707,8 +707,8 @@ const dogBreeds = [
         image: "assets/css/images/Chihuahua.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro pequeño y valiente, ideal para dueños que buscan un compañero leal.", textLink: "Mira este producto!" },
-        en: { text: "A small and brave dog, ideal for owners looking for a loyal companion.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Chinese Shar-Pei",
@@ -729,8 +729,8 @@ const dogBreeds = [
         image: "assets/css/images/Chinese_Shar_Pei.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro tranquilo y leal, ideal para familias y hogares.", textLink: "Mira este producto!" },
-        en: { text: "A calm and loyal dog, ideal for families and homes.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Chow Chow",
@@ -751,8 +751,8 @@ const dogBreeds = [
         image: "assets/css/images/Chow_Chow.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro único y leal, ideal para dueños que buscan un compañero independiente.", textLink: "Mira este producto!" },
-        en: { text: "A unique and loyal dog, ideal for owners looking for an independent companion.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Cocker Spaniel",
@@ -773,8 +773,8 @@ const dogBreeds = [
         image: "assets/css/images/Cocker_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro cariñoso y amigable, ideal para familias con niños.", textLink: "Mira este producto!" },
-        en: { text: "A loving and friendly dog, ideal for families with children.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Dachshund",
@@ -795,8 +795,8 @@ const dogBreeds = [
         image: "assets/css/images/Dachshund.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro pequeño y valiente, ideal para familias y dueños.", textLink: "Mira este producto!" },
-        en: { text: "A small and brave dog, ideal for families and owners.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Dalmatian",
@@ -817,8 +817,8 @@ const dogBreeds = [
         image: "assets/css/images/Dalmatian.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro enérgico y amigable, ideal para familias activas y entusiastas.", textLink: "Mira este producto!" },
-        en: { text: "An energetic and friendly dog, ideal for active families and enthusiasts.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Doberman Pinscher",
@@ -839,8 +839,8 @@ const dogBreeds = [
         image: "assets/css/images/Doberman_Pinscher.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro inteligente y protector, ideal para familias y dueños experimentados.", textLink: "Mira este producto!" },
-        en: { text: "An intelligent and protective dog, ideal for families and experienced owners.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "English Bulldog",
@@ -861,8 +861,8 @@ const dogBreeds = [
         image: "assets/css/images/English_Bulldog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro tranquilo y cariñoso, ideal para familias y hogares.", textLink: "Mira este producto!" },
-        en: { text: "A calm and affectionate dog, ideal for families and homes.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "English Springer Spaniel",
@@ -883,8 +883,8 @@ const dogBreeds = [
         image: "assets/css/images/English_Springer_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro enérgico y amistoso, ideal para familias y actividades al aire libre.", textLink: "Mira este producto!" },
-        en: { text: "An energetic and friendly dog, ideal for families and outdoor activities.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "French Bulldog",
@@ -905,8 +905,8 @@ const dogBreeds = [
         image: "assets/css/images/French_Bulldog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro juguetón y cariñoso, ideal para familias y apartamentos.", textLink: "Mira este producto!" },
-        en: { text: "A playful and affectionate dog, ideal for families and apartments.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Golden Retriever",
@@ -927,8 +927,8 @@ const dogBreeds = [
         image: "assets/css/images/Golden_Retriever.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro amigable y leal, ideal para familias activas.", textLink: "Mira este producto!" },
-        en: { text: "A friendly and loyal dog, ideal for active families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Labrador Retriever",
@@ -949,8 +949,8 @@ const dogBreeds = [
         image: "assets/css/images/Labrador_Retriever.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro activo y amigable, ideal para familias y actividades al aire libre.", textLink: "Mira este producto!" },
-        en: { text: "An active and friendly dog, ideal for families and outdoor activities.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Pomeranian",
@@ -971,8 +971,8 @@ const dogBreeds = [
         image: "assets/css/images/Pomeranian2.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro pequeño y lleno de energía, ideal para dueños que buscan un compañero activo.", textLink: "Mira este producto!" },
-        en: { text: "A small and energetic dog, ideal for owners looking for an active companion.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Pug",
@@ -993,8 +993,8 @@ const dogBreeds = [
         image: "assets/css/images/Pug.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro juguetón y cariñoso, ideal para familias y dueños.", textLink: "Mira este producto!" },
-        en: { text: "A playful and affectionate dog, ideal for families and owners.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Rottweiler",
@@ -1015,8 +1015,8 @@ const dogBreeds = [
         image: "assets/css/images/Rottweiler.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro fuerte y leal, ideal para dueños experimentados y familias.", textLink: "Mira este producto!" },
-        en: { text: "A strong and loyal dog, ideal for experienced owners and families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Shih Tzu",
@@ -1037,8 +1037,8 @@ const dogBreeds = [
         image: "assets/css/images/Shih_Tzu.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro cariñoso y leal, ideal para familias y apartamentos.", textLink: "Mira este producto!" },
-        en: { text: "A loving and loyal dog, ideal for families and apartments.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Yorkshire Terrier",
@@ -1059,8 +1059,8 @@ const dogBreeds = [
         image: "assets/css/images/Yorkshire_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro pequeño y encantador, ideal para dueños que buscan un compañero leal.", textLink: "Mira este producto!" },
-        en: { text: "A small and charming dog, ideal for owners looking for a loyal companion.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Beauceron",
@@ -1081,8 +1081,8 @@ const dogBreeds = [
         image: "assets/css/images/Beauceron.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro inteligente y versátil, ideal para familias activas.", textLink: "Mira este producto!" },
-        en: { text: "An intelligent and versatile dog, ideal for active families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "English Cocker Spaniel",
@@ -1103,8 +1103,8 @@ const dogBreeds = [
         image: "assets/css/images/English_Cocker_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro dulce y amigable, excelente para familias con niños.", textLink: "Mira este producto!" },
-        en: { text: "A sweet and friendly dog, great for families with children.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "English Foxhound",
@@ -1125,8 +1125,8 @@ const dogBreeds = [
         image: "assets/css/images/English_Foxhound.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro activo y social, excelente para familias con espacio.", textLink: "Mira este producto!" },
-        en: { text: "An active and social dog, great for families with space.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "English Setter",
@@ -1147,8 +1147,8 @@ const dogBreeds = [
         image: "assets/css/images/English_Setter.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro cariñoso y enérgico, ideal para familias activas.", textLink: "Mira este producto!" },
-        en: { text: "A loving and energetic dog, ideal for active families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Entlebucher Mountain Dog",
@@ -1169,8 +1169,8 @@ const dogBreeds = [
         image: "assets/css/images/Entlebucher_Mountain_Dog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro ágil y fuerte, ideal para familias activas.", textLink: "Mira este producto!" },
-        en: { text: "An agile and strong dog, ideal for active families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Field Spaniel",
@@ -1191,8 +1191,8 @@ const dogBreeds = [
         image: "assets/css/images/Field_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro cariñoso y leal, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "A loving and loyal dog, great for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Finnish Lapphund",
@@ -1213,8 +1213,8 @@ const dogBreeds = [
         image: "assets/css/images/Finnish_Lapphund.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro amigable y trabajador, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "A friendly and hardworking dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Finnish Spitz",
@@ -1235,8 +1235,8 @@ const dogBreeds = [
         image: "assets/css/images/Finnish_Spitz.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro activo y alerta, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "An active and alert dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Flat-Coated Retriever",
@@ -1257,8 +1257,8 @@ const dogBreeds = [
         image: "assets/css/images/Flat_Coated_Retriever.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro amistoso y enérgico, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "A friendly and energetic dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "German Pinscher",
@@ -1279,8 +1279,8 @@ const dogBreeds = [
         image: "assets/css/images/German_Pinscher.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro enérgico y protector, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "An energetic and protective dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Afghan Hound",
@@ -1301,8 +1301,8 @@ const dogBreeds = [
         image: "assets/css/images/Afghan_Hound.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Elegante y independiente, el Afghan Hound es un perro de compañía leal.", textLink: "Mira este producto!" },
-        en: { text: "Elegant and independent, the Afghan Hound is a loyal companion dog.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Airedale Terrier",
@@ -1323,8 +1323,8 @@ const dogBreeds = [
         image: "assets/css/images/Airedale_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Airedale Terrier es conocido por su inteligencia y energía, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Airedale Terrier is known for its intelligence and energy, great for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "American Staffordshire Terrier",
@@ -1345,8 +1345,8 @@ const dogBreeds = [
         image: "assets/css/images/American_Staffordshire_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Un perro fuerte y leal, excelente para familias y protección.", textLink: "Mira este producto!" },
-        en: { text: "A strong and loyal dog, excellent for families and protection.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Australian Terrier",
@@ -1367,8 +1367,8 @@ const dogBreeds = [
         image: "assets/css/images/Australian_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Pequeño y valiente, el Australian Terrier es perfecto para la vida familiar.", textLink: "Mira este producto!" },
-        en: { text: "Small and brave, the Australian Terrier is perfect for family life.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Bedlington Terrier",
@@ -1389,8 +1389,8 @@ const dogBreeds = [
         image: "assets/css/images/Bedlington_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Con su aspecto distintivo, el Bedlington Terrier es un compañero encantador.", textLink: "Mira este producto!" },
-        en: { text: "With its distinctive appearance, the Bedlington Terrier is a charming companion.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Belgian Tervuren",
@@ -1411,8 +1411,8 @@ const dogBreeds = [
         image: "assets/css/images/Belgian_Tervuren.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Belgian Tervuren es un perro versátil y trabajador, ideal para actividades al aire libre.", textLink: "Mira este producto!" },
-        en: { text: "The Belgian Tervuren is a versatile and hardworking dog, ideal for outdoor activities.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Bergamasco Sheepdog",
@@ -1433,8 +1433,8 @@ const dogBreeds = [
         image: "assets/css/images/Bergamasco_Sheepdog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Bergamasco es un perro leal y protector, ideal para el trabajo en el campo.", textLink: "Mira este producto!" },
-        en: { text: "The Bergamasco is a loyal and protective dog, ideal for work in the field.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Black and Tan Coonhound",
@@ -1455,8 +1455,8 @@ const dogBreeds = [
         image: "assets/css/images/Black_and_Tan_Coonhound.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Black and Tan Coonhound es un perro cazador con gran sentido del olfato.", textLink: "Mira este producto!" },
-        en: { text: "The Black and Tan Coonhound is a hunting dog with a great sense of smell.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Black Russian Terrier",
@@ -1477,8 +1477,8 @@ const dogBreeds = [
         image: "assets/css/images/Black_Russian_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Black Russian Terrier es un perro fuerte y protector, ideal para la familia.", textLink: "Mira este producto!" },
-        en: { text: "The Black Russian Terrier is a strong and protective dog, ideal for family.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Bloodhound",
@@ -1499,8 +1499,8 @@ const dogBreeds = [
         image: "assets/css/images/Bloodhound.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Bloodhound es famoso por su olfato excepcional y su naturaleza amigable.", textLink: "Mira este producto!" },
-        en: { text: "The Bloodhound is famous for its exceptional sense of smell and friendly nature.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Border Terrier",
@@ -1521,8 +1521,8 @@ const dogBreeds = [
         image: "assets/css/images/Border_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "Pequeño y valiente, el Border Terrier es un excelente compañero.", textLink: "Mira este producto!" },
-        en: { text: "Small and brave, the Border Terrier is an excellent companion.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Borzoi",
@@ -1543,8 +1543,8 @@ const dogBreeds = [
         image: "assets/css/images/Borzoi.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Borzoi es un perro elegante y noble, ideal para hogares tranquilos.", textLink: "Mira este producto!" },
-        en: { text: "The Borzoi is an elegant and noble dog, ideal for calm homes.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Bouvier des Flandres",
@@ -1565,8 +1565,8 @@ const dogBreeds = [
         image: "assets/css/images/Bouvier_des_Flandres.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Bouvier des Flandres es un perro fuerte y protector, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Bouvier des Flandres is a strong and protective dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Boykin Spaniel",
@@ -1587,8 +1587,8 @@ const dogBreeds = [
         image: "assets/css/images/Boykin_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Boykin Spaniel es un perro enérgico y amigable, excelente para actividades al aire libre.", textLink: "Mira este producto!" },
-        en: { text: "The Boykin Spaniel is an energetic and friendly dog, excellent for outdoor activities.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Bracco Italiano",
@@ -1609,8 +1609,8 @@ const dogBreeds = [
         image: "assets/css/images/Bracco_Italiano.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Bracco Italiano es un perro de caza leal, ideal para familias activas.", textLink: "Mira este producto!" },
-        en: { text: "The Bracco Italiano is a loyal hunting dog, ideal for active families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Brussels Griffon",
@@ -1631,8 +1631,8 @@ const dogBreeds = [
         image: "assets/css/images/Brussels_Griffon.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Brussels Griffon es un perro pequeño y curioso, ideal para la vida en apartamentos.", textLink: "Mira este producto!" },
-        en: { text: "The Brussels Griffon is a small and curious dog, ideal for apartment living.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Bull Terrier",
@@ -1653,8 +1653,8 @@ const dogBreeds = [
         image: "assets/css/images/Bull_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Bull Terrier es conocido por su personalidad juguetona y enérgica.", textLink: "Mira este producto!" },
-        en: { text: "The Bull Terrier is known for its playful and energetic personality.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Bullmastiff",
@@ -1675,8 +1675,8 @@ const dogBreeds = [
         image: "assets/css/images/Bullmastiff.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Bullmastiff es un perro poderoso y protector, excelente para la seguridad del hogar.", textLink: "Mira este producto!" },
-        en: { text: "The Bullmastiff is a powerful and protective dog, excellent for home security.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Chinese Crested",
@@ -1697,8 +1697,8 @@ const dogBreeds = [
         image: "assets/css/images/Chinese_Crested.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Chinese Crested es un perro único, conocido por su apariencia peculiar.", textLink: "Mira este producto!" },
-        en: { text: "The Chinese Crested is a unique dog known for its peculiar appearance.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Clumber Spaniel",
@@ -1719,8 +1719,8 @@ const dogBreeds = [
         image: "assets/css/images/Clumber_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Clumber Spaniel es un perro amable y amigable, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Clumber Spaniel is a gentle and friendly dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Collie",
@@ -1741,8 +1741,8 @@ const dogBreeds = [
         image: "assets/css/images/Collie.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Collie es un perro inteligente y leal, ideal para la vida familiar.", textLink: "Mira este producto!" },
-        en: { text: "The Collie is an intelligent and loyal dog, ideal for family life.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Dogo Argentino",
@@ -1763,8 +1763,8 @@ const dogBreeds = [
         image: "assets/css/images/Dogo_Argentino.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Dogo Argentino es un perro fuerte y protector, ideal para la familia.", textLink: "Mira este producto!" },
-        en: { text: "The Dogo Argentino is a strong and protective dog, ideal for family.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Dogue de Bordeaux",
@@ -1785,8 +1785,8 @@ const dogBreeds = [
         image: "assets/css/images/Dogue_de_Bordeaux.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Dogue de Bordeaux es un perro leal y poderoso, excelente para la protección.", textLink: "Mira este producto!" },
-        en: { text: "The Dogue de Bordeaux is a loyal and powerful dog, excellent for protection.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "German Shepherd Dog",
@@ -1807,8 +1807,8 @@ const dogBreeds = [
         image: "assets/css/images/German_Shepherd_Dog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Pastor Alemán es un perro inteligente y versátil, ideal para trabajo y familia.", textLink: "Mira este producto!" },
-        en: { text: "The German Shepherd is an intelligent and versatile dog, ideal for work and family.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "German Shorthaired Pointer",
@@ -1829,8 +1829,8 @@ const dogBreeds = [
         image: "assets/css/images/German_Shorthaired_Pointer.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Pointer Alemán de Pelo Corto es un perro enérgico y amante de la caza.", textLink: "Mira este producto!" },
-        en: { text: "The German Shorthaired Pointer is an energetic and hunting-loving dog.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "German Wirehaired Pointer",
@@ -1851,8 +1851,8 @@ const dogBreeds = [
         image: "assets/css/images/German_Wirehaired_Pointer.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Pointer Alemán de Pelo Duro es un perro versátil y trabajador.", textLink: "Mira este producto!" },
-        en: { text: "The German Wirehaired Pointer is a versatile and hardworking dog.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Giant Schnauzer",
@@ -1873,8 +1873,8 @@ const dogBreeds = [
         image: "assets/css/images/Giant_Schnauzer.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Schnauzer Gigante es un perro fuerte y protector, ideal para el hogar.", textLink: "Mira este producto!" },
-        en: { text: "The Giant Schnauzer is a strong and protective dog, ideal for home.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Glen of Imaal Terrier",
@@ -1895,8 +1895,8 @@ const dogBreeds = [
         image: "assets/css/images/Glen_of_Imaal_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Glen of Imaal Terrier es un perro curioso y leal, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Glen of Imaal Terrier is a curious and loyal dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Goldendoodle",
@@ -1917,8 +1917,8 @@ const dogBreeds = [
         image: "assets/css/images/Goldendoodle.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Goldendoodle es un perro cariñoso y juguetón, ideal para la familia.", textLink: "Mira este producto!" },
-        en: { text: "The Goldendoodle is a loving and playful dog, ideal for family.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Great Dane",
@@ -1939,8 +1939,8 @@ const dogBreeds = [
         image: "assets/css/images/Great_Dane.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Gran Danés es un perro impresionante y amable, ideal para la familia.", textLink: "Mira este producto!" },
-        en: { text: "The Great Dane is an impressive and gentle dog, ideal for family.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Great Pyrenees",
@@ -1961,8 +1961,8 @@ const dogBreeds = [
         image: "assets/css/images/Great_Pyrenees.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Gran Pirineo es un perro protector y cariñoso, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Great Pyrenees is a protective and affectionate dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Greater Swiss Mountain Dog",
@@ -1983,8 +1983,8 @@ const dogBreeds = [
         image: "assets/css/images/Greater_Swiss_Mountain_Dog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Perro de Montaña Suizo Mayor es un perro leal y trabajador.", textLink: "Mira este producto!" },
-        en: { text: "The Greater Swiss Mountain Dog is a loyal and hardworking dog.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Harrier",
@@ -2005,8 +2005,8 @@ const dogBreeds = [
         image: "assets/css/images/Harrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Harrier es un perro activo y juguetón, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Harrier is an active and playful dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Havanese",
@@ -2027,8 +2027,8 @@ const dogBreeds = [
         image: "assets/css/images/Havanese.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Havanese es un perro amigable y cariñoso, ideal para la vida en apartamentos.", textLink: "Mira este producto!" },
-        en: { text: "The Havanese is a friendly and affectionate dog, ideal for apartment living.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Irish Setter",
@@ -2049,8 +2049,8 @@ const dogBreeds = [
         image: "assets/css/images/Irish_Setter.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Setter Irlandés es un perro enérgico y amistoso, ideal para familias activas.", textLink: "Mira este producto!" },
-        en: { text: "The Irish Setter is an energetic and friendly dog, ideal for active families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Irish Terrier",
@@ -2071,8 +2071,8 @@ const dogBreeds = [
         image: "assets/css/images/Irish_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Terrier Irlandés es un perro leal y juguetón, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Irish Terrier is a loyal and playful dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Irish Water Spaniel",
@@ -2093,8 +2093,8 @@ const dogBreeds = [
         image: "assets/css/images/Irish_Water_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Spaniel de Agua Irlandés es un perro juguetón y versátil, ideal para familias activas.", textLink: "Mira este producto!" },
-        en: { text: "The Irish Water Spaniel is a playful and versatile dog, ideal for active families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Italian Greyhound",
@@ -2115,8 +2115,8 @@ const dogBreeds = [
         image: "assets/css/images/Italian_Greyhound.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Galgo Italiano es un perro elegante y cariñoso, ideal para apartamentos.", textLink: "Mira este producto!" },
-        en: { text: "The Italian Greyhound is an elegant and affectionate dog, ideal for apartments.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Jack Russell Terrier",
@@ -2137,8 +2137,8 @@ const dogBreeds = [
         image: "assets/css/images/Jack_Russell_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Jack Russell Terrier es un perro activo y inteligente, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Jack Russell Terrier is an active and intelligent dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Japanese Chin",
@@ -2159,8 +2159,8 @@ const dogBreeds = [
         image: "assets/css/images/Japanese_Chin.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Chin Japonés es un perro juguetón y cariñoso, ideal para la vida en casa.", textLink: "Mira este producto!" },
-        en: { text: "The Japanese Chin is a playful and affectionate dog, ideal for home life.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Keeshond",
@@ -2181,8 +2181,8 @@ const dogBreeds = [
         image: "assets/css/images/Keeshond.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Keeshond es un perro amigable y alerta, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Keeshond is a friendly and alert dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Lagotto Romagnolo",
@@ -2203,8 +2203,8 @@ const dogBreeds = [
         image: "assets/css/images/Lagotto_Romagnolo.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Lagotto Romagnolo es un perro inteligente y enérgico, ideal para la familia.", textLink: "Mira este producto!" },
-        en: { text: "The Lagotto Romagnolo is an intelligent and energetic dog, ideal for family.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Lakeland Terrier",
@@ -2225,8 +2225,8 @@ const dogBreeds = [
         image: "assets/css/images/Lakeland_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Lakeland Terrier es un perro juguetón y leal, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Lakeland Terrier is a playful and loyal dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Lhasa Apso",
@@ -2247,8 +2247,8 @@ const dogBreeds = [
         image: "assets/css/images/Lhasa_Apso.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Lhasa Apso es un perro independiente y leal, ideal para la vida en casa.", textLink: "Mira este producto!" },
-        en: { text: "The Lhasa Apso is an independent and loyal dog, ideal for home life.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Maltese",
@@ -2269,8 +2269,8 @@ const dogBreeds = [
         image: "assets/css/images/Maltese.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Maltés es un perro cariñoso y juguetón, ideal para la vida en casa.", textLink: "Mira este producto!" },
-        en: { text: "The Maltese is a loving and playful dog, ideal for home life.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Manchester Terrier",
@@ -2291,8 +2291,8 @@ const dogBreeds = [
         image: "assets/css/images/Manchester_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Manchester Terrier es un perro ágil y alerta, ideal para la familia.", textLink: "Mira este producto!" },
-        en: { text: "The Manchester Terrier is an agile and alert dog, ideal for family.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Mastiff",
@@ -2313,8 +2313,8 @@ const dogBreeds = [
         image: "assets/css/images/Mastiff.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Mastín es un perro fuerte y leal, ideal para familias y hogares espaciosos.", textLink: "Mira este producto!" },
-        en: { text: "The Mastiff is a strong and loyal dog, ideal for families and spacious homes.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Miniature Bull Terrier",
@@ -2335,8 +2335,8 @@ const dogBreeds = [
         image: "assets/css/images/Miniature_Bull_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Bull Terrier Miniatura es un perro juguetón y enérgico, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Miniature Bull Terrier is a playful and energetic dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Miniature Pinscher",
@@ -2357,8 +2357,8 @@ const dogBreeds = [
         image: "assets/css/images/Miniature_Pinscher.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Pinscher Miniatura es un perro ágil y activo, ideal para apartamentos.", textLink: "Mira este producto!" },
-        en: { text: "The Miniature Pinscher is an agile and active dog, ideal for apartments.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Miniature Schnauzer",
@@ -2379,8 +2379,8 @@ const dogBreeds = [
         image: "assets/css/images/Miniature_Schnauzer.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Schnauzer Miniatura es un perro cariñoso y juguetón, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Miniature Schnauzer is a loving and playful dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Newfoundland",
@@ -2401,8 +2401,8 @@ const dogBreeds = [
         image: "assets/css/images/Newfoundland.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Terranova es un perro amable y protector, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Newfoundland is a gentle and protective dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Norfolk Terrier",
@@ -2423,8 +2423,8 @@ const dogBreeds = [
         image: "assets/css/images/Norfolk_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Norfolk Terrier es un perro pequeño y amistoso, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Norfolk Terrier is a small and friendly dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Norwegian Buhund",
@@ -2445,8 +2445,8 @@ const dogBreeds = [
         image: "assets/css/images/Norwegian_Buhund.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Buhund Noruego es un perro versátil y activo, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Norwegian Buhund is a versatile and active dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Norwegian Elkhound",
@@ -2467,8 +2467,8 @@ const dogBreeds = [
         image: "assets/css/images/Norwegian_Elkhound.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Elkhound Noruego es un perro leal y protector, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Norwegian Elkhound is a loyal and protective dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Old English Sheepdog",
@@ -2489,8 +2489,8 @@ const dogBreeds = [
         image: "assets/css/images/Old_English_Sheepdog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Perro Pastor Inglés Antiguo es un perro amistoso y protector, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Old English Sheepdog is a friendly and protective dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Papillon",
@@ -2511,8 +2511,8 @@ const dogBreeds = [
         image: "assets/css/images/Papillon.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Papillon es un perro pequeño y alegre, ideal para la vida en casa.", textLink: "Mira este producto!" },
-        en: { text: "The Papillon is a small and cheerful dog, ideal for home life.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Pekingese",
@@ -2533,8 +2533,8 @@ const dogBreeds = [
         image: "assets/css/images/Pekingese.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Pekingés es un perro leal y cariñoso, ideal para la vida en casa.", textLink: "Mira este producto!" },
-        en: { text: "The Pekingese is a loyal and affectionate dog, ideal for home life.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Pembroke Welsh Corgi",
@@ -2555,8 +2555,8 @@ const dogBreeds = [
         image: "assets/css/images/Pembroke_Welsh_Corgi.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Corgi Galés de Pembroke es un perro amigable y leal, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Pembroke Welsh Corgi is a friendly and loyal dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Pointer",
@@ -2577,8 +2577,8 @@ const dogBreeds = [
         image: "assets/css/images/Pointer.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Pointer es un perro activo y amistoso, ideal para familias y actividades al aire libre.", textLink: "Mira este producto!" },
-        en: { text: "The Pointer is an active and friendly dog, ideal for families and outdoor activities.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Polish Lowland Sheepdog",
@@ -2599,8 +2599,8 @@ const dogBreeds = [
         image: "assets/css/images/Polish_Lowland_Sheepdog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Perro Pastor Polaco es un perro inteligente y protector, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Polish Lowland Sheepdog is an intelligent and protective dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Portuguese Water Dog",
@@ -2621,8 +2621,8 @@ const dogBreeds = [
         image: "assets/css/images/Portuguese_Water_Dog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Perro de Agua Portugués es un perro enérgico y versátil, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Portuguese Water Dog is an energetic and versatile dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Saint Bernard",
@@ -2643,8 +2643,8 @@ const dogBreeds = [
         image: "assets/css/images/Saint_Bernard.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El San Bernardo es un perro amable y protector, ideal para familias grandes.", textLink: "Mira este producto!" },
-        en: { text: "The Saint Bernard is a gentle and protective dog, ideal for large families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Saluki",
@@ -2665,8 +2665,8 @@ const dogBreeds = [
         image: "assets/css/images/Saluki.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Saluki es un perro elegante y enérgico, ideal para familias activas.", textLink: "Mira este producto!" },
-        en: { text: "The Saluki is an elegant and energetic dog, ideal for active families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Samoyed",
@@ -2687,8 +2687,8 @@ const dogBreeds = [
         image: "assets/css/images/Samoyed.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Samoyedo es un perro amistoso y enérgico, ideal para familias y climas fríos.", textLink: "Mira este producto!" },
-        en: { text: "The Samoyed is a friendly and energetic dog, ideal for families and cold climates.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Schipperke",
@@ -2709,8 +2709,8 @@ const dogBreeds = [
         image: "assets/css/images/Schipperke.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Schipperke es un perro curioso y enérgico, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Schipperke is a curious and energetic dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Scottish Deerhound",
@@ -2731,8 +2731,8 @@ const dogBreeds = [
         image: "assets/css/images/Scottish_Deerhound.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Deerhound Escocés es un perro leal y protector, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Scottish Deerhound is a loyal and protective dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Scottish Terrier",
@@ -2753,8 +2753,8 @@ const dogBreeds = [
         image: "assets/css/images/Scottish_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Terrier Escocés es un perro valiente y leal, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Scottish Terrier is a brave and loyal dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Sealyham Terrier",
@@ -2775,8 +2775,8 @@ const dogBreeds = [
         image: "assets/css/images/Sealyham_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Sealyham Terrier es un perro amigable y enérgico, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Sealyham Terrier is a friendly and energetic dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Shetland Sheepdog",
@@ -2797,8 +2797,8 @@ const dogBreeds = [
         image: "assets/css/images/Shetland_Sheepdog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Shetland Sheepdog es un perro inteligente y leal, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Shetland Sheepdog is an intelligent and loyal dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Shiba Inu",
@@ -2819,8 +2819,8 @@ const dogBreeds = [
         image: "assets/css/images/Shiba_Inu.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Shiba Inu es un perro independiente y leal, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Shiba Inu is an independent and loyal dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Staffordshire Bull Terrier",
@@ -2841,8 +2841,8 @@ const dogBreeds = [
         image: "assets/css/images/Staffordshire_Bull_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Staffordshire Bull Terrier es un perro leal y enérgico, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Staffordshire Bull Terrier is a loyal and energetic dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Standard Schnauzer",
@@ -2863,8 +2863,8 @@ const dogBreeds = [
         image: "assets/css/images/Standard_Schnauzer.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Schnauzer Estándar es un perro activo y leal, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Standard Schnauzer is an active and loyal dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Tibetan Mastiff",
@@ -2885,8 +2885,8 @@ const dogBreeds = [
         image: "assets/css/images/Tibetan_Mastiff.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Mastín Tibetano es un perro protector y leal, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Tibetan Mastiff is a protective and loyal dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Tibetan Spaniel",
@@ -2907,8 +2907,8 @@ const dogBreeds = [
         image: "assets/css/images/Tibetan_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Spaniel Tibetano es un perro amistoso y cariñoso, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Tibetan Spaniel is a friendly and affectionate dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Tibetan Terrier",
@@ -2929,8 +2929,8 @@ const dogBreeds = [
         image: "assets/css/images/Tibetan_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Terrier Tibetano es un perro cariñoso y amigable, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Tibetan Terrier is a loving and friendly dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Vizsla",
@@ -2951,8 +2951,8 @@ const dogBreeds = [
         image: "assets/css/images/Vizsla.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Vizsla es un perro activo y cariñoso, ideal para familias y actividades al aire libre.", textLink: "Mira este producto!" },
-        en: { text: "The Vizsla is an active and affectionate dog, ideal for families and outdoor activities.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Weimaraner",
@@ -2973,8 +2973,8 @@ const dogBreeds = [
         image: "assets/css/images/Weimaraner.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Weimaraner es un perro enérgico y leal, ideal para familias activas.", textLink: "Mira este producto!" },
-        en: { text: "The Weimaraner is an energetic and loyal dog, ideal for active families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Welsh Springer Spaniel",
@@ -2995,8 +2995,8 @@ const dogBreeds = [
         image: "assets/css/images/Welsh_Springer_Spaniel.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Spaniel de Welsh es un perro amistoso y enérgico, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Welsh Springer Spaniel is a friendly and energetic dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Welsh Terrier",
@@ -3017,8 +3017,8 @@ const dogBreeds = [
         image: "assets/css/images/Welsh_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Terrier de Welsh es un perro amistoso y leal, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Welsh Terrier is a friendly and loyal dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "West Highland White Terrier",
@@ -3039,8 +3039,8 @@ const dogBreeds = [
         image: "assets/css/images/West_Highland_White_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El West Highland White Terrier es un perro alegre y amistoso, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The West Highland White Terrier is a cheerful and friendly dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Whippet",
@@ -3061,8 +3061,8 @@ const dogBreeds = [
         image: "assets/css/images/Whippet.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Whippet es un perro rápido y cariñoso, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Whippet is a fast and affectionate dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Wire Fox Terrier",
@@ -3083,8 +3083,8 @@ const dogBreeds = [
         image: "assets/css/images/Wire_Fox_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Wire Fox Terrier es un perro enérgico y amistoso, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Wire Fox Terrier is an energetic and friendly dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     },
     {
         name: "Wirehaired Pointing Griffon",
@@ -3105,8 +3105,8 @@ const dogBreeds = [
         image: "assets/css/images/Wirehaired_Pointing_Griffon.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "El Wirehaired Pointing Griffon es un perro versátil y amistoso, ideal para familias.", textLink: "Mira este producto!" },
-        en: { text: "The Wirehaired Pointing Griffon is a versatile and friendly dog, ideal for families.", textLink: "Check out this product!" }
+        es: { text: "", textLink: "Mira este producto!" },
+        en: { text: "", textLink: "Check out this product!" }
     }
 ];
 
