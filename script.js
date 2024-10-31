@@ -245,8 +245,8 @@ const dogBreeds = [
         image: "assets/css/images/Poodle.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los Poodles vienen en tres tamaños: estándar, miniatura y toy. Son muy inteligentes y fáciles de entrenar, conocidos por su pelaje rizado hipoalergénico. Se destacan en obediencia y agilidad, lo que los convierte en compañeros versátiles. Los Poodles son amigables, juguetones y buenos con los niños. Requieren un aseo regular y estimulación mental para mantenerse felices.", textLink: "Mira este producto!" },
+        en: { text: "Poodles come in three sizes: standard, miniature, and toy. Highly intelligent and trainable, they are known for their hypoallergenic curly coat. They excel in obedience and agility, making them versatile companions. Poodles are friendly, playful, and good with children. They require regular grooming and mental stimulation to stay happy.", textLink: "Check out this product!" }
     },
     {
         name: "Affenpinscher",
@@ -267,8 +267,8 @@ const dogBreeds = [
         image: "assets/css/images/Affenpinscher.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los Affenpinscher son perros pequeños y robustos conocidos por su expresión de mono y su personalidad juguetona. Son alertas, curiosos y seguros, lo que los convierte en excelentes perros guardianes a pesar de su pequeño tamaño. Su pelaje áspero y alambre necesita un aseo regular. Los Affenpinscher son inteligentes y leales, siendo excelentes compañeros para hogares activos.", textLink: "Mira este producto!" },
+        en: { text: "Affenpinschers are small, sturdy dogs known for their monkey-like expressions and playful personality. They are alert, curious, and confident, making them excellent watchdogs despite their small size. Their rough, wiry coat needs regular grooming. Affenpinschers are intelligent and loyal, making them great companions in active households.", textLink: "Check out this product!" }
     },
     {
         name: "Akita",
@@ -289,8 +289,8 @@ const dogBreeds = [
         image: "assets/css/images/Akita.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los Akita son perros grandes y poderosos conocidos por su lealtad y comportamiento digno. Criados originalmente en Japón para la caza y la guardia, tienen una naturaleza protectora y son más adecuados para dueños de perros experimentados. Los Akita son independientes pero cariñosos con sus familias. Su grueso pelaje doble requiere cepillado regular.", textLink: "Mira este producto!" },
+        en: { text: "Akitas are large, powerful dogs known for their loyalty and dignified demeanor. Originally bred in Japan for hunting and guarding, they have a protective nature and are best suited for experienced dog owners. Akitas are independent but affectionate with their families. Their thick double coat requires regular brushing.", textLink: "Check out this product!" }
     },
     {
         name: "Alaskan Malamute",
@@ -311,8 +311,8 @@ const dogBreeds = [
         image: "assets/css/images/Alaskan_Malamute.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los Alaskan Malamute son perros grandes y fuertes con apariencia de lobo y una estructura poderosa. Criados originalmente para transportar cargas pesadas, son trabajadores, leales y amigables. Estos perros tienen un pelaje denso y doble que requiere un aseo regular. Los Malamutes son sociables y disfrutan de la compañía, aunque pueden ser independientes y necesitan un entrenamiento constante.", textLink: "Mira este producto!" },
+        en: { text: "Alaskan Malamutes are large, strong dogs with a wolf-like appearance and powerful build. Originally bred to haul heavy loads, they are hardworking, loyal, and friendly. These dogs have a thick, double coat that requires regular grooming. Malamutes are social and enjoy being with people but can be independent and require consistent training.", textLink: "Check out this product!" }
     },
     {
         name: "American Bulldog",
@@ -333,8 +333,8 @@ const dogBreeds = [
         image: "assets/css/images/American_Bulldog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Bulldog Americano es una raza musculosa y robusta con un comportamiento confiado y alerta. Son cariñosos y protectores con sus familias, lo que los convierte en excelentes perros guardianes. Originalmente utilizados como perros de trabajo en granjas, son atléticos y disfrutan de las actividades físicas. Requieren un entrenamiento firme y socialización desde temprana edad.", textLink: "Mira este producto!" },
+        en: { text: "The American Bulldog is a muscular, stocky breed with a confident, alert demeanor. They are affectionate and protective towards their families, making them excellent guard dogs. Originally used as working dogs on farms, they are athletic and enjoy physical activities. They require firm training and socialization from a young age.", textLink: "Check out this product!" }
     },
     {
         name: "American Pit Bull Terrier",
@@ -355,8 +355,8 @@ const dogBreeds = [
         image: "assets/css/images/American_Pit_Bull_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los American Pit Bull Terrier son perros de tamaño mediano y musculosos, conocidos por su fuerza y agilidad. Son amigables, cariñosos y leales con sus familias, pero requieren entrenamiento y socialización constante debido a su estructura poderosa. Los Pit Bull tienen un pelaje corto fácil de mantener y vienen en varios colores.", textLink: "Mira este producto!" },
+        en: { text: "American Pit Bull Terriers are medium-sized, muscular dogs known for their strength and agility. They are friendly, loving, and loyal with their families but require consistent training and socialization due to their powerful build. Pit Bulls have a short coat that is easy to maintain and come in various colors.", textLink: "Check out this product!" }
     },
     {
         name: "Anatolian Shepherd Dog",
@@ -377,8 +377,8 @@ const dogBreeds = [
         image: "assets/css/images/Anatolian_Shepherd_Dog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los Perros Pastor de Anatolia son grandes y fuertes, criados originalmente para proteger el ganado. Son independientes, inteligentes y poseen un fuerte instinto protector, lo que los convierte en excelentes perros guardianes. Estos perros son devotos de sus familias pero pueden ser reservados con los extraños. Tienen un pelaje grueso y doble que necesita cepillado regular.", textLink: "Mira este producto!" },
+        en: { text: "Anatolian Shepherds are large, strong dogs originally bred to guard livestock. They are independent, intelligent, and possess a strong protective instinct, making them excellent guard dogs. These dogs are devoted to their families but can be wary of strangers. They have a thick double coat that needs regular brushing.", textLink: "Check out this product!" }
     },
     {
         name: "Australian Cattle Dog",
@@ -399,8 +399,8 @@ const dogBreeds = [
         image: "assets/css/images/Australian_Cattle_Dog.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los Perros Boyeros Australianos son perros de tamaño mediano y robustos, conocidos por su inteligencia, agilidad y ética de trabajo. Criados para pastorear ganado, son enérgicos, leales y protectores. Son excelentes compañeros para familias activas y requieren mucha estimulación mental y física para ser felices. Su pelaje corto es fácil de mantener.", textLink: "Mira este producto!" },
+        en: { text: "Australian Cattle Dogs are medium-sized, sturdy dogs known for their intelligence, agility, and work ethic. Bred for herding cattle, they are energetic, loyal, and protective. They are great companions for active families and require plenty of mental and physical stimulation to be happy. Their short coat is easy to maintain.", textLink: "Check out this product!" }
     },
     {
         name: "Australian Shepherd",
@@ -421,8 +421,8 @@ const dogBreeds = [
         image: "assets/css/images/Australian_Shepherd.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los Pastores Australianos son perros de tamaño mediano e inteligentes con un fuerte instinto de pastoreo. Son muy enérgicos y se destacan en deportes caninos como la agilidad y la obediencia. Conocidos por su lealtad y naturaleza afectuosa, los Aussies crean un fuerte vínculo con sus familias. Su pelaje necesita cepillado regular para evitar enredos.", textLink: "Mira este producto!" },
+        en: { text: "Australian Shepherds are medium-sized, intelligent dogs with a strong herding instinct. They are highly energetic and excel in dog sports such as agility and obedience. Known for their loyalty and affectionate nature, Aussies bond closely with their families. Their coat needs regular brushing to avoid tangles.", textLink: "Check out this product!" }
     },
     {
         name: "Basenji",
@@ -443,8 +443,8 @@ const dogBreeds = [
         image: "assets/css/images/Basenji.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Basenji es un perro pequeño y elegante conocido por su independencia e inteligencia. Originario de África, es famoso por no ladrar, aunque emite sonidos únicos parecidos a un yodel. Son perros limpios, de bajo desprendimiento, con un pelaje suave y cola rizada. Los Basenji son alertas, curiosos y necesitan un entrenamiento constante. Son ideales para familias activas, pero requieren estimulación mental y ejercicio.", textLink: "Mira este producto!" },
+        en: { text: "The Basenji is a small, sleek dog known for its independence and intelligence. Originating from Africa, they are famous for being 'barkless' but can vocalize with unique yodel-like sounds. They are clean, low-shedding dogs with a smooth coat and curly tail. Basenjis are alert, curious, and require consistent training. They are great for active families but need mental stimulation and exercise.", textLink: "Check out this product!" }
     },
     {
         name: "Basset Hound",
@@ -465,8 +465,8 @@ const dogBreeds = [
         image: "assets/css/images/Basset_Hound.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Basset Hound es una raza distintiva con orejas largas y patas cortas. Conocidos por su excelente sentido del olfato, fueron criados originalmente para la caza. Los Basset son amigables, tranquilos y excelentes compañeros para las familias. Son leales y gentiles, aunque a veces pueden ser testarudos. Tienen un pelaje corto, pero necesitan un aseo regular para mantener sus largas orejas limpias.", textLink: "Mira este producto!" },
+        en: { text: "The Basset Hound is a distinctive breed with long ears and short legs. Known for their excellent sense of smell, they were originally bred for hunting. Bassets are friendly, laid-back, and make great companions for families. They are loyal and gentle but can be stubborn at times. Their coat is short, but regular grooming is needed to keep their long ears clean.", textLink: "Check out this product!" }
     },
     {
         name: "Beagle",
@@ -487,8 +487,8 @@ const dogBreeds = [
         image: "assets/css/images/Beagle.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los Beagles son perros pequeños y robustos con un agudo sentido del olfato y una disposición amigable. Son curiosos, extrovertidos y excelentes con los niños. Criados originalmente como sabuesos, los Beagle son conocidos por su persistencia en seguir olores. Son sociables, adaptables y disfrutan de ser parte de una familia. El ejercicio regular es necesario para manejar sus niveles de energía.", textLink: "Mira este producto!" },
+        en: { text: "Beagles are small, sturdy dogs with a keen sense of smell and a friendly demeanor. They are curious, outgoing, and great with children. Originally bred as scent hounds, Beagles are known for their persistence in following scents. They are social, adaptable, and enjoy being part of a family. Regular exercise is necessary to manage their energy levels.", textLink: "Check out this product!" }
     },
     {
         name: "Bearded Collie",
@@ -509,8 +509,8 @@ const dogBreeds = [
         image: "assets/css/images/Bearded_Collie.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "Los Bearded Collie son perros de tamaño mediano y enérgicos con una personalidad vivaz y afectuosa. Conocidos por su largo y fluido pelaje y sus ojos expresivos, son inteligentes y ágiles. Criados originalmente para pastoreo, destacan en deportes y actividades caninas. Los Beardies son juguetones, sociables y forman lazos fuertes con sus familias. El aseo regular es necesario para mantener su pelaje.", textLink: "Mira este producto!" },
+        en: { text: "Bearded Collies are medium-sized, energetic dogs with a lively and affectionate personality. Known for their long, flowing coat and expressive eyes, they are intelligent and agile. Originally bred for herding, they excel in dog sports and activities. Beardies are playful, sociable, and form strong bonds with their families. Regular grooming is necessary to maintain their coat.", textLink: "Check out this product!" }
     },
     {
         name: "Belgian Malinois",
@@ -531,8 +531,8 @@ const dogBreeds = [
         image: "assets/css/images/Belgian_Malinois.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Malinois Belga es una raza de perro enérgica, inteligente y altamente entrenable. Criados originalmente para pastoreo, ahora se usan con frecuencia en roles policiales y militares debido a su fuerte ética de trabajo y agilidad. Los Malinois son leales, protectores y excelentes en tareas que requieren velocidad y precisión. Forman fuertes lazos con sus familias, pero necesitan estimulación mental y física constante. Su pelaje corto es fácil de mantener.", textLink: "Mira este producto!" },
+        en: { text: "The Belgian Malinois is an energetic, intelligent, and highly trainable dog breed. Originally bred for herding, they are now often used in police and military roles due to their strong work ethic and agility. Malinois are loyal, protective, and excellent at tasks requiring speed and precision. They bond closely with their families but need consistent mental and physical stimulation. Their short coat is easy to maintain.", textLink: "Check out this product!" }
     },
     {
         name: "Bichon Frise",
@@ -553,8 +553,8 @@ const dogBreeds = [
         image: "assets/css/images/Bichon_Frise.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Bichon Frise es un perro pequeño y alegre, conocido por su pelaje blanco y esponjoso y su naturaleza juguetona. Son amigables, cariñosos y se llevan bien con niños y otras mascotas. Los Bichones son inteligentes y responden bien a métodos de entrenamiento positivos. Requieren un aseo regular para mantener su pelaje en buen estado. Debido a su personalidad vivaz, son excelentes perros de compañía para familias e individuos por igual.", textLink: "Mira este producto!" },
+        en: { text: "The Bichon Frise is a small, cheerful dog known for its fluffy white coat and playful nature. They are friendly, affectionate, and get along well with children and other pets. Bichons are intelligent and respond well to positive training methods. They require regular grooming to keep their coat in good condition. Due to their lively personality, they make excellent companion dogs for families and individuals alike.", textLink: "Check out this product!" }
     },
     {
         name: "Border Collie",
@@ -575,8 +575,8 @@ const dogBreeds = [
         image: "assets/css/images/Border_Collie.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Border Collie es un perro pastor de tamaño mediano y altamente inteligente. Conocidos por su enfoque intenso y energía, destacan en deportes caninos y entrenamientos de obediencia. Los Border Collie son extremadamente entrenables y prosperan en hogares activos donde pueden usar sus habilidades mentales y físicas. Requieren mucho ejercicio y desafíos mentales para evitar el aburrimiento. Su doble capa necesita cepillado regular para mantenerse en buen estado.", textLink: "Mira este producto!" },
+        en: { text: "The Border Collie is a medium-sized, highly intelligent herding dog. Known for their intense focus and energy, they excel in dog sports and obedience training. Border Collies are extremely trainable and thrive in active households where they can use their mental and physical abilities. They require plenty of exercise and mental challenges to prevent boredom. Their double coat needs regular brushing to stay in good shape.", textLink: "Check out this product!" }
     },
     {
         name: "Boston Terrier",
@@ -597,8 +597,8 @@ const dogBreeds = [
         image: "assets/css/images/Boston_Terrier.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Boston Terrier es una raza de perro pequeña y animada, con un patrón de pelaje que se asemeja a un esmoquin. Son amigables, inteligentes y adaptables, lo que los convierte en excelentes mascotas familiares. Los Boston Terriers son cariñosos, ganándose a menudo el apodo de 'El caballero americano'. Son relativamente fáciles de entrenar y disfrutan de ser parte de las actividades familiares. Su pelaje corto es de bajo mantenimiento, y prosperan tanto en entornos urbanos como suburbanos.", textLink: "Mira este producto!" },
+        en: { text: "The Boston Terrier is a small, lively dog breed with a tuxedo-like coat pattern. They are friendly, intelligent, and adaptable, making them great family pets. Boston Terriers are affectionate, often earning them the nickname 'The American Gentleman.' They are relatively easy to train and enjoy being part of family activities. Their short coat is low-maintenance, and they thrive in both city and suburban environments.", textLink: "Check out this product!" }
     },
     {
         name: "Boxer",
@@ -1081,8 +1081,8 @@ const dogBreeds = [
         image: "assets/css/images/Beauceron.webp",
         es_ES: { affiliatedLink: "es_ES link"},
         en_US: { affiliatedLink: "en_US link"},
-        es: { text: "", textLink: "Mira este producto!" },
-        en: { text: "", textLink: "Check out this product!" }
+        es: { text: "El Beauceron es una raza de pastoreo grande e inteligente originaria de Francia. Son fuertes, leales y tienen un instinto natural de protección. Los Beauceron son excelentes en obediencia y se destacan como perros de trabajo debido a su motivación y capacidad de entrenamiento. Son cariñosos con sus familias, pero necesitan un entrenamiento firme y constante. Su pelaje corto es fácil de cuidar.", textLink: "Mira este producto!" },
+        en: { text: "The Beauceron is a large, intelligent herding breed from France. They are strong, loyal, and possess a natural guarding instinct. Beaucerons are excellent at obedience and make great working dogs due to their drive and trainability. They are affectionate with their families but need firm and consistent training. Their short coat is easy to groom.", textLink: "Check out this product!" }
     },
     {
         name: "English Cocker Spaniel",
